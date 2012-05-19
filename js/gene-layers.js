@@ -30,7 +30,7 @@ function getGeneFillLevel(code) {
 }
 
 // Draws gene layer pictogram
-Raphael.fn.geneLayers = function (cx, cy, layerWidth, layerHeight, layers) {
+Raphael.fn.geneLayers = function (cx, cy, layerWidth, layerHeight, layers, title) {
     var paper = this,
         chart = [];
         
@@ -41,8 +41,8 @@ Raphael.fn.geneLayers = function (cx, cy, layerWidth, layerHeight, layers) {
     		strokeHover: "#ee3",
     		highlight: "#888",
     		hover: "#88c",
-    		fontSize: 14,
-    		textColor: "#aaa"
+    		fontSize: 12,
+    		textColor: "#777"
     	};
     	
     var containerOpts = { 
@@ -131,6 +131,12 @@ Raphael.fn.geneLayers = function (cx, cy, layerWidth, layerHeight, layers) {
 		
 		return layer;
 	}
+	
+	// Age label
+	paper.text(cx + layerWidth / 2, cy + 14, title)
+		 .attr({
+			fill: settings.textColor, stroke: "none",
+			"font-size": settings.fontSize });
 
 	// Exception if the data says n/a
     if (layers.x_notapplicable) {

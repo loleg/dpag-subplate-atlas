@@ -70,7 +70,7 @@ function locateGene() {
 	gr.removeClass("hidden").show();
 }
 
-function renderGene(gene, title) {
+function renderGene(gene) {
 
 	var genechart = [];
 	
@@ -101,7 +101,7 @@ function renderGene(gene, title) {
 							 parseInt(height * 0.9), 
 							 parseInt(width / 6), 
 							 parseInt(height / 24), 
-							 this.layers, title)
+							 this.layers, this.name)
 		);
 
 	});
