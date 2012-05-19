@@ -30,9 +30,10 @@ function getGeneFillLevel(code) {
 }
 
 // Draws gene layer pictogram
-Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
+Raphael.fn.geneLayers = function (cx, cy, layerWidth, layerHeight, layers) {
     var paper = this,
         chart = [];
+        
     var settings = {
     		fill: "#fff",
     		stroke: "#444",
@@ -59,15 +60,14 @@ Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
     	 	"stroke-width": 1
     	};
     
-    // Draw containing box
-    paper.rect(cx, cy - h, w, h)
-    	 .attr(containerOpts);
-    
     // Work out the height ranges
     var totalLayers = 0;
     $.each(layers, function() { totalLayers += this.s; });
-    var layerHeight = h / totalLayers;
-   
+   // var layerHeight = h / totalLayers;
+	var h = totalLayers * layerHeight;
+		// default height
+		h = (h == 0) ? 20 * layerHeight : h;
+    	    
    	// Draws a layer
    	// obj: { n: Title, s: Size, border: false }
     function drawLayer(n, obj) {
@@ -75,8 +75,9 @@ Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
 		var y = cy - parseInt(n * layerHeight);
 		
 		// Main shape
-		var layer = paper.rect(cx, y, w, parseInt(obj.s * layerHeight));
-		layer.attr(layerOpts);
+		var layer = paper.rect(cx, y, 
+				layerWidth, parseInt(obj.s * layerHeight))
+				.attr(layerOpts);
 		
 		// Check fill pattern
 		switch(obj.f) {
@@ -95,19 +96,20 @@ Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
 	
 		// Optional divider
 		if (typeof obj.b == 'undefined' || obj.b) {
-			paper.path("M" + cx + " " + y + "L" + (cx + w) + " " + y)
+			paper.path("M" + cx + " " + y + "L" + (cx + layerWidth) + " " + y)
 				 .attr(dividerOpts);
 		}
 		
 		// Right hand label
 		var txt = 
-				paper.text(cx + w + 15, 
+				paper.text(cx + layerWidth + 15, 
 							y + (obj.s * layerHeight) / 2, obj.n)
 					 .attr({
 	        			fill: settings.textColor, stroke: "none",
 	        			"font-size": settings.fontSize });
 	    
 	    // Hover label
+	    /*
 	    if (obj.i) {
 			var label = paper.set();
 			label.push(paper.text(0, 0, obj.i).attr({
@@ -116,14 +118,15 @@ Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
 			layer.ppp = paper.popup(txt.attrs.x + 13, txt.attrs.y, label, "right")
 							.attr({ fill:'#fff' }).hide();
 		}
+		*/
 		
 		// Hover
 		layer.mouseover(function() {
 			this.stop().animate({fill:settings.hover}, 200);
-			this.ppp.show(); this.lbl.show();
+			//this.ppp.show(); this.lbl.show();
 		}).mouseout(function() {
 			this.stop().animate({fill:this.f}, 200);
-			this.ppp.hide(); this.lbl.hide();
+			//this.ppp.hide(); this.lbl.hide();
 		});
 		
 		return layer;
@@ -132,7 +135,7 @@ Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
 	// Exception if the data says n/a
     if (layers.x_notapplicable) {
     	chart.push(
-    		paper.text(cx + (w / 2), 
+    		paper.text(cx + (layerWidth / 2), 
 					   cy - (h / 2), 'N/A')
 				 .attr({
         			fill: settings.textColor, stroke: "none",
@@ -140,6 +143,10 @@ Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
         );
         return chart;
     }
+    
+    // Draw containing box
+    paper.rect(cx, cy - h, layerWidth, h)
+    	 .attr(containerOpts);
     
     // Iterate drawing each layer
     var currentStep = 0;
