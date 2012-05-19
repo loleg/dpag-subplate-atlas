@@ -5,7 +5,7 @@ function getLevelsForGene(genedata) {
 	switch (genedata) {
 	case '':
 	case 'n/a':
-		return gene_layers;
+		return false;
 	}
 	$.each(
 		genedata.replace(' ','').split(','), 
@@ -133,10 +133,10 @@ Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
     if (layers.x_notapplicable) {
     	chart.push(
     		paper.text(cx + (w / 2), 
-					   cy + (h / 2), 'N/A')
+					   cy - (h / 2), 'N/A')
 				 .attr({
         			fill: settings.textColor, stroke: "none",
-        			"font-size": settings.fontSize * 1.5 })
+        			"font-size": settings.fontSize })
         );
         return chart;
     }

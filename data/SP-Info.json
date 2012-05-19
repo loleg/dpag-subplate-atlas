@@ -25,4 +25,13 @@ var SP_ages = [{
 		},{
 			n: "MZ", s: 1, b: false
 		}]
+	},{
+		name: 'E18',
+		layers: []
+	},{
+		name: 'P4 (P7)',
+		layers: []
+	},{
+		name: 'Adult',
+		layers: []
 	}];
