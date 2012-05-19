@@ -1,0 +1,70 @@
+html, body { padding:0; margin:0; }
+
+body{ font: 80% "Trebuchet MS", sans-serif; }
+
+.hidden { display:none; }
+
+#header { display:none;
+	background:#ddf; margin:0; height:70px; padding:5pt 10pt; }
+
+#leftcolumn { position:absolute; height:100%; left:0px; width:25em; }
+#rightcolumn { position:absolute; height:100%; right:2px; width:25em; }
+
+#graph { position:absolute; z-Index:-1; margin-left:-450px; left:50%; }
+
+#dialog-synergien {
+    background-color: white;
+    border: 1px solid black; padding-top:5pt;
+    position: absolute; bottom: 0px;
+    border-radius: 5pt;
+    opacity: 0.7;
+    width: 600px; z-index: 2;
+    left: 50%; margin-left: -300px;
+}
+#dialog-synergien div { padding: 1em; }
+#dialog-synergien div li { font-style:italic; }
+
+#dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+ul#icons {margin: 0; padding: 0;}
+ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+ul#icons span.ui-icon {float: left; margin: 0 4px;}
+
+.ui-widget-header .ui-icon { margin:2pt; }
+
+.panel {
+	background:#fff;
+	float:left; width:25em;
+	vertical-align:top; 
+	border:1px solid #999;
+}
+.panel ul.col {	max-height:300px; overflow-y:auto; }
+.panel ul { list-style:none; padding:0; }
+.panel ul ul { padding-left:1em; }
+.panel li input { float:left; }
+.panel li { clear:both; }
+.panel li input:checked+label { color:#00a; font-weight:bold; }
+.panel li.highlight { background:yellow; }
+
+.panel h2 { margin:0; padding:2pt; border-bottom:1px solid grey; cursor:pointer; cursor:hand; border-radius:0; }
+.panel h3 { margin:0; padding:0.5em 0 0 1em; font-size:10pt; }
+
+.ui-icon {float: right; margin:0 1em; cursor: pointer; cursor:hand; border:1px solid transparent; }
+.ui-icon:hover { border:1px solid red; border-radius:5pt; }
+
+#leftcolumn .panel-maximized ul,
+#rightcolumn .panel-maximized ul { max-height:100% !important; }
+
+#akteure ul { max-height:400px; }
+
+#synergien { border:1px solid green; }
+#synergien ul { padding:0 1em; }
+#synergien .ui-button { width:100%; }
+
+#leistungen { border:1px solid blue; }
+#leistungen h2 { background:#77f; }
+
+#handlungs { border:1px solid red; }
+#handlungs h2 { background:#f77; }
+#handlungs ul { max-height:160px; }
+
