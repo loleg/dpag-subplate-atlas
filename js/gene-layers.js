@@ -1,3 +1,35 @@
+// Parse gene layers for this age
+function getLevelsForGene(genedata) {
+	var gene_layers = {},
+		genedata = $.trim(genedata).toLowerCase();
+	switch (genedata) {
+	case '':
+	case 'n/a':
+		return gene_layers;
+	}
+	$.each(
+		genedata.replace(' ','').split(','), 
+		function() { 
+			var xs = this.split(':');
+			if (xs.length == 2) {
+				gene_layers[xs[0].toUpperCase()] = xs[1]; 
+			}
+		});
+	return gene_layers;
+}
+
+// Returns a number for the level fill
+function getGeneFillLevel(code) {
+	var f = 0;
+	if (typeof code == 'undefined') return f;
+	if (code.indexOf('s') != -1) { f = 1; }
+	if (code.indexOf('w') != -1) { f = 2; }
+	if (code.indexOf('-') != -1) { f += 2; }
+//	console.log(code + ' -> ' + f);	
+	return f;
+}
+
+// Draws gene layer pictogram
 Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
     var paper = this,
         chart = [];
@@ -27,12 +59,13 @@ Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
     	 	"stroke-width": 1
     	};
     
+    // Draw containing box
     paper.rect(cx, cy - h, w, h)
     	 .attr(containerOpts);
     
+    // Work out the height ranges
     var totalLayers = 0;
     $.each(layers, function() { totalLayers += this.s; });
-
     var layerHeight = h / totalLayers;
    
    	// Draws a layer
@@ -45,12 +78,16 @@ Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
 		var layer = paper.rect(cx, y, w, parseInt(obj.s * layerHeight));
 		layer.attr(layerOpts);
 		
-		// Check fill
+		// Check fill pattern
 		switch(obj.f) {
-		case 1:
+		case 1: 
 			layer.f = "yellow"; break;
 		case 2:
 			layer.f = "red"; break;
+		case 3:
+			layer.f = "blue"; break;
+		case 4:
+			layer.f = "green"; break;
 		default:
 			layer.f = layerOpts.fill;
 		}
@@ -76,7 +113,7 @@ Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
 			label.push(paper.text(0, 0, obj.i).attr({
 				fill: "#000", stroke: "none", "font-size": settings.fontSize }));
 			layer.lbl = label.hide();
-			layer.ppp = paper.popup(txt.attrs.x + 10, txt.attrs.y, label, "right")
+			layer.ppp = paper.popup(txt.attrs.x + 13, txt.attrs.y, label, "right")
 							.attr({ fill:'#fff' }).hide();
 		}
 		
@@ -91,11 +128,26 @@ Raphael.fn.geneLayers = function (cx, cy, w, h, layers) {
 		
 		return layer;
 	}
+
+	// Exception if the data says n/a
+    if (layers.x_notapplicable) {
+    	chart.push(
+    		paper.text(cx + (w / 2), 
+					   cy + (h / 2), 'N/A')
+				 .attr({
+        			fill: settings.textColor, stroke: "none",
+        			"font-size": settings.fontSize * 1.5 })
+        );
+        return chart;
+    }
     
+    // Iterate drawing each layer
     var currentStep = 0;
     for (var u in layers) {
-    	currentStep += layers[u].s;
-    	drawLayer(currentStep, layers[u]);
+    	currentStep += layers[u].s;    	
+    	chart.push(
+    		drawLayer(currentStep, layers[u])
+    	);
     }
     
     /*	

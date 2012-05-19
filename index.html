@@ -20,5 +20,39 @@
 
 <div id="graph"></div>
 
+<script>
+$(function () {
+
+	// Select a gene
+	var gene = SP_data[0];
+
+	// Create a new chart
+	var chart = Raphael("graph", 900, 650),
+		genechart = [];
+	
+	// Iterate through the four ages
+	$.each(SP_ages, function(index) {
+	
+		// Parse age levels
+		var gdls = getLevelsForGene(gene[this.name]);
+		if (gdls == {}) {
+			this.layers.x_notapplicable = true;
+		}
+	
+		// Add layer info
+		$.each(this.layers, function() {
+			this.i = SP_layers[this.n].t;
+			this.f = getGeneFillLevel(gdls[this.n]);
+		});
+		
+		// Create chart for this age
+		genechart.push(
+			chart.geneLayers(10 + (index * 150), 300, 120, 200, this.layers)
+		);
+
+	});
+
+});
+</script>
 </body>
 </html>

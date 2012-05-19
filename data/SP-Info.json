@@ -11,17 +11,17 @@ var SP_layers = {
 var SP_ages = [{
 		name: 'E15',
 		layers: [{
-			n: "VZ", s: 1, f: 1
+			n: "VZ", s: 1
 		},{
 			n: "SZ", s: 2
 		},{
-			n: "IZ", s: 4, f: 2
+			n: "IZ", s: 4
 		},{
 			n: "SP", s: 1
 		},{
 			n: "LP", s: 2, b: false
 		},{
-			n: "UP", s: 2, f: 1
+			n: "UP", s: 2
 		},{
 			n: "MZ", s: 1, b: false
 		}]
