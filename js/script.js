@@ -26,7 +26,7 @@ function initGeneSearch() {
 		$('a', this).attr("href", "#" + $(this).text()).click(locateGene);
 	});
 
-	$(".gene-go-search a").click(function() {
+	$(".gene-go-search").click(function() {
 
 		$('.gene-search').show();
 		$('.gene-result').hide();
@@ -87,7 +87,10 @@ function renderGene(gene) {
 	
 		// Parse age levels
 		if (typeof gene == 'undefined') {
-			alert('Gene ' + this.name + ' missing definition'); return;
+			alert('Gene undefined in renderGene'); return;
+		}
+		if (typeof gene[this.name] == 'undefined') {
+			alert('Gene missing definition for ' + this.name); return;
 		}
 		var gdls = getLevelsForGene(gene[this.name]);
 		if (gdls.blank) { this.layers.x_blank = true; }

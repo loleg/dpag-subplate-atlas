@@ -15,7 +15,7 @@ var SP_layers = {
 };
 
 var SP_ages = [{
-		name: 'E15',
+		name: 'E14/E15',
 		layers: [{
 			n: "VZ", s: 1
 		},{

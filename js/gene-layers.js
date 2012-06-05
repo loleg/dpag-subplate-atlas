@@ -10,18 +10,21 @@ function getLevelsForGene(genedata) {
 	case '0':
 		gene_layers.blank = true;
 		return gene_layers;
-	case 'n/a':
+	case 'na':
 		gene_layers.na = true;
 		return gene_layers;
 	}
+	var count = 0;
 	$.each(
 		genedata.replace(' ','').split(','), 
 		function() { 
 			var xs = this.split(':');
 			if (xs.length == 2) {
 				gene_layers[xs[0].toUpperCase()] = xs[1]; 
+				count++;
 			}
 		});
+	if (count == 0) gene_layers.blank = true;
 	return gene_layers;
 }
 

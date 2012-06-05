@@ -1,76 +1,626 @@
-Timepoint,Gene Symbol,E14/E15,E15,E18,,P4 (P7),,Adult,,Type of Molecule,Other Info,Potential Role,References
-E18,9130024F11Rik,very strong in SP moderate in IZ,"SP:s, IZ:w",n/a,na,n/a,na,n/a,na,,"same strand, opposite reading direction to Satb2, right next to it.",,no pubmed hit
-E15,Abca8a,SP (our data),SP:s,SP (our data),SP:s,L5 and sometimes L2/3 (our data),"L5:s, L3:w","no clear signal, darker band in SP/L6 (our data)","SP:w, L6:w",,,,
-P8,Acvr2a,most abundant in SP and MZ,"SP:s, MZ:s",strong in SP,SP:s,strong in SP,SP:s,"stronger in SP, almost absent elsewhere",SP:s,"stronger in SP, almost absent elsewhere","transmembrane, TGF-beta superfamily related",inhibitor of BMP signalling,
-E18,Adamts1,"SP, posterior-anterior gradient",SP:s,n/a,na,faint label in SP (genepaint),SP:w,faint label in SP (genepaint),SP:w,,"metalloproteinase, possibly expression level influenced by LPS induced inflammation. Located on human Chr21 and massively overexpressed in Down's brains (but also Alzheimer's and Pick's disease brain).",,Brain Res Mol Brain Res. 2005 Jan 5;133(1):1-5.
-"E18, P8, Adult_New",Adra2a,no label,,no label,,strong in SP,SP:s,stronger in SP (but faint),SP:w,"transmembrane, g-protein coupled receptor",Autoradiographic study on Reeler brains suggests change in distribution (but not a true inversion),,Brain Struct Funct. 2011 Sep;216(3):201-18
-"E18, P8",Alcam,"everywhere (SP, CP, IZ)","SP:s, IZ:s, LP:s, UP:s","very strong in SP, a little bit in anterior cortex ",SP:s,strongest in SP and  L5 and L2/3 caudally,"SP:s, L5:s, L3:s","most cells in SP and L2/3, sparser in all other layers","SP:s, L3:s, L4:s-, L5:s-, L6:s-",transmembrane igG-type protein,"cell adhesion molecule, probably involved in neurite outgrowth, supposed to interact with L1; involved in retinotopic map formation in superior coll.",,J Neurosci. 2009 Dec 16;29(50):15630-41
-P8,Atp6v0e,faint label in posterior SP,SP:w,n/a,na,n/a,na,no label except choroid plexus,,lysosomal H+-ATPase,,,no pubmed hit
-Adult_New,C1qtnf1,no label (except strong in whisker bud),,n/a,na,n/a,na,stronger in SP,"SP:s, L6:w, L5:w, L4:w, L3:w",transmembrane protein,,,no pubmed hit
-P8,Cacna2d3,moderately strong cells in SP,SP:s,"strong in SP, faint/few in L5 (also strong in striatum)","SP:s, L5:w",strong in SP and L5 and some L2/3,"SP:s, L5:s, L3:w","strong and abundant in lower L5, L4 and L2/3 but weak in L6 and upper L5, intermediate in SP; also present subcortically","L5:s, L4:s, L3:s, SP:w",voltage dependent calcium channel,,,no pubmed hit
-"E18, P8",Cacng5,no label,,no label,,"very faint cells in SP (stronger label elsewhere in brain) at P4, stronger label in SP with labelled scattered cells elsewhere in ctx at P14",SP:w,"moderately strong but sparse in SP, absent in ctx; stronger and more abundant in selected subcortical regions esp. near midline",SP:s-,"calcium channel, or calcium channel like","regulates AMPA-R trafficking and function, in susceptibility locus for schizophrenia and bipolar disporder",,only gene info pubmed hits
-E15,Cck,SP and lower CP; very strong subcortical,"SP:s, lCP:s",SP,SP:s,SP and layer 6 at P4,"SP:s, L6:s","strong, less in layers 5 and 4","SP:s, L6:s, L5:w, L4:w, L3:s, MZ:s",neuropeptide,used as marker for a subgroup of GABAergic interneurons in rat (but not mouse?!),,
-Adult_New,Cd47,E14.4: very strong in CP/SP; E15.5: very strong in SP,SP:s,very strong in SP and L5,"SP:s, L5:s","P4: very strong in L5, strong in SP and L6; P14: very strong in SP and L6","SP:w, L6:w, L5:s",extremely strong in all layers except L4,"SP:s, L6:s, L5:s, L4:w, L3:s, MZ:s",membrane protein (integrin like),"Cd47+ microglia can remove Abeta peptide, but Cd47- microglia cannot; interacts with SIRPs - synaptic organising proteins, Cd47 expression promotes dendrogenesis in hippocampal neurons",,J Biol Chem. 2008 Dec 5;283(49):34053-61
-P8,Cdh11,SP (sparse),SP:s-,"SP and L5 very strong, also strong in L6","SP:s, L5:s, L6:w",strong in SP and L5,"SP:s, L5:s","strongest/most abundant in SP, sometimes also quite strong in L5 and L6 (depends on image series)","SP:s, L6:w, L5:w",transmembrane cell adhesion molecule,"Note: in a publication, Cdh11 is uniform in ctx, Pcdh11 is SP, L5 and L2/3… Authors propose a cell specification role by combinatorial expression as many cadherins and protocadherins are laminar (sometimes subgroups in lamina) and combinatorially expressed on cells (expression confirmed by a paper (Neuroscience. 2011 Feb 23;175:37-48))",,expression confirmed by a paper (Neuroscience. 2011 Feb 23;175:37-48)
-E15,Cdh18,SP (Gensat and our data),SP:s,SP and upper CP (our data),"SP:s, CP:s","strongest in SP, weaker in L6/5 (Gensat and our data)","SP:s, L5:s, L6:s",not expressed (Gensat); SP and L6 (our data),"SP:s, L6:s",transmembrane cell adhesion molecule,,,no pubmed entry
-E15,Cdh7,faint and sparse cells in SP,SP:w-,no label,,"strongest in L5, maybe also some cells in SP (P4), sparsely present in all layers","L5:s, SP:s-, L6:w-,L4:w-, L3:w-","mostly sparse label in L5, but also present in other layers, escept lower L6 and SP","L5:s-, L4:w-, L3:w-, MZ:w-",transmembrane cell adhesion molecule,"Note: in a publication, Cdh7 is sparesly scattered mainly in L6 and L6 (not present in SP in adult), Pcdh11 is SP, L5 and L2/3… Authors propose a cell specification role by combinatorial expression as many cadherins and protocadherins are laminar (sometimes subgroups in lamina) and combinatorially expressed on cells (expression confirmed by a paper (Neuroscience. 2011 Feb 23;175:37-48))",,
-E15,Cdh9,at E15.5 sparse cells in SP (AllenBrain); at E14.5 only subcortical (Genepaint),SP:s-,anterior layer 5/6 (not in SP),"L5:s, L6:s","layers 5/6, fewer in 4","L5:s, L6:s, L4:s-",layer 6,L6:s,,"Hevner et al., report Cdh9 as a layer 6 marker downregulated in Tbr1-KO mice",,Proc Natl Acad Sci U S A. 2010 Jul 20;107(29):13129-34
-P8,Chrna4,no label,,SP,SP:s,"SP (P4), strong in SP and fainter in L5/6 (P14)",SP:s,moderately strong label in SP but also present in L5 and less in L6,"SP:s, L5:w, L6:w-",,,,
-"E18, P8",Chst11,n/a,na,n/a,na,n/a,na,strongest in SP (lateral cortex also L6),SP:s,"located in Golgi apparatus, involved in chondroitin biosynthesis (sulfonation is developmentally regulated)",has TGFbeta cis-regulatory elements upstream of the promoter and may be directly regulated by BMP2,,Mech Dev. 2002 Oct;118(1-2):77-89; Genet Mol Res. 2009 Nov 3;8(4):1331-43.
-P8,Chst2,SP or PP (where unsplit),SP:s,SP,SP:s,"SP and faint in posterior L5 (P4), all layers except L4 (P14)","SP:s, L5:w",faintly stronger in SP and lateral L6,"SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w",,only brain relevant paper (tomomi) highlights Chst2 as a marker selective for multiple thalamic nuclei (from devel through early postnatal),,J Comp Neurol. 2011 Feb 15;519(3):544-61.
-E18,Cidea,no label,,n/a,na,n/a,na,faint sparse cells in SP,SP:w-,,apoptosis activator (independent of caspases),,
-"E18, P8, Adult_New",Clic5,faint in VZ/SVZ and SP/lower CP,"VZ:w, SZ:w, SP:w, LP:w",n/a,na,n/a,na,"SP specific, strong cells quite abundant, very few strong label outside of SP, non outside of ctx",SP:s,poorly selective chloride transmembrane channel,,,
-"E18, P8",Col11a1,SP,SP:s,"SP, anterior a bit in lower CP",SP:s,SP and anterior L4,"SP:s, L4:s",scattered and moderately strong in SP and L5; much more abundant L2/3,"SP:s-, L5:s-, L4:w",one of three chains making up collagenXI,"multiple transcript variants, sometimes in exclusive expression; KO mice (cho) exist",,
-"E18, P8, Adult_New",Cplx3,not expressed (our data),,not expressed (our data),,"strong in SP, sometimes in L5 (IHC - our data)","SP:s, L5:w",very strong and abundant in SP,SP:s,,,,
-"E18, P8",Crtac1,no label,,moderately strong in SP,SP:s,strong in SP and a few cells in L5,"SP:s, L5: s-","most abundant in SP, although stronger label in some L5 cells","SP:w, L5:s-","secreted/extracellular matrix protein, crtac1-a is a glycosylated isoform (alternate exon from neighbouring tail-to-tail gene in human) while crtac1-b may be brain specific isoform crtac1-a is also brain expressed in human. Contains integrin-like protein domain and a calcium signalling domain.",crtac1-a transcription may be sonic hedgehog and Bmp4 mediated; Chondrocyte secreted CRTAC1: a glycosylated extracellular matrix molecule of human articular cartilage.,extracellular matrix or cell adhesion,"Matrix Biol. 2007 Jan;26(1):30-41 and Gene. 2010 May 15;456(1-2):1-14. 
-CRTAC1 homolog proteins are conserved from cyanobacteria to man and secreted by the teleost fish pituitary gland.
-Redruello B, Louro B, Anjos L, Silva N, Greenwell RS, Canario AV, Power DM.
-"
-E15,Csmd3,"SP, lateral CP (our data)",SP:s,SP and CP (our data),"SP:s, L5:s, L6:s, CP:s",ubiquitous expression (our data),all:s,"stronger in SP, L5 and L2/3 ","SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w",,,,
-"E18, P8, Adult_New",Ctgf,"a  few cells in SP, some in VZ (esp of GE) and choroid plexus","SP:s-, VZ:s-",strong in anterior SP,SP:s,strong in SP,SP:s,very strong and abundant in SP,SP:s,,,,
-E18,Ctnnb1,"strong in VZ and striatocortical boundary, faint in IZ/SP, absent CP","VZ:s, SP:w, IZ:w","strong in SP and anterior CP, fainter elsewhere","SP:s, L5:s, L5:s, CP:s, VZ:w, SZ:w, Iz:w, MZ:w","strong in SP, inside out gradient",SP:s,"strongest in SP, absent in L4","SP:s, L6:w, L5:w, L3:w, MZ:w",,,,
-"P8, Adult_New",Drd1a,strong in SP and lower CP,"SP:s, LP:s","strong in SP, fainter in L6 and lower L5","SP:s, L5:w, L6:w","strong in SP, a few cells in lower L6","SP:s, L6:s-",moderately strong in SP; very strong in striatum,SP:s,g-protein coupled receptor (stimulates adenylyl cyclase and activates cyclic AMP-dependent protein kinases),This gene encodes the D1 subtype of the dopamine receptor. The D1 subtype is the most abundant dopamine receptor in the central nervous system. KO exist as does Drd1a-dtTomato transgenic. Antibodies not good at telling dopamine receptors apart.,faciliates cholinergic transmission,
-P8,Etv5,strong in VZ/SVZ and anterior pole of CP,"VZ:s, SZ:s",strong in SP and in all layers at anterior pole,SP:s,strong in SP and all layers at anterior and middle levels (highly regional expression!),"SP:s, L6:s, L5:s, L4:s, L3:s, MZ:s","strong  and abundant in SP, L5 and L2/3; moderately strong in all other layers","SP:w, L6:w, L5:s, L4:w, L3:s, MZ:w",transcription factor,"Binds to DNA sequences containing the consensus nucleotide core sequence GGAA, shares an ERM domain with Er81 (ERM may refer to two diff domains - on in TF, one in integrin and sema3a signalling). KO mice exist",,Oncogene. 1994 May;9(5):1397-406. J Neurochem. 2008 Feb;104(3):731-44.
-"E15, Adult_New",Gabra5,"SP, especially anterior (also our data)",SP:s,"SP and layer 5, especially anterior (also our data)","SP:s, L5:s",SP and L5,"SP:s, L5:s",strongest in L5 and SP but also in all other layers,"SP:w, L6:w, L5:s, L4:w, L3:w, MZ:w",,,,
-P8,Gdf10,no label,,no label,,faint in SP (P4 and P14),SP:w,very slightly stronger (quite faint) labelling in SP and L5 compared to the rest of ctx,"SP:w, L6:w, L5:s, L4:w, L3:w, MZ:w, IZ:w, VZ:w",,,,
-"E15, Adult_New",Gng11,maybe faint in SP (on some sections),SP:w,n/a,na,n/a,na,strongest in SP (inside out gradient up to L5),"SP:s, L6:w, L5:w",,,,
-"E18, P8, Adult_New",Gng12,in VZ of GE (esp at junction with ctx),,n/a,na,n/a,na,mostly strong cells in SP but a few scattered throughout ctx,"SP:s, L6:s-, L5:s-, L4:s-, L3:s-",,,,
-P8,Gsg1l,SP and lower CP,"SP:s, LP:s",n/a,na,"strong in SP (P4), strong in SP and L2/3 (P14)",SP:s,strong in SP and L2/3,"SP:s, L3:s",integral membrane protein (4 TM sites?),expression altered early in huntington mouse model,,
-"P8, Adult_New",Htr1d,no label,,n/a,na,maybe faint band in SP (esp P14),SP:w,no label except OB,,serotonin receptor. G-protein coupled receptor that inhibits adenylate cyclase,a polymorphism is linked to a group of chinese ADHD patients.,,
-"E18, P8",Igf1r,very strong in SP,SP:s,very strong in SP,SP:s,very strong in SP,SP:s,stronger in SP,"SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w",insulin-like growth factor receptor with tyrosine protein kinase activity,proliferative role in VZ progenitors (CSF contains igf2 and igf1r is confined to apical membrane in contact with CSF - Walsh Neuron 2011 paper). Cerebellar granule cells: activation of GABA-B receptors leads to cross activation of Igf1r and a cell survival promoting effect. Igf1r cKO (nestin cells) have reduced neuron number because of missing antiapoptotic signalling. Igf1r signalling promotes p75(NTR) upregulation in ageing and Alzheimers. Igf1r signalling plays an essential role in remyelination by oligodendrocytes in the corpus callosum. Igf1-r sigalling promotes axonal outgrowth in hippocampal culture.,,J Neurosci. 2010 Jan 13;30(2):749-59. J Neurosci Res. 2009 Oct;87(13):2821-32. J Neurosci. 2003 Aug 20;23(20):7710-8.
-P8,Impact,no label,,n/a,na,n/a,na,"strong and abundant in SP, weaker elsewhere","SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w",,,,
-P8,Inpp4b,no label,,faint in SP,SP:w,strong in SP,SP:s,strong and abundant in SP,SP:s,,,,
-"P8, Adult_New",Kcnab1,SP,SP:s,SP,SP:s,SP,SP:s,"most abundant in SP, sparse cells also in all other layers","SP:s, L6:s-, L5:s-, L4:s-, L3:s-",,,,
-"E15, E18, P8, Adult_New",Kcnc4,faint in SP,SP:w,n/a,na,n/a,na,stronger in SP,"SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w",,,,
-E18,Kcnt2,"SP, MZ (our data)","SP:s, MZ:s",entire cortex (our data),all:s,entire cortex (our data),all:s,entire cortex (our data),all:s,,,,
-P8,Lmbrd1,strong in CP/SP,"SP:s, CP:s",n/a,na,n/a,na,"strong in SP, moderately strong in rest of ctx (SP specific by heatmap)","SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w",,,,
-E15,Ly6g6e,n/a,na,n/a,na,n/a,na,moderately strong in SP,SP:s,,,,
-P8,Mmp16,strong in SP,SP:s,n/a,na,n/a,na,strongest in SP and L2/3 (at midline),"SP:s, L6:w, L5:w, L4:w, L3:s, MZ:w",,,,
-Adult_New,Nfasc,strong in IZ/SP,"SP:s, IZ:s",faint in SP (and upper WM) and even fainter in L5,"SP:s, IZ:s, L5:w","strong in SP, with a few sparse stronger cells in upper WM (P4), uniformly strong in ctx but stronger in WM (P14)","SP:w, WM:s-",strongest/densest in SP,"SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w",,,,
-P8,Ngef,faintly stronger in VZ and SP (Genpaint); no signal (AB),"SP:s, VZ:s, SZ:w, IZ:w, LP:w, UP:w, MZ:w",extremely strong (and specific) in SP; ,SP:s,"P4: very strong in SP, L5, L2/3","SP:s, L5:s, L3:s",uniformly strong except less in L5,"SP:s, L6:s, L5:w, L4:s, L3:s, MZ:s",,,,
-E18,Nmbr,no label,,no label,,faint in SP (anterior lateral only; P4&P14),SP:w,no label,,,,,
-E18,Nr4a2,very strong in SP and at anterior pole of ctx,SP:s,"very strong in SP, at anterior pole of ctx and in deep layers laterally/caudally","SP:s, L5:w, L6:w","very strong in SP, at anterior pole of ctx and in deep layers laterally/caudally",SP:s,"very strong in SP, at anterior pole of ctx and in deep layers laterally/caudally",SP:s,,,,
-Adult_New,Nxph3,"ver strong, unsure if SP or CP","SP:s, LP:s",n/a,na,n/a,na,"very strong in SP, also strong in other deep layers","SP:s, L6:s, L5:s",,,,
-"E18, P8",Nxph4,SP,SP:s,SP,SP:s,strong in SP,SP:s,strong and abundant in SP,SP:s,,,,
-"E18, P8",Pde1a,"at E14.5, in ventricular zones and SP (stronger posterior; Genepaint); at E15.5, few cells in lateral/posterior SP (AllenBrain)",SP:s-,faint in SP (lateral/posterior) and in anterior layer 5,"SP:w, L5:w","strong label in in SP and L5 (P4), very strong label in SP and L5 and weaker label in L2/3 and L6 (P14)","SP:s, L5:s","Strong and abundant in SP-L5, more in SP than L6 INTERESTING?","SP:s, L6:w, L5:s",,,,
-P8,Prss12,sparse but strong cells in anterior SP,SP:s-,faint cells in anterior SP,SP:w,"P4: very strong and abundant in SP, P14: very strong and abundant in SP and L5",SP:s,"very strong in SP, sometimes also strong in L5","SP:s, L5:w",,,,
-"E18, P8,  Adult_New",Rai14,VZ/SVZ,"VZ:s, SZ:s",n/a,na,n/a,na,subplate specific (mod strong) anterior and some weaker L6 label posterior; some subcortical midline structures,SP:s,,,,
-"E18, P8",Rnf130,n/a,na,n/a,na,n/a,na,strongest in SP (by far),SP:s,,,,
-P8,Sema5b,around ventricle; sparse cells also in SP and CP,"VZ:s, SP:s-, LP:s-, UP:s-",around ventricle; sparse cells in IZ,"VZ:s, SZ:s, IZ:s-",strong label in SP (P4&P14)),SP:s,"strong in SP, absent elsewhere",SP:s,,,,
-"E18, P8, Adult_New",Sema6a,"strong in SP, and maybe MZ, also strong in VZ of GE","SP:s, MZ:w","strong in SP, faint in L5","SP:s, L5:w","P4: strongest in L5 but stronger in SP than in WM or L6, P14: strongest in WM","SP:w, L5:s",most abundant in WM but also present in rest of ctx,"WM:s, SP:w, L6:w, L5:w, L4:w, L3:w, MZ:w",,,,
-Adult_New,Slc1a2,"Preplate, SP, MZ (Genepaint)","SP:s, MZ:s",SP,SP:s,SP,SP:s,"SP, L1, others?","SP:s, MZ:s",,,,
-"E18, P8",Slc8a1,strong in SP and PP (also our data),SP:s,SP and CP (our data),"SP:s, L6:s, L5:s, CP:s","strongest in SP, moderate in L5/6 (our data)","SP:s, L5:w, L6:w","strongest in SP, moderate in L5/6 (also our data)","SP:w, L5:w, L6:w",,,,
-E15,Sulf2,anterior/lateral SP; olfactory bulb,SP:s,n/a,na,n/a,na,strongest/most abundant in L5 and SP,"SP:s, L5:s",,,,
-"E15, P8",Sv2b,"preplate, SP, MZ (also our data)","SP:s, MZ:s",entire cortex (our data),all:s,entire cortex (our data),all:s,"strong, uniform (also our data)",all:s,,,,
-E15,Svil,faint in VZ of GE,,n/a,na,n/a,na,"SP specific, not very abundant but strong label; no obvious subcortical label",SP:s-,,,,
-"E18, P8",Thrsp,faint in CP,CP:w,n/a,na,n/a,na,strongest in SP (moderate) (in one series of sections),"SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w",,,,
-"E18, P8, Adult_New",Tmem163,n/a,na,n/a,na,n/a,na,"strongest in SP and lateral ctx deep layers, also very strong in L5","SP:s, L6:w, L5:s, L4:w, L3:w, MZ:w",,,,
-"E18, P8",Tnmd,no label in ctx,,n/a,na,n/a,na,very sparse but strong cells only in SP,SP:s-,,,,
-P8,Tpbg,ventricular zones; very strong in hippocampal anlage,"VZ:s, SZ:s",n/a,na,n/a,na,strongest in SP and lateral L6 and sometimes L2/3 (a bit like Nurr1 expression),SP:s,,,,
-"E15, E18, P8",Tpd52l1,no label,,no label,,"no label (P4), maybe very faint in SP (P14)",,no label,,,,,
-"E18, P8",Trh,no label in ctx,,SP,SP:s,very strong in SP,SP:s,strong but sparse cells in SP only,SP:s-,,,,
-"P8, Adult_New",Trp53i11,moderately strong in IZ/SP (and maybe lower edge of CP),"IZ:s, SP:s LP:w",very strong in SP,SP:s,very strong in SP,SP:s,"very strong and abundant in SP, similarly strong but much less abundant in L5 and L2/3, moderately strong in rest of ctx","SP:s, L5:s-, L3:s-, L6:w, L4:w, MZ:w",,,,
-E15,Unc5c,"SP at E15.5 (Gensat, AllenBrain);  not expressed at E14.5 (Genepaint)",SP:s,"faint, sparse cells in SP",SP:s-,"strongest in upper L5, weaker in SP at P4 (AllenBrain); not expressed at P7 (Gensat)","SP:w, L5:s","faint, uniform",all:w,,,,
-"E15, E18",Usp46,not very clear; stronger in SP on some sections but additional bands in IZ/SVZ and VZ,"SP:s, IZ:w, SZ:w, VZ:w",n/a,na,n/a,na,strongest in SP,"SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w",,,,
-"E15, E18, P8",Wnt4,no label,,no label,,"faint in SP (P4), strong in SP and L2/3 (P14)",SP:w,stronger in SP,"SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w",,,,
-"E18, P8",Zdhhc2,SP and SVZ (Genepaint); weak in SP (our data),SP:s,SP and layer 5 (also our data),"SP:s, L5:s",SP and layer 4 and 5 (also our data),"SP:s, L5:s, L4:s",strongest in L5 and L4 (also our data),"SP:w, L6:w, L5:s, L4:s, L3:w, MZ:w",,,,
+Gene Symbol;Alt Symbols;E14/E15;E18;P4 (P7);Adult
+2600011C06Rik ;Rbm25;na;na;18;1
+3110035E14Rik;0;0;na;18;21
+6720401G13Rik;0;SP:w, SZ:s;na;18;17
+9130024F11Rik;0;SP:s, IZ:s;na;18;18
+9430020K01Rik;0;0;na;18;1
+9630044O09Rik;Slain1;na;na;18;21
+Abca2;0;SP:w-, LP:w-;SP:s, L5:s;1;2
+Abca8a;0;SP:s;SP:s;17;23
+Abcd4;0;SZ:w, IZ:w;na;18;1
+Acvr2a;0;SP:s, MZ:s;SP:s;0;0
+Adam10;0;SP:s, VZ:w, SZ:w, IZ:w, LP:w, UP:w, MZ:w;SP:w, L5:w;7;4
+Adamts1;0;SP:s;na;0;0
+Adcy8;0;na;na;18;1
+Adra2a;0;0;0;0;0
+Agpat4;0;0;na;18;23
+Alcam;0;all:s;SP:s;2;4
+Angptl2;0;0;0;19;1
+Anln;0;VZ:s, MZ:s;na;18;25
+Aplp2;0;VZ:s, SP:s, LP:s, UP:s;na;18;2
+Apod;0;0;0;17;21
+Apoe;0;SP:s-, VZ:s-, SZ:s-, IZ:s-, MZ:s-;SP:s-, IZ:s-;17;17
+Aqp4;0;0;0;21;21
+Arhgap11a;0;SP:s, SZ:s;na;18;18
+Arhgap26;0;0;na;18;2
+Arhgdib;0;SP:w, LP:w, UP:w;na;18;17
+Arhgef3;0;0;na;18;2
+Arl6ip1;0;VZ:s, SZ:s, LP:w, UP:w;na;18;2
+Ascl1;0;0;SP:s-, IZ:s-;22;26
+Asf1a;0;SP:w, IZ:w, VZ:s, SZ:s;na;18;19
+Aspa;0;na;na;18;22
+Atp6ap2;0;0;na;18;1
+Atp6v0e;0;SP:w;na;18;19
+Aurka;0;VZ:s, SZ:s, IZ:s-;na;18;1
+Bbx;0;VZ:w-, SZ:w-;0;1;19
+BC003331;0;VZ:w, SP:w, CP:w;na;18;5
+Bcl11a;0;SP:s, LP:s, UP:s,  IZ:w;SP:s, CP:s, L6:w, L5:w, MZ:w;2;2
+Bcl2l11;0;0;0;1;19
+Bmp5;0;0;0;19;1
+Bmp6;0;0;0;19;1
+Bnip3l;0;VZ:w, CP:w;na;18;1
+Btg2;0;VZ:s, SZ:s, LP:w, UP:w;na;18;27
+C1qa;0;SP:s-, VZ:s-, SZ-:s, IZ:s-;SP:s-, IZ:s-;17;17
+C1qtnf1;0;0;na;18;0
+C920025E04Rik;H2-T23;na;na;18;27
+Cabp7;0;0;na;18;1
+Cacna2d3;0;SP:s;SP:s, L5:w-;2;17
+Cacnb2;0;0;na;18;4
+Cacng5;0;0;0;0;0
+Cadps2;0;0;SP:w, L5:w;17;17
+Caln1;0;VZ:w, SP:w, LP:w, UP:w;na;18;1
+Camk2d;0;VZ:w;na;18;2
+Car4;0;0;na;18;17
+Carhsp1;0;VZ:w, SZ:w SP:w, MZ:s, UP:s;na;18;22
+Cblb;0;CP:s;na;18;0
+Cbx5;0;VZ:s, SZ:s, LP:s, UP:s;na;18;0
+Cck;0;SP:s, CP:s;SP:s;23;17
+Cckbr;0;0;0;1;4
+Ccnd2;0;VZ:s, SZ:s, SP:s;na;2;26
+Cd164;0;VZ:s, SZ:s;VZ:s, SP:s, L6:s-, L5:s-, CP:s-, MZ:s-;21;21
+Cd47;0;SP:s, LP:s, UP:s;SP:s, L5:s;7;17
+Cdca7;0;SP:s, VZ:s, SZ:s;na;18;17
+Cdh10;0;SP:s, SZ:w;SP:s, CP:w, L6:w, L5:w;1;1
+Cdh11;0;SP:s-;SP:s, L5:s, L6:w;1;21
+Cdh12;0;SP:w;all:s;17;17
+Cdh18;0;SP:s;SP:s, CP:s;21;23
+Cdh4;0;SP:s, IZ:s, LP:s;0;17;19
+Cdh7;0;SP:w-;0;1;17
+Cdh9;0;SP:s-;L5:s, L6:s;17;17
+Cdk2ap1;LOC100047490;0;na;18;2
+Cdk4;0;SP:s, VZ:s, SZ:s;na;18;19
+Cdkn2c;0;SZ:s, Z:w;na;18;4
+Cds2;0;0;na;18;2
+Celsr1;0;VZ:s-, SZ:s-;VZ:s, IZ:s, SP:w, L5w;17;26
+Cetn2;0;VZ:w, SZ:w;na;18;2
+Chrna4;0;0;SP:s;0;8
+Chst11;0;na;na;18;0
+Chst2;0;SP:s;SP:s;1;23
+Cidea;0;0;na;18;0
+Cited2;0;SP:s, IZ:s;SP:s, L5:s;4;17
+Cks2;0;SP:s, IZ:s, VZ:w, SZ:w, LP:w, UP:w, MZ:w;na;18;19
+Cldn11;0;0;0;3;22
+Cldnd1;0;na;na;18;2
+Clic1;0;VZ:s, SZ:s;na;18;2
+Clic5;0;VZ:w, SZ:w, SP:w, LP:s;na;18;0
+Clu;LOC100046120;SP:w, VZ:w, SZ:w;SP:s, L5:w;1;17
+Cnbp;0;VZ:s, SZ:s;na;18;2
+Cnp;0;0;SP:s-, IZ:s-;25;22
+Cntn2;0;SP:s, IZ:s, MZ:s, LP:w, UP:w;SP:w, IZ:w, CP:s;17;2
+Col11a1;0;SP:s;SP:s;0;2
+Col12a1;0;VZ:w, SZ:w;0;17;21
+Col19a1;0;0;na;18;0
+Col9a3;0;SP:w, IZ:w, CP:w-;0;21;17
+Cplx3;0;0;0;1;0
+Cpox;0;0;na;18;1
+Crim1;0;0;na;18;1
+Crtac1;0;0;SP:s;0;1
+Cryab;0;0;na;18;21
+Csdc2;0;SP:w, MZ:w;SP:s, L5:w;1;17
+Csmd3;0;SP:s;SP:s, L6:s, L5:s, CP:s;17;2
+Cstf2;0;VZ:s, SZ:s, IZ:w, SP:s, LP:s, UP:w, MZ:w;na;18;2
+Ctbp2;0;SP:w, VZ:w, SZ:w;L5:w;17;17
+Ctgf;0;SP:s-, VZ:s-;SP:s;0;0
+Ctnnb1;0;SP:w, IZ:w, VZ:s;SP:s, CP:s, VZ:w, IZ:w, L6:w, L5:w, MZ:s;21;21
+Ctss;0;SP:s-, VZ:s-, SZ:s-, IZ:s-;SP:s-, IZ:s-;22;17
+Cttnbp2;0;SP:s, IZ:s, UC:s, MZ:s;SP:s, IZ:s, CP:s-, L5:s-, L6:s-;18;17
+Cux1;0;SP:s, IZ:s, VZ:s, SZ:s;SP:s, IZ:s, CP:s;17;17
+Cux2;0;"SP:s, IZ:s, LC:s; MZ:s";SP:s, IZ:s, CP:s;17;17
+D7Ertd715e;0;na;na;18;17
+D830030K20Rik;Gm1973;na;na;18;1
+Dact1;0;SP:w, MZ:w;CP:s;17;19
+Dbi;0;SP:s-, IZ:s-, VZ:s, SZ:s;VZ:s, IZ:s-, SP:w-, L6:w-, L5:w-, CP:w-;17;17
+Dbndd2;0;na;na;18;2
+Dck;0;SZ:s, SP:w, LP:w, UP:w;na;18;1
+Dct;0;0;na;18;5
+Ddah1;0;SZ:s, VZ:s;na;18;25
+Ddhd1;0;SP:w, IZ:s;na;18;17
+Ddr1;0;0;VZ:s, SP:w, IZ:w;6;17
+Dip2a;0;na;na;18;0
+Dll1;0;VZ:s-;SP:s-, IZ:s-;22;19
+Dlx2;0;0;SP:s, IZ:s;10;26
+Drd1a;0;SP:s, LP:s;SP:s, L6:w, L5:w;0;0
+Dsg2;0;na;na;18;21
+E130012A19Rik;0;VZ:w, SZ:w;na;18;4
+E2f5;0;VZ:s, SZ:w;SP:w, L5:w;19;19
+E2f7;0;VZ:s, SZ:s, MZ:s, UP:s;L5:w;1;19
+E2f8;0;VZ:w, SZ:w;SP:w;19;17
+E330009J07Rik;0;SP:s, IZ:s;na;18;17
+Ect2;0;VZ:s, SZ:w;na;18;19
+Efhd2;0;VZ:s, SP:s, LP:s, UP:s;na;18;4
+Efnb3;0;SP:s, IZ:s, VZ:s-, SZ:s-, LP:s-, UP:s-, MZ:s-;SP:w;1;17
+Egfr;0;0;IZ:s, SP:s;3;17
+Elavl1;0;SP:w, VZ:s, SZ:s;na;18;17
+Elf2;0;SP:s, IZ:w, SZ:w, VZ:w, LP:w, UP:w, MZ:w;SP:s, IZ:s, VZ:w, L6:w, L5:w, CP:w, MZ:w;17;19
+Elk3;0;0;na;19;21
+Emp2;0;VZ:w, SZ:w;na;18;17
+Emr1;0;LP:w, UP:w;na;18;0
+Enpp2;0;SP:s-, VZ:s-, SZ:s-, IZ:s-;na;18;17
+Entpd5;0;0;na;18;0
+Eomes;0;VZ:s, SZ:s, IZ:s-;VZ:s, IZ:s, SP:s-;17;19
+Epha1;0;0;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;1;19
+Epha3;0;SP:w, IZ:s;SP:s, IZ:s;21;19
+Epha5;0;SP:s, IZ:s, MZ:s;SP:s, IZ:s, CP:s, L6:s, L5:s;1;2
+Epn2;0;SP:s, LP:s, UP:s, MZ:w, IZ:w, SZ:w, VZ:w;na;18;0
+Espl1;0;VZ:s, SP:s, CP:s;na;18;17
+Etfa;0;VZ:s, SZ:s;na;18;2
+Etv5;0;VZ:s, SZ:s;SP:s;0;2
+Exph5;0;na;na;18;17
+Faim2;0;na;na;18;4
+Fem1b;0;VZ:w, SZ:w, LP:w, UP:w;na;18;0
+Fgfr1;0;SP:s, IZ:s, VZ:s, SZ:s, MZ:s;0;0;1
+Fn1;0;SP:s, IZ:s;CP:s;17;17
+Fnbp1;0;VZ:s, SZ:s;na;18;3
+Fos;0;0;0;17;17
+Foxm1;Pebp1 or 4933413G19Rik;SZ:s, VZ:w;IZ:s, SP:s, L6:s;22;19
+Foxn2;0;0;0;1;19
+Foxq1;0;SP:w-, VZ:w-, SZ:w-;CP:s, SP:w, IZ:w;2;17
+Fstl1;0;VZ:s;all:w;17;21
+Fyn;0;SP:s, IZ:s, VZ:w, SZ:w, LP:w, UP:w, MZ:w;CP:s, SP:w, IZ:w;13;17
+Fzd1;0;IZ:s;SP:w, L5:w;1;17
+Fzd2;0;SP:s, IZ:s, VZ:s;0;1;19
+Fzd7;0;VZ:w;SP:w, L5:w;17;17
+Gabpa;0;SP:s, VZ:s;L5:s;1;19
+Gabpb1;0;SP:s;0;1;17
+Gabra2;0;0;SP:s, IZ:w, VZ:w, L6:w, L5:w, CP:w, MZ:w;19;19
+Gabra5;0;SP:s;SP:s, L5:s;1;1
+Gabrd;0;SP:s-, IZ:s-, VZ:s;SP:s, IZ:s;15;17
+Gad1;0;SZ:s-, IZ:s-, SP:s-, MZ:s-;IZ:w-, SP:w-, MZ:w-;17;17
+Gadd45a;0;na;na;18;2
+Galnt10;0;SP:w, CP:w;na;18;21
+Gas1;0;VZ:s;all:s;1;17
+Gas5;0;VZ:s, LP:s, UP:s;na;18;0
+Gdf10;0;0;0;0;1
+Gdi2;0;VZ:s, LP:w, Upw;na;18;0
+Gfap;0;0;VZ:s;16;22
+Gja1;0;SP:s-, VZ:s-;SP:w, IZ:w, L5:w;17;17
+Gjb1;0;SP:w, LP:w, UP:w;na;18;22
+Glt28d2;0;VZ:w, SZ:w, LP:w, UP:w;na;18;0
+Gmfb;0;0;na;18;2
+Gnal;0;LP:w, UP:w;na;18;0
+Gng11;0;SP:w;na;18;21
+Gng12;0;0;na;18;0
+Gng4;0;LP:s, UP:s, MZ:w, SP:w, IZ:w, SZ:w, VZ:w;na;18;11
+Golph3;0;na;na;18;1
+Gpc6;0;SP:w, VZ:w, SZ:s, IZ:s;na;18;19
+Gpd1;0;0;na;18;27
+Gpm6b;0;SP:s, VZ:s, MZ:s;na;18;17
+Gpr126;0;0;na;18;1
+Gpr37;0;0;SP:w, L5:w;1;22
+Gpr56;0;0;IZ:w-;1;26
+Gpr88;0;0;0;17;17
+Gprc5b;0;SZ:w, VZ:w;SP:w, IZ:w, L5:s;2;17
+Gpsm2;0;na;na;18;1
+Grb14;0;LP:w, UP:w;na;18;4
+Grem2;0;0;na;18;1
+Grsf1;0;0;na;18;1
+Gsg1l;0;SP:s, LP:s;na;0;4
+Gsn;0;na;na;18;3
+Gspt1;0;SP:w, VZ:w;na;18;17
+Gsta4;0;VZ:w, LP:w, UP:w;na;18;4
+Gtf2b;0;VZ:w, SP:w, UP:w;na;18;17
+H1f0;0;SP:w, IZ:w, VZ:s, SZ:s;na;18;17
+H2afz;0;SP:s, VZ:s;na;18;17
+Hectd2;0;VZ:s, SP:w, CP:s;na;18;21
+Hey1;0;SP:w-, VZ:w, SZ:w, IZ:w-;SP:w, L5:w;1;17
+Hipk2;0;LP:s, Ups;na;18;0
+Hmgb2;0;SP:s-, VZ:s, SZ:s;na;18;18
+Hmgcr;0;SP:s, VZ:s, MZ:s, SZ:w, LP:w, UP:w;na;18;2
+Hmgn2;0;SP:w, VZ:s, SZ:s, IZ:w;SP:w, IZ:s;22;17
+Homer2;0;VZ:w, SZ:w;na;18;4
+Hpcal1;0;0;na;18;0
+Hrh3;0;VZ:s, SZ:w;na;18;17
+Hs3st1;0;SP:s, SZ:s;na;18;17
+Htr1d;0;0;na;0;19
+Id4;0;VZ:s, SZ:s;VZ:s, SP:w;21;17
+Igf1r;0;SP:s;SP:s;0;21
+Igfbp3;0;LP:s, UP:s;SP:s, L6:s;23;19
+Igfbp5;0;SP:w, VZ:s;SP:s, CP:s;2;2
+Il6st;0;0;0;1;19
+Impact;0;0;na;18;0
+Inpp4b;0;0;SP:w;0;0
+Inpp5a;0;VZ:w, SZ:w;na;18;0
+Insig2;0;all:w;na;18;0
+Iqch;0;na;na;18;21
+Itgav;0;VZ:s;SP:s, VZ:s-, IZ:s-, L6:s-, L5:s-, CP:s-, MZ:s-;17;17
+Itm2b;0;SP:s, IZ:s;na;18;17
+Jun;0;VZ:s, SZ:s, SP:w, LP:w, UP:w;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;17;17
+Kcnab1;0;SP:s;SP:s;0;21
+Kcnc4;0;SP:w;na;18;0
+Kcnip3;0;UP:s, LP:s, SZ:w;na;18;1
+Kcnip4;0;0;na;18;5
+Kcnk2;0;all:w;SP:s, VZ:w, IZ:w, L6:w, L5:w, CP:w, MZ:w;1;11
+Kcnt2;0;SP:s, MZ:s;all:s;17;17
+Kif13a;0;SP:s, VZ:s, SZ:w, IZ:w, LP:w, CP:w, MZ:w;na;18;17
+Kif22;0;VZ:s, SP:s, LP:s, UP:s, SZ:w, IZ:w, MZ:w;na;18;17
+Klhl24;0;na;na;18;21
+Kpna1;0;0;na;18;1
+Kpna2;0;SP:w, VZ:s, SZ:s, IZ:s, LP:w-, UP:w-;na;18;1
+Lcp1;5730589K01Rik;0;0;1;17
+Lgals2;0;SP:s, IZ:s;na;18;19
+Lgi3;0;0;0;15;17
+Lgmn;0;SP:s-, IZ:s-;SP:s-, IZ:s-;22;2
+Lhx2;0;SP:s, VZ:s, SZ:s, IZ:s, LP:w, UP:w;VZ:s, SP:s, CP:s, L5:w, L6:w;4;17
+Llgl1;0;na;na;18;21
+Lmbrd1;0;SP:s, LP:w, UP:w;na;18;21
+Lmcd1;0;0;0;19;19
+Lnp;0;0;na;18;17
+Loxl1;0;0;SP:w, L5:w;17;19
+Lpar1;0;na;na;0;0
+Lrch2;0;SP:s, IZ:s, UP:s;na;18;17
+Lrrc58;0;VZ:s, SZ:w, IZ:w, SP:w, LP:w, UP:w, MZ:w;na;18;0
+Lrrfip1;0;0;na;18;0
+Lrrtm1;0;0;SP:w, L5:w;2;1
+Lsm14a;0;VZ:s, SZ:w, IZ:w, SP:w, LP:w, UP:w, MZ:w;na;18;1
+Luc7l2;0;na;na;18;17
+Ly6g6e;0;na;na;18;0
+Mad2l1;0;SP:w, LP:w, SZ:s;na;18;19
+Mapk6;0;SP:s, VZ:s, SZ:s, IZ:s, LP:w, UP:w, MZ:s;na;18;17
+Mapk8;0;0;0;1;1
+March5;0;all:s;na;18;13
+Mcfd2;0;VZ:s, SZ:w, IZ:w, SP:w, LP:s, UP:s, MZ:w;na;18;2
+Mchr1;0;0;0;1;19
+Meis2;Mrg1;VZ:s, SZ:s, LP:s, UP:s;IZ:s, L6:s;17;27
+Mest;0;SP:s, VZ:s, SP:w, UP:w;L5:s;17;17
+Mfap3;0;SP:s, UP:s;na;18;17
+Mfng ;LOC100046464;SP:s-, VZ:s, SZ:s;na;18;19
+Mfsd1;0;VZ:s, SZ:s, SP:s, UP:s;na;18;19
+Mllt3;0;SP:s, IZ:s;na;18;19
+Mmp16;0;SP:s, LP:w, UP:w;na;18;4
+Mmp9;0;VZ:s-, SZ:s-, IZ:s-, SP:s-;L5:s-, L6:s-, SP:s-, IZ:s-;17;19
+Mobp;0;0;0;1;22
+Mog;0;0;0;19;22
+Mospd2;0;VZ:w, SZ:w, IZ:w, SP:w, LP:s, UP:s, MZ:w;na;18;2
+Moxd1;0;na;SP:s;0;0
+Mpdz;0;VZ:s, SZ:s;na;18;17
+Mpi;0;0;na;18;2
+Mtf2;0;SP:w, IZ:w;SP:w, L5:w;1;17
+Mxd3;0;SZ:s;SP:w-, IZ:w-;1;19
+Mxi1;0;all:w;0;19;2
+Myt1;0;SZ:s, IZ:w, SZ:w;IZ:s, SP:s-, L6:w, L5:w-;22;17
+Ncam2;0;SP:s-, MZ:s-,  SZ:w;0;18;17
+Ncor1;0;SP:w, VZ:w, SZ:w, IZ:w;SP:w, L5:w;2;0
+Nde1;0;SP:w-, VZ:s, SZ:s, IZ:w-;SP:w, IZ:w;3;17
+Nedd4;0;VZ:s, SZ:s, SP:w, LP:w;na;18;4
+Nedd4l;0;SP:s, IZ:s,  UP:s, SZ:w;na;18;17
+Neurod1;0;SP:s-, IZ:s;CP:s;17;17
+Nfasc;0;SP:s, IZ:s;SP:s, IZ:s, L5:w;3;0
+Nfe2l2;0;0;0;3;19
+Nfe2l3;0;SP:s, LP:s;SP:s, L6:w, L5:w;21;0
+Nfyb;0;SP:s, IZ:s, LP:s, UP:s;all:strong;1;17
+Ngef;0;SP:s, VZ:s, SZ:w, IZ:w, LP:w, CP:w, MZ:w;SP:s;2;17
+Nkx2-2;0;0;SP:w, L5:w;17;17
+Nmbr;0;0;0;0;19
+Nnat;0;SZ:s, IZ:s, LP:s, UP:s;SP:s, CP:s;2;14
+Notch1;0;SP:s-, VZ:s, SZ:s, IZ:s-;VZ:s, SP:w-, IZ:w-;1;17
+Notch2;0;VZ:s, SZ:s;VZ:s;1;19
+Nptx1;0;SP:w, IZ:w;na;18;23
+Nr3c1;0;SP:w, VZ:w;SP:w, L5:s;2;21
+Nr4a2;0;SP:s;SP:s;0;0
+Nrp1;0;SP:s, IZ:s;SP:w, IZ:s;19;17
+Nrxn1;0;SP:s, LP:s, UP:s;SP:s, L6:s, L5:s;9;21
+Ntrk2;0;SP:s, LP:s, UP:s;SP:s, L6:s, L5:s, IZ:s, VZ:s;17;17
+Nts;0;0;0;1;19
+Nxph3;0;SP:s, LP:s;na;18;21
+Nxph4;0;SP:s;SP:s;0;0
+Olig1;0;SP:s-, VZ:s-, SZ:s-, IZ:s-;SP:s, IZ:s;3;17
+Omg;0;0;na;18;1
+Ostf1;0;SP:s-, IZ:s-;0;19;17
+Oxr1;0;na;na;18;17
+Pbef-1;Nampt;VZ:s, SZ:s, IZ:w, SP:s, LP:s, UP:s, MZ:w;na;18;4
+Pcdh11x;0;SZ:w, VZ:w;0;4;2
+Pcdh17;0;na;na;18;0
+Pcp4;0;0;SP:s, L5:s;1;1
+Pcsk5;0;na;na;18;1
+Pde1a;0;SP:s-;SP:s, L5:s;1;8
+Pde1b;0;VZ:s, SZ:s;na;18;0
+Pdgfc;0;VZ:s, SZ:s, SP:s, LP:s;0;17;17
+Pdia5;0;0;na;18;21
+Peg3;0;0;na;18;2
+Phyhipl;0;SP:s, SZ:s, LP:s;na;18;27
+Pik3r3;0;VZ:w, SZ:w, IZ:w, SP:w, LP:s, UP:s, MZ:w;na;18;21
+Plcxd1;0;na;na;18;2
+Plekha5;0;0;na;18;2
+Plk4;0;SP:w, IZ:w, VZ:w;na;18;19
+Plp1;0;SP:w, IZ:w, MZ:w;0;25;22
+Plxna4;0;SZ:s, IZ:s, SP:w;all:w;17;19
+Pnp;0;SP:s-, VZ:s;na;18;19
+Pou3f2;0;SP:s, IZ:s, MZ:s;SP:s, IZ:s, CP:s;2;2
+Pou3f3;0;SP:s, VZ:s, SZ:s, IZ:s, MZ:s;SP:s, IZ:s, CP:s;17;17
+Ppfibp1;0;SP:s-, IZ:s-;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;1;19
+Ppm1m;0;na;na;18;2
+Ppp1r1b;0;LP:s, UP:s, SP:s;SP:w, L5:s, CP:s;7;27
+Ppp2r1b;0;SP:s, IZ:s;na;18;19
+Ppp3cb;0;na;na;18;2
+Prr13;0;na;na;18;0
+Prss12;0;SP:s-;SP:w;0;1
+Psip1;0;MZ:s, UP:s, VZ:s, SZ:s;na;19;21
+Psph;0;VZ:s, SZ:s;na;18;2
+Ptprg;0;na;na;18;2
+Pxn;0;0;na;18;21
+Rab26;0;na;na;18;21
+Rai14;0;VZ:s, SZ:s;na;18;0
+Rcan2;0;SP:w, MZ:s;SP:s;0;1
+Rgs20;0;0;na;18;4
+Rgs8;0;na;na;18;4
+Rhoa;Gm12844;VZ:s, SZ:s;SP:w, L5:w;1;0
+Rhobtb3;0;VZ:s, SZ:s, SP:s, LP:s, UP:s;na;18;19
+Rnasel;0;SP:w, IZ:w;na;18;19
+Rnd2;0;SP:s, IZ:s;all:s;17;17
+Rnf122;0;SZ:s, LP:s, UP:s, SP:w;na;18;17
+Rnf130;0;na;na;18;0
+Robo2;0;SP:s, IZ:s, LP:s-, UP:s-;SP:s, IZ:s, CP:s, L6:w;1;2
+Rock1;0;0;na;18;2
+S100b;0;0;0;21;17
+Scd2;0;na;na;18;15
+Scrg1;0;VZ:s, SP:s, LP:s, UP:s;na;18;17
+Sdk2;0;0;na;18;21
+Sec24d;0;SP:s, LP:s, UP:s;na;18;21
+Sema3a;0;SP:s-, IZ:s-, LP:s-;SP:s-, L5:s-;17;17
+Sema4a;0;0;SP:w, L5:w;1;25
+Sema4d;0;SP:s, IZ:s, LP:s-, UP:s-;SP:s, L5:s;1;17
+Sema5a;0;SZ:w, VZ:s;VZ:s;1;23
+Sema5b;0;VZ:s, SP:s-, LP:s-, UP:s-;VZ:s, IZ:s-;0;0
+Sema6a;0;SP:s, MZ:s;SP:s, L5:w;1;22
+Sema6d;0;IZ:s, SP:s-, LP:s-, UP:s-;SP:s, L5:s;21;17
+Sept7;0;VZ:s, SZ:s, SP:w, LP:w;na;18;21
+Serpini1;0;LP:s, UP:s, SP:w, IZ:w;na;1;21
+Sestd1;0;LP:w, UP:w;na;18;0
+Sfrp1;0;VZ:s, SZ:s;VZ:s, IZ:s;2;19
+Sfrs1;0;VZ:s, SZ:s;VZ:s, IZ:s;2;19
+Shb;0;SP:s, IZ:s, MZ:w;na;18;0
+Sirpa;0;VZ:w, LP:w, UP:w;na;18;17
+Slain1;0;na;na;18;0
+Slc1a2;0;SP:s, MZ:s;SP:s;0;21
+Slc6a1;0;SP:s-, IZ:s-, MZ:s-;SP:s-, L5:s-;17;17
+Slc8a1;0;SP:s;SP:s, CP:s;21;21
+Slitrk3;0;SP:s, SZ:s, SZ:s;na;18;17
+Sorbs2;0;SP:s, IZ:s;na;18;17
+Sorcs3;0;0;na;18;2
+Sox2;0;SP:s-, VZ:s, SZ:s-, IZ:s-;VZ:s, IZ:s, SP:s, L5:w;5;17
+Sox21;0;VZ:w, SZ:w;0;19;19
+Sst;0;SP:s, IZ:s, MZ:s;SP:s, IZ:s-, L6:s-, L5:s-;17;17
+Stac2;0;0;na;18;2
+Stt3b;0;na;na;18;1
+Sulf1;0;0;na;18;23
+Sulf2;0;SP:s;na;18;1
+Sv2b;0;SP:s, MZ:s;all:s;17;17
+Svil;0;0;na;18;0
+Syne2;0;SP:w, VZ:s, SZ:s;na;18;19
+Syt1;0;SP:s, MZ:s, LP:w, UP:w;SP:s, CP:s, L6:w, L5:w, MZ:w;21;4
+Syt10;0;0;SP:s, IZ:w, VZ:w, L6:w, L5:w, CP:w, MZ:w;23;25
+Syt13;0;LP:s, UP:s;na;18;21
+Tank;0;0;na;18;17
+Tcf12;0;SP:s, VZ:s, SZ:s, IZ:s;VZ:w, IZ:w;19;19
+Tcf7l2;0;0;0;3;19
+Thbs2;0;0;na;18;9
+Thrsp;0;LP:w, UP:w;na;18;0
+Timeless;0;VZ:s, SZ:s;na;17;2
+Timp2;0;na;na;18;2
+Tle1;0;SP:s, IZ:w, SZ:w, VZ:s;VZ:s,  IZ:s, SP:s;17;21
+Tmed10;0;na;na;18;0
+Tmeff2;0;SP:s-, MZ:s-;na;18;2
+Tmem132d;0;0;na;18;17
+Tmem163;0;na;SP:w;1;1
+Tmem2;0;MZ:s;na;3;17
+Tmem40;0;0;na;18;1
+Tnmd;0;0;na;18;0
+Tpbg;0;VZ:s, SZ:s;na;18;0
+Tpd52l1;0;0;0;19;19
+Tppp;2900041A09Rik;LP:s, UP:s;na;18;4
+Trf;0;0;0;19;17
+Trh;0;0;SP:s;0;0
+Trib2;0;SP:w, VZ:w, SZ:w, IZ:w;SP:s, IZ:s, CP:s;17;1
+Trp53i11;0;SP:s, IZ:s, LP:s, UP:w;SP:s, L6:w, L5:w, CP:w, MZ:w;0;2
+Trps1;0;VZ:s, SZ:s;VZ:s, SP:w;1;17
+Tsc22d1;0;SP:s, IZ:s, MZ:s, LP:w, UP:w;SP:s, IZ:s, CP:s;4;4
+Tuba1a;Gm3756 or Gm5620 or Gm6682 or Gm7172 or LOC100044416 or LOC100045728 or Tuba1a or Tuba1b or Tuba1c;SP:s, LP:s, UP:s, MZ:w, IZ:w, SZ:w, VZ:w;na;18;21
+Txnrd1;0;SP:s, IZ:s, LP:s, VZ:s;na;18;17
+Unc5c;0;SP:s;SP:w-, CP:s;1;19
+Usp46;0;SP:s, SZ:s, IZ:s;na;18;21
+Wnt4;0;0;0;0;0
+Yap1;0;na;na;18;1
+Zcchc12;0;SP:s, MZ:s;na;18;17
+Zdhhc2;0;SP:s;SP:s, L5:s;24;17
+Zfp191;0;0;0;1;19
+Zhx1;0;VZ:s, SZ:s;SP:s, IZ:s, L6:w, L5:w, CP:w, MZ:w;17;19
+Zic1;0;0;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;19;19
+Zwint;0;SP:s, SZ:s, MZ:s, LP:s-, UP:s-;na;18;2
+0;;0;0;=Data!P429;=Genes!R429
+0;;0;0;=Data!P430;=Genes!R430
+0;;0;0;=Data!P431;=Genes!R431
+0;;0;0;=Data!P432;=Genes!R432
+0;;0;0;=Data!P433;=Genes!R433
+0;;0;0;=Data!P434;=Genes!R434
+0;;0;0;=Data!P435;=Genes!R435
+0;;0;0;=Data!P436;=Genes!R436
+0;;0;0;=Data!P437;=Genes!R437
+0;;0;0;=Data!P438;=Genes!R438
+0;;0;0;=Data!P439;=Genes!R439
+0;;0;0;=Data!P440;=Genes!R440
+0;;0;0;=Data!P441;=Genes!R441
+0;;0;0;=Data!P442;=Genes!R442
+0;;0;0;=Data!P443;=Genes!R443
+0;;0;0;=Data!P444;=Genes!R444
+0;;0;0;=Data!P445;=Genes!R445
+0;;0;0;=Data!P446;=Genes!R446
+0;;0;0;=Data!P447;=Genes!R447
+0;;0;0;=Data!P448;=Genes!R448
+0;;0;0;=Data!P449;=Genes!R449
+0;;0;0;=Data!P450;=Genes!R450
+0;;0;0;=Data!P451;=Genes!R451
+0;;0;0;=Data!P452;=Genes!R452
+0;;0;0;=Data!P453;=Genes!R453
+0;;0;0;=Data!P454;=Genes!R454
+0;;0;0;=Data!P455;=Genes!R455
+0;;0;0;=Data!P456;=Genes!R456
+0;;0;0;=Data!P457;=Genes!R457
+0;;0;0;=Data!P458;=Genes!R458
+0;;0;0;=Data!P459;=Genes!R459
+0;;0;0;=Data!P460;=Genes!R460
+0;;0;0;=Data!P461;=Genes!R461
+0;;0;0;=Data!P462;=Genes!R462
+0;;0;0;=Data!P463;=Genes!R463
+0;;0;0;=Data!P464;=Genes!R464
+0;;0;0;=Data!P465;=Genes!R465
+0;;0;0;=Data!P466;=Genes!R466
+0;;0;0;=Data!P467;=Genes!R467
+0;;0;0;=Data!P468;=Genes!R468
+0;;0;0;=Data!P469;=Genes!R469
+0;;0;0;=Data!P470;=Genes!R470
+0;;0;0;=Data!P471;=Genes!R471
+0;;0;0;=Data!P472;=Genes!R472
+0;;0;0;=Data!P473;=Genes!R473
+0;;0;0;=Data!P474;=Genes!R474
+0;;0;0;=Data!P475;=Genes!R475
+0;;0;0;=Data!P476;=Genes!R476
+0;;0;0;=Data!P477;=Genes!R477
+0;;0;0;=Data!P478;=Genes!R478
+0;;0;0;=Data!P479;=Genes!R479
+0;;0;0;=Data!P480;=Genes!R480
+0;;0;0;=Data!P481;=Genes!R481
+0;;0;0;=Data!P482;=Genes!R482
+0;;0;0;=Data!P483;=Genes!R483
+0;;0;0;=Data!P484;=Genes!R484
+0;;0;0;=Data!P485;=Genes!R485
+0;;0;0;=Data!P486;=Genes!R486
+0;;0;0;=Data!P487;=Genes!R487
+0;;0;0;=Data!P488;=Genes!R488
+0;;0;0;=Data!P489;=Genes!R489
+0;;0;0;=Data!P490;=Genes!R490
+0;;0;0;=Data!P491;=Genes!R491
+0;;0;0;=Data!P492;=Genes!R492
+0;;0;0;=Data!P493;=Genes!R493
+0;;0;0;=Data!P494;=Genes!R494
+0;;0;0;=Data!P495;=Genes!R495
+0;;0;0;=Data!P496;=Genes!R496
+0;;0;0;=Data!P497;=Genes!R497
+0;;0;0;=Data!P498;=Genes!R498
+0;;0;0;=Data!P499;=Genes!R499
+0;;0;0;=Data!P500;=Genes!R500
+0;;0;0;=Data!P501;=Genes!R501
+0;;0;0;=Data!P502;=Genes!R502
+0;;0;0;=Data!P503;=Genes!R503
+0;;0;0;=Data!P504;=Genes!R504
+0;;0;0;=Data!P505;=Genes!R505
+0;;0;0;=Data!P506;=Genes!R506
+0;;0;0;=Data!P507;=Genes!R507
+0;;0;0;=Data!P508;=Genes!R508
+0;;0;0;=Data!P509;=Genes!R509
+0;;0;0;=Data!P510;=Genes!R510
+0;;0;0;=Data!P511;=Genes!R511
+0;;0;0;=Data!P512;=Genes!R512
+0;;0;0;=Data!P513;=Genes!R513
+0;;0;0;=Data!P514;=Genes!R514
+0;;0;0;=Data!P515;=Genes!R515
+0;;0;0;=Data!P516;=Genes!R516
+0;;0;0;=Data!P517;=Genes!R517
+0;;0;0;=Data!P518;=Genes!R518
+0;;0;0;=Data!P519;=Genes!R519
+0;;0;0;=Data!P520;=Genes!R520
+0;;0;0;=Data!P521;=Genes!R521
+0;;0;0;=Data!P522;=Genes!R522
+0;;0;0;=Data!P523;=Genes!R523
+0;;0;0;=Data!P524;=Genes!R524
+0;;0;0;=Data!P525;=Genes!R525
+0;;0;0;=Data!P526;=Genes!R526
+0;;0;0;=Data!P527;=Genes!R527
+0;;0;0;=Data!P528;=Genes!R528
+0;;0;0;=Data!P529;=Genes!R529
+0;;0;0;=Data!P530;=Genes!R530
+0;;0;0;=Data!P531;=Genes!R531
+0;;0;0;=Data!P532;=Genes!R532
+0;;0;0;=Data!P533;=Genes!R533
+0;;0;0;=Data!P534;=Genes!R534
+0;;0;0;=Data!P535;=Genes!R535
+0;;0;0;=Data!P536;=Genes!R536
+0;;0;0;=Data!P537;=Genes!R537
+0;;0;0;=Data!P538;=Genes!R538
+0;;0;0;=Data!P539;=Genes!R539
+0;;0;0;=Data!P540;=Genes!R540
+0;;0;0;=Data!P541;=Genes!R541
+0;;0;0;=Data!P542;=Genes!R542
+0;;0;0;=Data!P543;=Genes!R543
+0;;0;0;=Data!P544;=Genes!R544
+0;;0;0;=Data!P545;=Genes!R545
+0;;0;0;=Data!P546;=Genes!R546
+0;;0;0;=Data!P547;=Genes!R547
+0;;0;0;=Data!P548;=Genes!R548
+0;;0;0;=Data!P549;=Genes!R549
+0;;0;0;=Data!P550;=Genes!R550
+0;;0;0;=Data!P551;=Genes!R551
+0;;0;0;=Data!P552;=Genes!R552
+0;;0;0;=Data!P553;=Genes!R553
+0;;0;0;=Data!P554;=Genes!R554
+0;;0;0;=Data!P555;=Genes!R555
+0;;0;0;=Data!P556;=Genes!R556
+0;;0;0;=Data!P557;=Genes!R557
+0;;0;0;=Data!P558;=Genes!R558
+0;;0;0;=Data!P559;=Genes!R559
+0;;0;0;=Data!P560;=Genes!R560
+0;;0;0;=Data!P561;=Genes!R561
+0;;0;0;=Data!P562;=Genes!R562
+0;;0;0;=Data!P563;=Genes!R563
+0;;0;0;=Data!P564;=Genes!R564
+0;;0;0;=Data!P565;=Genes!R565
+0;;0;0;=Data!P566;=Genes!R566
+0;;0;0;=Data!P567;=Genes!R567
+0;;0;0;=Data!P568;=Genes!R568
+0;;0;0;=Data!P569;=Genes!R569
+0;;0;0;=Data!P570;=Genes!R570
+0;;0;0;=Data!P571;=Genes!R571
+0;;0;0;=Data!P572;=Genes!R572
+0;;0;0;=Data!P573;=Genes!R573
+0;;0;0;=Data!P574;=Genes!R574
+0;;0;0;=Data!P575;=Genes!R575
+0;;0;0;=Data!P576;=Genes!R576
+0;;0;0;=Data!P577;=Genes!R577
+0;;0;0;=Data!P578;=Genes!R578
+0;;0;0;=Data!P579;=Genes!R579
+0;;0;0;=Data!P580;=Genes!R580
+0;;0;0;=Data!P581;=Genes!R581
+0;;0;0;=Data!P582;=Genes!R582
+0;;0;0;=Data!P583;=Genes!R583
+0;;0;0;=Data!P584;=Genes!R584
+0;;0;0;=Data!P585;=Genes!R585
+0;;0;0;=Data!P586;=Genes!R586
+0;;0;0;=Data!P587;=Genes!R587
+0;;0;0;=Data!P588;=Genes!R588
+0;;0;0;=Data!P589;=Genes!R589
+0;;0;0;=Data!P590;=Genes!R590
+0;;0;0;=Data!P591;=Genes!R591
+0;;0;0;=Data!P592;=Genes!R592
+0;;0;0;=Data!P593;=Genes!R593
+0;;0;0;=Data!P594;=Genes!R594
+0;;0;0;=Data!P595;=Genes!R595
+0;;0;0;=Data!P596;=Genes!R596
+0;;0;0;=Data!P597;=Genes!R597
+0;;0;0;=Data!P598;=Genes!R598
+0;;0;0;=Data!P599;=Genes!R599
+0;;0;0;=Data!P600;=Genes!R600
+0;;0;0;=Data!P601;=Genes!R601
+0;;0;0;=Data!P602;=Genes!R602
+0;;0;0;=Data!P603;=Genes!R603
+0;;0;0;=Data!P604;=Genes!R604
+0;;0;0;=Data!P605;=Genes!R605
+0;;0;0;=Data!P606;=Genes!R606
+0;;0;0;=Data!P607;=Genes!R607
+0;;0;0;=Data!P608;=Genes!R608
+0;;0;0;=Data!P609;=Genes!R609
+0;;0;0;=Data!P610;=Genes!R610
+0;;0;0;=Data!P611;=Genes!R611
+0;;0;0;=Data!P612;=Genes!R612
+0;;0;0;=Data!P613;=Genes!R613
+0;;0;0;=Data!P614;=Genes!R614
+0;;0;0;=Data!P615;=Genes!R615
+0;;0;0;=Data!P616;=Genes!R616
+0;;0;0;=Data!P617;=Genes!R617
+0;;0;0;=Data!P618;=Genes!R618
+0;;0;0;=Data!P619;=Genes!R619
+0;;0;0;=Data!P620;=Genes!R620
+0;;0;0;=Data!P621;=Genes!R621
+0;;0;0;=Data!P622;=Genes!R622
+0;;0;0;=Data!P623;=Genes!R623
+0;;0;0;=Data!P624;=Genes!R624
+0;;0;0;=Data!P625;=Genes!R625
+0;;0;0;=Data!P626;=Genes!R626
