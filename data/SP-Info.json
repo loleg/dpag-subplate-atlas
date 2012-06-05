@@ -4,6 +4,7 @@ var SP_layers = {
 	"IZ": { t:"Isum Zipsum" },
 	"SP": { t:"Sisum Pipsum" },
 	"LP": { t:"Lisum Pipsum" },
+	"CP": { t:"Cisum Pisum" },
 	"UP": { t:"Uisum Pipsum" },
 	"MZ": { t:"Misum Zipsum" },
 	"WM": { t:"White Matter"},

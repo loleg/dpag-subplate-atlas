@@ -88,6 +88,9 @@ function renderGene(gene) {
 	
 		// Add layer info
 		$.each(this.layers, function() {
+			if (typeof SP_layers[this.n] == 'undefined') {
+				alert("Layer " + this.n + " missing definition"); return;
+			}
 			this.i = SP_layers[this.n].t;
 			if (gdls) {
 				this.f = getGeneFillLevel(gdls[this.n]);
