@@ -3,7 +3,7 @@
 */
 
 // Create a new chart
-var width = 600, height = 300;
+var width = 600, height = 320;
 var chart = Raphael("gene-graph", width, height);
 
 initGeneSearch();
@@ -51,10 +51,14 @@ function locateGene() {
 	$('.gene-title', gr).html(gene.title);
 	
 	var geneIndex = parseInt($(this).parent().attr('index'));
+	if (typeof SP_data[geneIndex] == 'undefined') {
+		alert('Data unavailable for gene at index ' + geneIndex);
+		return;	
+	}
 	renderGene(SP_data[geneIndex]);
 	
-	//test
-	$('img.gene-img', gr).attr('src', 'img/' + gene.title + '.jpg');
+	// test: load an image
+	// $('img.gene-img', gr).attr('src', 'img/' + gene.title + '.jpg');
 	
 	$('ul.gene-functions', gr).empty();
 	$.each(gene.functs, function() {
@@ -81,6 +85,9 @@ function renderGene(gene) {
 	$.each(SP_ages, function(index) { 
 	
 		// Parse age levels
+		if (typeof gene == 'undefined') {
+			alert('Gene ' + this.name + ' missing definition'); return;
+		}
 		var gdls = getLevelsForGene(gene[this.name]);
 		if (!gdls) {
 			this.layers.x_notapplicable = true;
