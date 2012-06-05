@@ -43,6 +43,7 @@ function locateGene() {
 	var gene = {
 		title: $(this).text(),
 		functs: [ 'unknown' ],
+		// TODO: actual similar genes...
 		similar: [ 'Abca8a', 'Acvr2a' ]
 	};
 	
@@ -89,9 +90,8 @@ function renderGene(gene) {
 			alert('Gene ' + this.name + ' missing definition'); return;
 		}
 		var gdls = getLevelsForGene(gene[this.name]);
-		if (!gdls) {
-			this.layers.x_notapplicable = true;
-		}
+		if (gdls.blank) { this.layers.x_blank = true; }
+		else if (gdls.na) { this.layers.x_notapplicable = true; }
 	
 		// Add layer info
 		$.each(this.layers, function() {

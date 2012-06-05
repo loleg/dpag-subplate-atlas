@@ -3,12 +3,16 @@ function getLevelsForGene(genedata) {
 	if (typeof genedata == 'undefined') {
 		alert('Invalid gene data in getLevelsForGene'); return;
 	}
-	var gene_layers = {},
+	var gene_layers = { blank:false, na:false },
 		genedata = $.trim(genedata).toLowerCase();
 	switch (genedata) {
 	case '':
+	case '0':
+		gene_layers.blank = true;
+		return gene_layers;
 	case 'n/a':
-		return false;
+		gene_layers.na = true;
+		return gene_layers;
 	}
 	$.each(
 		genedata.replace(' ','').split(','), 
@@ -150,7 +154,7 @@ Raphael.fn.geneLayers = function (cx, cy, layerWidth, layerHeight, layers, title
     		paper.text(0, 0, 'N/A').attr(textLabelOpts)
 			.translate(cx + (layerWidth / 2), cy - (h / 2))
         );
-    } else {
+    } else if (!layers.x_blank) {
 		// Iterate drawing each layer
 		var currentStep = 0;
 		for (var u in layers) {
