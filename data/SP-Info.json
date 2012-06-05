@@ -5,7 +5,12 @@ var SP_layers = {
 	"SP": { t:"Sisum Pipsum" },
 	"LP": { t:"Lisum Pipsum" },
 	"UP": { t:"Uisum Pipsum" },
-	"MZ": { t:"Misum Zipsum" }
+	"MZ": { t:"Misum Zipsum" },
+	"WM": { t:"White Matter"},
+	"L6": { t: "Layer 6"},
+	"L5": { t: "Layer 5"},
+	"L4": { t: "Layer 4"},
+	"L3": { t: "Layer 23"}
 };
 
 var SP_ages = [{
@@ -27,11 +32,60 @@ var SP_ages = [{
 		}]
 	},{
 		name: 'E18',
-		layers: []
+		layers: [{
+			n: "VZ", s: 1
+		},{
+			n: "SZ", s: 2
+		},{
+			n: "IZ", s: 4
+		},{
+			n: "SP", s: 1
+		},{
+			n: "L6", s: 3
+		},{
+			n: "L5", s: 1
+			
+		},{	n: "CP", s: 3
+		
+		},{
+			n: "MZ", s: 1, b: false
+		}]
 	},{
 		name: 'P4 (P7)',
-		layers: []
+		layers: [{
+			n: "VZ", s: 1
+		},{
+			n: "WM", s: 6
+		},{
+			n: "SP", s: 1
+		},{
+			n: "L6", s: 3
+		},{
+			n: "L5", s: 3
+		},{
+			n: "L4", s: 3
+		},{
+			n: "L3", s: 3
+		},{	
+			n: "MZ", s: 1, b: false
+		}]
 	},{
 		name: 'Adult',
-		layers: []
+		layers: [{
+			n: "VZ", s: 1
+		},{
+			n: "WM", s: 6
+		},{
+			n: "SP", s: 1
+		},{
+			n: "L6", s: 3
+		},{
+			n: "L5", s: 3
+		},{
+			n: "L4", s: 3
+		},{
+			n: "L3", s: 3
+		},{	
+			n: "MZ", s: 1, b: false
+		}]
 	}];
