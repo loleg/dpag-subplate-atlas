@@ -1,626 +1,528 @@
-Gene Symbol;Alt Symbols;E14/E15;E18;P4 (P7);Adult
-2600011C06Rik ;Rbm25;na;na;18;1
-3110035E14Rik;0;0;na;18;21
-6720401G13Rik;0;SP:w, SZ:s;na;18;17
-9130024F11Rik;0;SP:s, IZ:s;na;18;18
-9430020K01Rik;0;0;na;18;1
-9630044O09Rik;Slain1;na;na;18;21
-Abca2;0;SP:w-, LP:w-;SP:s, L5:s;1;2
-Abca8a;0;SP:s;SP:s;17;23
-Abcd4;0;SZ:w, IZ:w;na;18;1
-Acvr2a;0;SP:s, MZ:s;SP:s;0;0
-Adam10;0;SP:s, VZ:w, SZ:w, IZ:w, LP:w, UP:w, MZ:w;SP:w, L5:w;7;4
-Adamts1;0;SP:s;na;0;0
-Adcy8;0;na;na;18;1
-Adra2a;0;0;0;0;0
-Agpat4;0;0;na;18;23
-Alcam;0;all:s;SP:s;2;4
-Angptl2;0;0;0;19;1
-Anln;0;VZ:s, MZ:s;na;18;25
-Aplp2;0;VZ:s, SP:s, LP:s, UP:s;na;18;2
-Apod;0;0;0;17;21
-Apoe;0;SP:s-, VZ:s-, SZ:s-, IZ:s-, MZ:s-;SP:s-, IZ:s-;17;17
-Aqp4;0;0;0;21;21
-Arhgap11a;0;SP:s, SZ:s;na;18;18
-Arhgap26;0;0;na;18;2
-Arhgdib;0;SP:w, LP:w, UP:w;na;18;17
-Arhgef3;0;0;na;18;2
-Arl6ip1;0;VZ:s, SZ:s, LP:w, UP:w;na;18;2
-Ascl1;0;0;SP:s-, IZ:s-;22;26
-Asf1a;0;SP:w, IZ:w, VZ:s, SZ:s;na;18;19
-Aspa;0;na;na;18;22
-Atp6ap2;0;0;na;18;1
-Atp6v0e;0;SP:w;na;18;19
-Aurka;0;VZ:s, SZ:s, IZ:s-;na;18;1
-Bbx;0;VZ:w-, SZ:w-;0;1;19
-BC003331;0;VZ:w, SP:w, CP:w;na;18;5
-Bcl11a;0;SP:s, LP:s, UP:s,  IZ:w;SP:s, CP:s, L6:w, L5:w, MZ:w;2;2
-Bcl2l11;0;0;0;1;19
-Bmp5;0;0;0;19;1
-Bmp6;0;0;0;19;1
-Bnip3l;0;VZ:w, CP:w;na;18;1
-Btg2;0;VZ:s, SZ:s, LP:w, UP:w;na;18;27
-C1qa;0;SP:s-, VZ:s-, SZ-:s, IZ:s-;SP:s-, IZ:s-;17;17
-C1qtnf1;0;0;na;18;0
-C920025E04Rik;H2-T23;na;na;18;27
-Cabp7;0;0;na;18;1
-Cacna2d3;0;SP:s;SP:s, L5:w-;2;17
-Cacnb2;0;0;na;18;4
-Cacng5;0;0;0;0;0
-Cadps2;0;0;SP:w, L5:w;17;17
-Caln1;0;VZ:w, SP:w, LP:w, UP:w;na;18;1
-Camk2d;0;VZ:w;na;18;2
-Car4;0;0;na;18;17
-Carhsp1;0;VZ:w, SZ:w SP:w, MZ:s, UP:s;na;18;22
-Cblb;0;CP:s;na;18;0
-Cbx5;0;VZ:s, SZ:s, LP:s, UP:s;na;18;0
-Cck;0;SP:s, CP:s;SP:s;23;17
-Cckbr;0;0;0;1;4
-Ccnd2;0;VZ:s, SZ:s, SP:s;na;2;26
-Cd164;0;VZ:s, SZ:s;VZ:s, SP:s, L6:s-, L5:s-, CP:s-, MZ:s-;21;21
-Cd47;0;SP:s, LP:s, UP:s;SP:s, L5:s;7;17
-Cdca7;0;SP:s, VZ:s, SZ:s;na;18;17
-Cdh10;0;SP:s, SZ:w;SP:s, CP:w, L6:w, L5:w;1;1
-Cdh11;0;SP:s-;SP:s, L5:s, L6:w;1;21
-Cdh12;0;SP:w;all:s;17;17
-Cdh18;0;SP:s;SP:s, CP:s;21;23
-Cdh4;0;SP:s, IZ:s, LP:s;0;17;19
-Cdh7;0;SP:w-;0;1;17
-Cdh9;0;SP:s-;L5:s, L6:s;17;17
-Cdk2ap1;LOC100047490;0;na;18;2
-Cdk4;0;SP:s, VZ:s, SZ:s;na;18;19
-Cdkn2c;0;SZ:s, Z:w;na;18;4
-Cds2;0;0;na;18;2
-Celsr1;0;VZ:s-, SZ:s-;VZ:s, IZ:s, SP:w, L5w;17;26
-Cetn2;0;VZ:w, SZ:w;na;18;2
-Chrna4;0;0;SP:s;0;8
-Chst11;0;na;na;18;0
-Chst2;0;SP:s;SP:s;1;23
-Cidea;0;0;na;18;0
-Cited2;0;SP:s, IZ:s;SP:s, L5:s;4;17
-Cks2;0;SP:s, IZ:s, VZ:w, SZ:w, LP:w, UP:w, MZ:w;na;18;19
-Cldn11;0;0;0;3;22
-Cldnd1;0;na;na;18;2
-Clic1;0;VZ:s, SZ:s;na;18;2
-Clic5;0;VZ:w, SZ:w, SP:w, LP:s;na;18;0
-Clu;LOC100046120;SP:w, VZ:w, SZ:w;SP:s, L5:w;1;17
-Cnbp;0;VZ:s, SZ:s;na;18;2
-Cnp;0;0;SP:s-, IZ:s-;25;22
-Cntn2;0;SP:s, IZ:s, MZ:s, LP:w, UP:w;SP:w, IZ:w, CP:s;17;2
-Col11a1;0;SP:s;SP:s;0;2
-Col12a1;0;VZ:w, SZ:w;0;17;21
-Col19a1;0;0;na;18;0
-Col9a3;0;SP:w, IZ:w, CP:w-;0;21;17
-Cplx3;0;0;0;1;0
-Cpox;0;0;na;18;1
-Crim1;0;0;na;18;1
-Crtac1;0;0;SP:s;0;1
-Cryab;0;0;na;18;21
-Csdc2;0;SP:w, MZ:w;SP:s, L5:w;1;17
-Csmd3;0;SP:s;SP:s, L6:s, L5:s, CP:s;17;2
-Cstf2;0;VZ:s, SZ:s, IZ:w, SP:s, LP:s, UP:w, MZ:w;na;18;2
-Ctbp2;0;SP:w, VZ:w, SZ:w;L5:w;17;17
-Ctgf;0;SP:s-, VZ:s-;SP:s;0;0
-Ctnnb1;0;SP:w, IZ:w, VZ:s;SP:s, CP:s, VZ:w, IZ:w, L6:w, L5:w, MZ:s;21;21
-Ctss;0;SP:s-, VZ:s-, SZ:s-, IZ:s-;SP:s-, IZ:s-;22;17
-Cttnbp2;0;SP:s, IZ:s, UC:s, MZ:s;SP:s, IZ:s, CP:s-, L5:s-, L6:s-;18;17
-Cux1;0;SP:s, IZ:s, VZ:s, SZ:s;SP:s, IZ:s, CP:s;17;17
-Cux2;0;"SP:s, IZ:s, LC:s; MZ:s";SP:s, IZ:s, CP:s;17;17
-D7Ertd715e;0;na;na;18;17
-D830030K20Rik;Gm1973;na;na;18;1
-Dact1;0;SP:w, MZ:w;CP:s;17;19
-Dbi;0;SP:s-, IZ:s-, VZ:s, SZ:s;VZ:s, IZ:s-, SP:w-, L6:w-, L5:w-, CP:w-;17;17
-Dbndd2;0;na;na;18;2
-Dck;0;SZ:s, SP:w, LP:w, UP:w;na;18;1
-Dct;0;0;na;18;5
-Ddah1;0;SZ:s, VZ:s;na;18;25
-Ddhd1;0;SP:w, IZ:s;na;18;17
-Ddr1;0;0;VZ:s, SP:w, IZ:w;6;17
-Dip2a;0;na;na;18;0
-Dll1;0;VZ:s-;SP:s-, IZ:s-;22;19
-Dlx2;0;0;SP:s, IZ:s;10;26
-Drd1a;0;SP:s, LP:s;SP:s, L6:w, L5:w;0;0
-Dsg2;0;na;na;18;21
-E130012A19Rik;0;VZ:w, SZ:w;na;18;4
-E2f5;0;VZ:s, SZ:w;SP:w, L5:w;19;19
-E2f7;0;VZ:s, SZ:s, MZ:s, UP:s;L5:w;1;19
-E2f8;0;VZ:w, SZ:w;SP:w;19;17
-E330009J07Rik;0;SP:s, IZ:s;na;18;17
-Ect2;0;VZ:s, SZ:w;na;18;19
-Efhd2;0;VZ:s, SP:s, LP:s, UP:s;na;18;4
-Efnb3;0;SP:s, IZ:s, VZ:s-, SZ:s-, LP:s-, UP:s-, MZ:s-;SP:w;1;17
-Egfr;0;0;IZ:s, SP:s;3;17
-Elavl1;0;SP:w, VZ:s, SZ:s;na;18;17
-Elf2;0;SP:s, IZ:w, SZ:w, VZ:w, LP:w, UP:w, MZ:w;SP:s, IZ:s, VZ:w, L6:w, L5:w, CP:w, MZ:w;17;19
-Elk3;0;0;na;19;21
-Emp2;0;VZ:w, SZ:w;na;18;17
-Emr1;0;LP:w, UP:w;na;18;0
-Enpp2;0;SP:s-, VZ:s-, SZ:s-, IZ:s-;na;18;17
-Entpd5;0;0;na;18;0
-Eomes;0;VZ:s, SZ:s, IZ:s-;VZ:s, IZ:s, SP:s-;17;19
-Epha1;0;0;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;1;19
-Epha3;0;SP:w, IZ:s;SP:s, IZ:s;21;19
-Epha5;0;SP:s, IZ:s, MZ:s;SP:s, IZ:s, CP:s, L6:s, L5:s;1;2
-Epn2;0;SP:s, LP:s, UP:s, MZ:w, IZ:w, SZ:w, VZ:w;na;18;0
-Espl1;0;VZ:s, SP:s, CP:s;na;18;17
-Etfa;0;VZ:s, SZ:s;na;18;2
-Etv5;0;VZ:s, SZ:s;SP:s;0;2
-Exph5;0;na;na;18;17
-Faim2;0;na;na;18;4
-Fem1b;0;VZ:w, SZ:w, LP:w, UP:w;na;18;0
-Fgfr1;0;SP:s, IZ:s, VZ:s, SZ:s, MZ:s;0;0;1
-Fn1;0;SP:s, IZ:s;CP:s;17;17
-Fnbp1;0;VZ:s, SZ:s;na;18;3
-Fos;0;0;0;17;17
-Foxm1;Pebp1 or 4933413G19Rik;SZ:s, VZ:w;IZ:s, SP:s, L6:s;22;19
-Foxn2;0;0;0;1;19
-Foxq1;0;SP:w-, VZ:w-, SZ:w-;CP:s, SP:w, IZ:w;2;17
-Fstl1;0;VZ:s;all:w;17;21
-Fyn;0;SP:s, IZ:s, VZ:w, SZ:w, LP:w, UP:w, MZ:w;CP:s, SP:w, IZ:w;13;17
-Fzd1;0;IZ:s;SP:w, L5:w;1;17
-Fzd2;0;SP:s, IZ:s, VZ:s;0;1;19
-Fzd7;0;VZ:w;SP:w, L5:w;17;17
-Gabpa;0;SP:s, VZ:s;L5:s;1;19
-Gabpb1;0;SP:s;0;1;17
-Gabra2;0;0;SP:s, IZ:w, VZ:w, L6:w, L5:w, CP:w, MZ:w;19;19
-Gabra5;0;SP:s;SP:s, L5:s;1;1
-Gabrd;0;SP:s-, IZ:s-, VZ:s;SP:s, IZ:s;15;17
-Gad1;0;SZ:s-, IZ:s-, SP:s-, MZ:s-;IZ:w-, SP:w-, MZ:w-;17;17
-Gadd45a;0;na;na;18;2
-Galnt10;0;SP:w, CP:w;na;18;21
-Gas1;0;VZ:s;all:s;1;17
-Gas5;0;VZ:s, LP:s, UP:s;na;18;0
-Gdf10;0;0;0;0;1
-Gdi2;0;VZ:s, LP:w, Upw;na;18;0
-Gfap;0;0;VZ:s;16;22
-Gja1;0;SP:s-, VZ:s-;SP:w, IZ:w, L5:w;17;17
-Gjb1;0;SP:w, LP:w, UP:w;na;18;22
-Glt28d2;0;VZ:w, SZ:w, LP:w, UP:w;na;18;0
-Gmfb;0;0;na;18;2
-Gnal;0;LP:w, UP:w;na;18;0
-Gng11;0;SP:w;na;18;21
-Gng12;0;0;na;18;0
-Gng4;0;LP:s, UP:s, MZ:w, SP:w, IZ:w, SZ:w, VZ:w;na;18;11
-Golph3;0;na;na;18;1
-Gpc6;0;SP:w, VZ:w, SZ:s, IZ:s;na;18;19
-Gpd1;0;0;na;18;27
-Gpm6b;0;SP:s, VZ:s, MZ:s;na;18;17
-Gpr126;0;0;na;18;1
-Gpr37;0;0;SP:w, L5:w;1;22
-Gpr56;0;0;IZ:w-;1;26
-Gpr88;0;0;0;17;17
-Gprc5b;0;SZ:w, VZ:w;SP:w, IZ:w, L5:s;2;17
-Gpsm2;0;na;na;18;1
-Grb14;0;LP:w, UP:w;na;18;4
-Grem2;0;0;na;18;1
-Grsf1;0;0;na;18;1
-Gsg1l;0;SP:s, LP:s;na;0;4
-Gsn;0;na;na;18;3
-Gspt1;0;SP:w, VZ:w;na;18;17
-Gsta4;0;VZ:w, LP:w, UP:w;na;18;4
-Gtf2b;0;VZ:w, SP:w, UP:w;na;18;17
-H1f0;0;SP:w, IZ:w, VZ:s, SZ:s;na;18;17
-H2afz;0;SP:s, VZ:s;na;18;17
-Hectd2;0;VZ:s, SP:w, CP:s;na;18;21
-Hey1;0;SP:w-, VZ:w, SZ:w, IZ:w-;SP:w, L5:w;1;17
-Hipk2;0;LP:s, Ups;na;18;0
-Hmgb2;0;SP:s-, VZ:s, SZ:s;na;18;18
-Hmgcr;0;SP:s, VZ:s, MZ:s, SZ:w, LP:w, UP:w;na;18;2
-Hmgn2;0;SP:w, VZ:s, SZ:s, IZ:w;SP:w, IZ:s;22;17
-Homer2;0;VZ:w, SZ:w;na;18;4
-Hpcal1;0;0;na;18;0
-Hrh3;0;VZ:s, SZ:w;na;18;17
-Hs3st1;0;SP:s, SZ:s;na;18;17
-Htr1d;0;0;na;0;19
-Id4;0;VZ:s, SZ:s;VZ:s, SP:w;21;17
-Igf1r;0;SP:s;SP:s;0;21
-Igfbp3;0;LP:s, UP:s;SP:s, L6:s;23;19
-Igfbp5;0;SP:w, VZ:s;SP:s, CP:s;2;2
-Il6st;0;0;0;1;19
-Impact;0;0;na;18;0
-Inpp4b;0;0;SP:w;0;0
-Inpp5a;0;VZ:w, SZ:w;na;18;0
-Insig2;0;all:w;na;18;0
-Iqch;0;na;na;18;21
-Itgav;0;VZ:s;SP:s, VZ:s-, IZ:s-, L6:s-, L5:s-, CP:s-, MZ:s-;17;17
-Itm2b;0;SP:s, IZ:s;na;18;17
-Jun;0;VZ:s, SZ:s, SP:w, LP:w, UP:w;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;17;17
-Kcnab1;0;SP:s;SP:s;0;21
-Kcnc4;0;SP:w;na;18;0
-Kcnip3;0;UP:s, LP:s, SZ:w;na;18;1
-Kcnip4;0;0;na;18;5
-Kcnk2;0;all:w;SP:s, VZ:w, IZ:w, L6:w, L5:w, CP:w, MZ:w;1;11
-Kcnt2;0;SP:s, MZ:s;all:s;17;17
-Kif13a;0;SP:s, VZ:s, SZ:w, IZ:w, LP:w, CP:w, MZ:w;na;18;17
-Kif22;0;VZ:s, SP:s, LP:s, UP:s, SZ:w, IZ:w, MZ:w;na;18;17
-Klhl24;0;na;na;18;21
-Kpna1;0;0;na;18;1
-Kpna2;0;SP:w, VZ:s, SZ:s, IZ:s, LP:w-, UP:w-;na;18;1
-Lcp1;5730589K01Rik;0;0;1;17
-Lgals2;0;SP:s, IZ:s;na;18;19
-Lgi3;0;0;0;15;17
-Lgmn;0;SP:s-, IZ:s-;SP:s-, IZ:s-;22;2
-Lhx2;0;SP:s, VZ:s, SZ:s, IZ:s, LP:w, UP:w;VZ:s, SP:s, CP:s, L5:w, L6:w;4;17
-Llgl1;0;na;na;18;21
-Lmbrd1;0;SP:s, LP:w, UP:w;na;18;21
-Lmcd1;0;0;0;19;19
-Lnp;0;0;na;18;17
-Loxl1;0;0;SP:w, L5:w;17;19
-Lpar1;0;na;na;0;0
-Lrch2;0;SP:s, IZ:s, UP:s;na;18;17
-Lrrc58;0;VZ:s, SZ:w, IZ:w, SP:w, LP:w, UP:w, MZ:w;na;18;0
-Lrrfip1;0;0;na;18;0
-Lrrtm1;0;0;SP:w, L5:w;2;1
-Lsm14a;0;VZ:s, SZ:w, IZ:w, SP:w, LP:w, UP:w, MZ:w;na;18;1
-Luc7l2;0;na;na;18;17
-Ly6g6e;0;na;na;18;0
-Mad2l1;0;SP:w, LP:w, SZ:s;na;18;19
-Mapk6;0;SP:s, VZ:s, SZ:s, IZ:s, LP:w, UP:w, MZ:s;na;18;17
-Mapk8;0;0;0;1;1
-March5;0;all:s;na;18;13
-Mcfd2;0;VZ:s, SZ:w, IZ:w, SP:w, LP:s, UP:s, MZ:w;na;18;2
-Mchr1;0;0;0;1;19
-Meis2;Mrg1;VZ:s, SZ:s, LP:s, UP:s;IZ:s, L6:s;17;27
-Mest;0;SP:s, VZ:s, SP:w, UP:w;L5:s;17;17
-Mfap3;0;SP:s, UP:s;na;18;17
-Mfng ;LOC100046464;SP:s-, VZ:s, SZ:s;na;18;19
-Mfsd1;0;VZ:s, SZ:s, SP:s, UP:s;na;18;19
-Mllt3;0;SP:s, IZ:s;na;18;19
-Mmp16;0;SP:s, LP:w, UP:w;na;18;4
-Mmp9;0;VZ:s-, SZ:s-, IZ:s-, SP:s-;L5:s-, L6:s-, SP:s-, IZ:s-;17;19
-Mobp;0;0;0;1;22
-Mog;0;0;0;19;22
-Mospd2;0;VZ:w, SZ:w, IZ:w, SP:w, LP:s, UP:s, MZ:w;na;18;2
-Moxd1;0;na;SP:s;0;0
-Mpdz;0;VZ:s, SZ:s;na;18;17
-Mpi;0;0;na;18;2
-Mtf2;0;SP:w, IZ:w;SP:w, L5:w;1;17
-Mxd3;0;SZ:s;SP:w-, IZ:w-;1;19
-Mxi1;0;all:w;0;19;2
-Myt1;0;SZ:s, IZ:w, SZ:w;IZ:s, SP:s-, L6:w, L5:w-;22;17
-Ncam2;0;SP:s-, MZ:s-,  SZ:w;0;18;17
-Ncor1;0;SP:w, VZ:w, SZ:w, IZ:w;SP:w, L5:w;2;0
-Nde1;0;SP:w-, VZ:s, SZ:s, IZ:w-;SP:w, IZ:w;3;17
-Nedd4;0;VZ:s, SZ:s, SP:w, LP:w;na;18;4
-Nedd4l;0;SP:s, IZ:s,  UP:s, SZ:w;na;18;17
-Neurod1;0;SP:s-, IZ:s;CP:s;17;17
-Nfasc;0;SP:s, IZ:s;SP:s, IZ:s, L5:w;3;0
-Nfe2l2;0;0;0;3;19
-Nfe2l3;0;SP:s, LP:s;SP:s, L6:w, L5:w;21;0
-Nfyb;0;SP:s, IZ:s, LP:s, UP:s;all:strong;1;17
-Ngef;0;SP:s, VZ:s, SZ:w, IZ:w, LP:w, CP:w, MZ:w;SP:s;2;17
-Nkx2-2;0;0;SP:w, L5:w;17;17
-Nmbr;0;0;0;0;19
-Nnat;0;SZ:s, IZ:s, LP:s, UP:s;SP:s, CP:s;2;14
-Notch1;0;SP:s-, VZ:s, SZ:s, IZ:s-;VZ:s, SP:w-, IZ:w-;1;17
-Notch2;0;VZ:s, SZ:s;VZ:s;1;19
-Nptx1;0;SP:w, IZ:w;na;18;23
-Nr3c1;0;SP:w, VZ:w;SP:w, L5:s;2;21
-Nr4a2;0;SP:s;SP:s;0;0
-Nrp1;0;SP:s, IZ:s;SP:w, IZ:s;19;17
-Nrxn1;0;SP:s, LP:s, UP:s;SP:s, L6:s, L5:s;9;21
-Ntrk2;0;SP:s, LP:s, UP:s;SP:s, L6:s, L5:s, IZ:s, VZ:s;17;17
-Nts;0;0;0;1;19
-Nxph3;0;SP:s, LP:s;na;18;21
-Nxph4;0;SP:s;SP:s;0;0
-Olig1;0;SP:s-, VZ:s-, SZ:s-, IZ:s-;SP:s, IZ:s;3;17
-Omg;0;0;na;18;1
-Ostf1;0;SP:s-, IZ:s-;0;19;17
-Oxr1;0;na;na;18;17
-Pbef-1;Nampt;VZ:s, SZ:s, IZ:w, SP:s, LP:s, UP:s, MZ:w;na;18;4
-Pcdh11x;0;SZ:w, VZ:w;0;4;2
-Pcdh17;0;na;na;18;0
-Pcp4;0;0;SP:s, L5:s;1;1
-Pcsk5;0;na;na;18;1
-Pde1a;0;SP:s-;SP:s, L5:s;1;8
-Pde1b;0;VZ:s, SZ:s;na;18;0
-Pdgfc;0;VZ:s, SZ:s, SP:s, LP:s;0;17;17
-Pdia5;0;0;na;18;21
-Peg3;0;0;na;18;2
-Phyhipl;0;SP:s, SZ:s, LP:s;na;18;27
-Pik3r3;0;VZ:w, SZ:w, IZ:w, SP:w, LP:s, UP:s, MZ:w;na;18;21
-Plcxd1;0;na;na;18;2
-Plekha5;0;0;na;18;2
-Plk4;0;SP:w, IZ:w, VZ:w;na;18;19
-Plp1;0;SP:w, IZ:w, MZ:w;0;25;22
-Plxna4;0;SZ:s, IZ:s, SP:w;all:w;17;19
-Pnp;0;SP:s-, VZ:s;na;18;19
-Pou3f2;0;SP:s, IZ:s, MZ:s;SP:s, IZ:s, CP:s;2;2
-Pou3f3;0;SP:s, VZ:s, SZ:s, IZ:s, MZ:s;SP:s, IZ:s, CP:s;17;17
-Ppfibp1;0;SP:s-, IZ:s-;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;1;19
-Ppm1m;0;na;na;18;2
-Ppp1r1b;0;LP:s, UP:s, SP:s;SP:w, L5:s, CP:s;7;27
-Ppp2r1b;0;SP:s, IZ:s;na;18;19
-Ppp3cb;0;na;na;18;2
-Prr13;0;na;na;18;0
-Prss12;0;SP:s-;SP:w;0;1
-Psip1;0;MZ:s, UP:s, VZ:s, SZ:s;na;19;21
-Psph;0;VZ:s, SZ:s;na;18;2
-Ptprg;0;na;na;18;2
-Pxn;0;0;na;18;21
-Rab26;0;na;na;18;21
-Rai14;0;VZ:s, SZ:s;na;18;0
-Rcan2;0;SP:w, MZ:s;SP:s;0;1
-Rgs20;0;0;na;18;4
-Rgs8;0;na;na;18;4
-Rhoa;Gm12844;VZ:s, SZ:s;SP:w, L5:w;1;0
-Rhobtb3;0;VZ:s, SZ:s, SP:s, LP:s, UP:s;na;18;19
-Rnasel;0;SP:w, IZ:w;na;18;19
-Rnd2;0;SP:s, IZ:s;all:s;17;17
-Rnf122;0;SZ:s, LP:s, UP:s, SP:w;na;18;17
-Rnf130;0;na;na;18;0
-Robo2;0;SP:s, IZ:s, LP:s-, UP:s-;SP:s, IZ:s, CP:s, L6:w;1;2
-Rock1;0;0;na;18;2
-S100b;0;0;0;21;17
-Scd2;0;na;na;18;15
-Scrg1;0;VZ:s, SP:s, LP:s, UP:s;na;18;17
-Sdk2;0;0;na;18;21
-Sec24d;0;SP:s, LP:s, UP:s;na;18;21
-Sema3a;0;SP:s-, IZ:s-, LP:s-;SP:s-, L5:s-;17;17
-Sema4a;0;0;SP:w, L5:w;1;25
-Sema4d;0;SP:s, IZ:s, LP:s-, UP:s-;SP:s, L5:s;1;17
-Sema5a;0;SZ:w, VZ:s;VZ:s;1;23
-Sema5b;0;VZ:s, SP:s-, LP:s-, UP:s-;VZ:s, IZ:s-;0;0
-Sema6a;0;SP:s, MZ:s;SP:s, L5:w;1;22
-Sema6d;0;IZ:s, SP:s-, LP:s-, UP:s-;SP:s, L5:s;21;17
-Sept7;0;VZ:s, SZ:s, SP:w, LP:w;na;18;21
-Serpini1;0;LP:s, UP:s, SP:w, IZ:w;na;1;21
-Sestd1;0;LP:w, UP:w;na;18;0
-Sfrp1;0;VZ:s, SZ:s;VZ:s, IZ:s;2;19
-Sfrs1;0;VZ:s, SZ:s;VZ:s, IZ:s;2;19
-Shb;0;SP:s, IZ:s, MZ:w;na;18;0
-Sirpa;0;VZ:w, LP:w, UP:w;na;18;17
-Slain1;0;na;na;18;0
-Slc1a2;0;SP:s, MZ:s;SP:s;0;21
-Slc6a1;0;SP:s-, IZ:s-, MZ:s-;SP:s-, L5:s-;17;17
-Slc8a1;0;SP:s;SP:s, CP:s;21;21
-Slitrk3;0;SP:s, SZ:s, SZ:s;na;18;17
-Sorbs2;0;SP:s, IZ:s;na;18;17
-Sorcs3;0;0;na;18;2
-Sox2;0;SP:s-, VZ:s, SZ:s-, IZ:s-;VZ:s, IZ:s, SP:s, L5:w;5;17
-Sox21;0;VZ:w, SZ:w;0;19;19
-Sst;0;SP:s, IZ:s, MZ:s;SP:s, IZ:s-, L6:s-, L5:s-;17;17
-Stac2;0;0;na;18;2
-Stt3b;0;na;na;18;1
-Sulf1;0;0;na;18;23
-Sulf2;0;SP:s;na;18;1
-Sv2b;0;SP:s, MZ:s;all:s;17;17
-Svil;0;0;na;18;0
-Syne2;0;SP:w, VZ:s, SZ:s;na;18;19
-Syt1;0;SP:s, MZ:s, LP:w, UP:w;SP:s, CP:s, L6:w, L5:w, MZ:w;21;4
-Syt10;0;0;SP:s, IZ:w, VZ:w, L6:w, L5:w, CP:w, MZ:w;23;25
-Syt13;0;LP:s, UP:s;na;18;21
-Tank;0;0;na;18;17
-Tcf12;0;SP:s, VZ:s, SZ:s, IZ:s;VZ:w, IZ:w;19;19
-Tcf7l2;0;0;0;3;19
-Thbs2;0;0;na;18;9
-Thrsp;0;LP:w, UP:w;na;18;0
-Timeless;0;VZ:s, SZ:s;na;17;2
-Timp2;0;na;na;18;2
-Tle1;0;SP:s, IZ:w, SZ:w, VZ:s;VZ:s,  IZ:s, SP:s;17;21
-Tmed10;0;na;na;18;0
-Tmeff2;0;SP:s-, MZ:s-;na;18;2
-Tmem132d;0;0;na;18;17
-Tmem163;0;na;SP:w;1;1
-Tmem2;0;MZ:s;na;3;17
-Tmem40;0;0;na;18;1
-Tnmd;0;0;na;18;0
-Tpbg;0;VZ:s, SZ:s;na;18;0
-Tpd52l1;0;0;0;19;19
-Tppp;2900041A09Rik;LP:s, UP:s;na;18;4
-Trf;0;0;0;19;17
-Trh;0;0;SP:s;0;0
-Trib2;0;SP:w, VZ:w, SZ:w, IZ:w;SP:s, IZ:s, CP:s;17;1
-Trp53i11;0;SP:s, IZ:s, LP:s, UP:w;SP:s, L6:w, L5:w, CP:w, MZ:w;0;2
-Trps1;0;VZ:s, SZ:s;VZ:s, SP:w;1;17
-Tsc22d1;0;SP:s, IZ:s, MZ:s, LP:w, UP:w;SP:s, IZ:s, CP:s;4;4
-Tuba1a;Gm3756 or Gm5620 or Gm6682 or Gm7172 or LOC100044416 or LOC100045728 or Tuba1a or Tuba1b or Tuba1c;SP:s, LP:s, UP:s, MZ:w, IZ:w, SZ:w, VZ:w;na;18;21
-Txnrd1;0;SP:s, IZ:s, LP:s, VZ:s;na;18;17
-Unc5c;0;SP:s;SP:w-, CP:s;1;19
-Usp46;0;SP:s, SZ:s, IZ:s;na;18;21
-Wnt4;0;0;0;0;0
-Yap1;0;na;na;18;1
-Zcchc12;0;SP:s, MZ:s;na;18;17
-Zdhhc2;0;SP:s;SP:s, L5:s;24;17
-Zfp191;0;0;0;1;19
-Zhx1;0;VZ:s, SZ:s;SP:s, IZ:s, L6:w, L5:w, CP:w, MZ:w;17;19
-Zic1;0;0;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;19;19
-Zwint;0;SP:s, SZ:s, MZ:s, LP:s-, UP:s-;na;18;2
-0;;0;0;=Data!P429;=Genes!R429
-0;;0;0;=Data!P430;=Genes!R430
-0;;0;0;=Data!P431;=Genes!R431
-0;;0;0;=Data!P432;=Genes!R432
-0;;0;0;=Data!P433;=Genes!R433
-0;;0;0;=Data!P434;=Genes!R434
-0;;0;0;=Data!P435;=Genes!R435
-0;;0;0;=Data!P436;=Genes!R436
-0;;0;0;=Data!P437;=Genes!R437
-0;;0;0;=Data!P438;=Genes!R438
-0;;0;0;=Data!P439;=Genes!R439
-0;;0;0;=Data!P440;=Genes!R440
-0;;0;0;=Data!P441;=Genes!R441
-0;;0;0;=Data!P442;=Genes!R442
-0;;0;0;=Data!P443;=Genes!R443
-0;;0;0;=Data!P444;=Genes!R444
-0;;0;0;=Data!P445;=Genes!R445
-0;;0;0;=Data!P446;=Genes!R446
-0;;0;0;=Data!P447;=Genes!R447
-0;;0;0;=Data!P448;=Genes!R448
-0;;0;0;=Data!P449;=Genes!R449
-0;;0;0;=Data!P450;=Genes!R450
-0;;0;0;=Data!P451;=Genes!R451
-0;;0;0;=Data!P452;=Genes!R452
-0;;0;0;=Data!P453;=Genes!R453
-0;;0;0;=Data!P454;=Genes!R454
-0;;0;0;=Data!P455;=Genes!R455
-0;;0;0;=Data!P456;=Genes!R456
-0;;0;0;=Data!P457;=Genes!R457
-0;;0;0;=Data!P458;=Genes!R458
-0;;0;0;=Data!P459;=Genes!R459
-0;;0;0;=Data!P460;=Genes!R460
-0;;0;0;=Data!P461;=Genes!R461
-0;;0;0;=Data!P462;=Genes!R462
-0;;0;0;=Data!P463;=Genes!R463
-0;;0;0;=Data!P464;=Genes!R464
-0;;0;0;=Data!P465;=Genes!R465
-0;;0;0;=Data!P466;=Genes!R466
-0;;0;0;=Data!P467;=Genes!R467
-0;;0;0;=Data!P468;=Genes!R468
-0;;0;0;=Data!P469;=Genes!R469
-0;;0;0;=Data!P470;=Genes!R470
-0;;0;0;=Data!P471;=Genes!R471
-0;;0;0;=Data!P472;=Genes!R472
-0;;0;0;=Data!P473;=Genes!R473
-0;;0;0;=Data!P474;=Genes!R474
-0;;0;0;=Data!P475;=Genes!R475
-0;;0;0;=Data!P476;=Genes!R476
-0;;0;0;=Data!P477;=Genes!R477
-0;;0;0;=Data!P478;=Genes!R478
-0;;0;0;=Data!P479;=Genes!R479
-0;;0;0;=Data!P480;=Genes!R480
-0;;0;0;=Data!P481;=Genes!R481
-0;;0;0;=Data!P482;=Genes!R482
-0;;0;0;=Data!P483;=Genes!R483
-0;;0;0;=Data!P484;=Genes!R484
-0;;0;0;=Data!P485;=Genes!R485
-0;;0;0;=Data!P486;=Genes!R486
-0;;0;0;=Data!P487;=Genes!R487
-0;;0;0;=Data!P488;=Genes!R488
-0;;0;0;=Data!P489;=Genes!R489
-0;;0;0;=Data!P490;=Genes!R490
-0;;0;0;=Data!P491;=Genes!R491
-0;;0;0;=Data!P492;=Genes!R492
-0;;0;0;=Data!P493;=Genes!R493
-0;;0;0;=Data!P494;=Genes!R494
-0;;0;0;=Data!P495;=Genes!R495
-0;;0;0;=Data!P496;=Genes!R496
-0;;0;0;=Data!P497;=Genes!R497
-0;;0;0;=Data!P498;=Genes!R498
-0;;0;0;=Data!P499;=Genes!R499
-0;;0;0;=Data!P500;=Genes!R500
-0;;0;0;=Data!P501;=Genes!R501
-0;;0;0;=Data!P502;=Genes!R502
-0;;0;0;=Data!P503;=Genes!R503
-0;;0;0;=Data!P504;=Genes!R504
-0;;0;0;=Data!P505;=Genes!R505
-0;;0;0;=Data!P506;=Genes!R506
-0;;0;0;=Data!P507;=Genes!R507
-0;;0;0;=Data!P508;=Genes!R508
-0;;0;0;=Data!P509;=Genes!R509
-0;;0;0;=Data!P510;=Genes!R510
-0;;0;0;=Data!P511;=Genes!R511
-0;;0;0;=Data!P512;=Genes!R512
-0;;0;0;=Data!P513;=Genes!R513
-0;;0;0;=Data!P514;=Genes!R514
-0;;0;0;=Data!P515;=Genes!R515
-0;;0;0;=Data!P516;=Genes!R516
-0;;0;0;=Data!P517;=Genes!R517
-0;;0;0;=Data!P518;=Genes!R518
-0;;0;0;=Data!P519;=Genes!R519
-0;;0;0;=Data!P520;=Genes!R520
-0;;0;0;=Data!P521;=Genes!R521
-0;;0;0;=Data!P522;=Genes!R522
-0;;0;0;=Data!P523;=Genes!R523
-0;;0;0;=Data!P524;=Genes!R524
-0;;0;0;=Data!P525;=Genes!R525
-0;;0;0;=Data!P526;=Genes!R526
-0;;0;0;=Data!P527;=Genes!R527
-0;;0;0;=Data!P528;=Genes!R528
-0;;0;0;=Data!P529;=Genes!R529
-0;;0;0;=Data!P530;=Genes!R530
-0;;0;0;=Data!P531;=Genes!R531
-0;;0;0;=Data!P532;=Genes!R532
-0;;0;0;=Data!P533;=Genes!R533
-0;;0;0;=Data!P534;=Genes!R534
-0;;0;0;=Data!P535;=Genes!R535
-0;;0;0;=Data!P536;=Genes!R536
-0;;0;0;=Data!P537;=Genes!R537
-0;;0;0;=Data!P538;=Genes!R538
-0;;0;0;=Data!P539;=Genes!R539
-0;;0;0;=Data!P540;=Genes!R540
-0;;0;0;=Data!P541;=Genes!R541
-0;;0;0;=Data!P542;=Genes!R542
-0;;0;0;=Data!P543;=Genes!R543
-0;;0;0;=Data!P544;=Genes!R544
-0;;0;0;=Data!P545;=Genes!R545
-0;;0;0;=Data!P546;=Genes!R546
-0;;0;0;=Data!P547;=Genes!R547
-0;;0;0;=Data!P548;=Genes!R548
-0;;0;0;=Data!P549;=Genes!R549
-0;;0;0;=Data!P550;=Genes!R550
-0;;0;0;=Data!P551;=Genes!R551
-0;;0;0;=Data!P552;=Genes!R552
-0;;0;0;=Data!P553;=Genes!R553
-0;;0;0;=Data!P554;=Genes!R554
-0;;0;0;=Data!P555;=Genes!R555
-0;;0;0;=Data!P556;=Genes!R556
-0;;0;0;=Data!P557;=Genes!R557
-0;;0;0;=Data!P558;=Genes!R558
-0;;0;0;=Data!P559;=Genes!R559
-0;;0;0;=Data!P560;=Genes!R560
-0;;0;0;=Data!P561;=Genes!R561
-0;;0;0;=Data!P562;=Genes!R562
-0;;0;0;=Data!P563;=Genes!R563
-0;;0;0;=Data!P564;=Genes!R564
-0;;0;0;=Data!P565;=Genes!R565
-0;;0;0;=Data!P566;=Genes!R566
-0;;0;0;=Data!P567;=Genes!R567
-0;;0;0;=Data!P568;=Genes!R568
-0;;0;0;=Data!P569;=Genes!R569
-0;;0;0;=Data!P570;=Genes!R570
-0;;0;0;=Data!P571;=Genes!R571
-0;;0;0;=Data!P572;=Genes!R572
-0;;0;0;=Data!P573;=Genes!R573
-0;;0;0;=Data!P574;=Genes!R574
-0;;0;0;=Data!P575;=Genes!R575
-0;;0;0;=Data!P576;=Genes!R576
-0;;0;0;=Data!P577;=Genes!R577
-0;;0;0;=Data!P578;=Genes!R578
-0;;0;0;=Data!P579;=Genes!R579
-0;;0;0;=Data!P580;=Genes!R580
-0;;0;0;=Data!P581;=Genes!R581
-0;;0;0;=Data!P582;=Genes!R582
-0;;0;0;=Data!P583;=Genes!R583
-0;;0;0;=Data!P584;=Genes!R584
-0;;0;0;=Data!P585;=Genes!R585
-0;;0;0;=Data!P586;=Genes!R586
-0;;0;0;=Data!P587;=Genes!R587
-0;;0;0;=Data!P588;=Genes!R588
-0;;0;0;=Data!P589;=Genes!R589
-0;;0;0;=Data!P590;=Genes!R590
-0;;0;0;=Data!P591;=Genes!R591
-0;;0;0;=Data!P592;=Genes!R592
-0;;0;0;=Data!P593;=Genes!R593
-0;;0;0;=Data!P594;=Genes!R594
-0;;0;0;=Data!P595;=Genes!R595
-0;;0;0;=Data!P596;=Genes!R596
-0;;0;0;=Data!P597;=Genes!R597
-0;;0;0;=Data!P598;=Genes!R598
-0;;0;0;=Data!P599;=Genes!R599
-0;;0;0;=Data!P600;=Genes!R600
-0;;0;0;=Data!P601;=Genes!R601
-0;;0;0;=Data!P602;=Genes!R602
-0;;0;0;=Data!P603;=Genes!R603
-0;;0;0;=Data!P604;=Genes!R604
-0;;0;0;=Data!P605;=Genes!R605
-0;;0;0;=Data!P606;=Genes!R606
-0;;0;0;=Data!P607;=Genes!R607
-0;;0;0;=Data!P608;=Genes!R608
-0;;0;0;=Data!P609;=Genes!R609
-0;;0;0;=Data!P610;=Genes!R610
-0;;0;0;=Data!P611;=Genes!R611
-0;;0;0;=Data!P612;=Genes!R612
-0;;0;0;=Data!P613;=Genes!R613
-0;;0;0;=Data!P614;=Genes!R614
-0;;0;0;=Data!P615;=Genes!R615
-0;;0;0;=Data!P616;=Genes!R616
-0;;0;0;=Data!P617;=Genes!R617
-0;;0;0;=Data!P618;=Genes!R618
-0;;0;0;=Data!P619;=Genes!R619
-0;;0;0;=Data!P620;=Genes!R620
-0;;0;0;=Data!P621;=Genes!R621
-0;;0;0;=Data!P622;=Genes!R622
-0;;0;0;=Data!P623;=Genes!R623
-0;;0;0;=Data!P624;=Genes!R624
-0;;0;0;=Data!P625;=Genes!R625
-0;;0;0;=Data!P626;=Genes!R626
+Gene Symbol;Alt Symbols;E14/E15;E14/E15 Pattern;E18;E18 Pattern;P4 (P7);P4 (P7) Pattern;Adult;Adult Pattern;Full name;Function
+2600011C06Rik ;Rbm25;na;na;na;na;na;na;SP:s, L5:s, L6:s-, L4:s-, L3:s-, MZ:s-;2;RNA binding motif protein 25;0
+3110035E14Rik;0;0;0;na;na;na;na;SP:s, L6:w, L5:w-, L3:w-;2;RIKEN cDNA 3110035E14 gene;0
+6720401G13Rik;0;SP:w, SZ:s;2;na;na;na;na;all:s-;3;RIKEN cDNA 6720401G13 gene;0
+9130024F11Rik;0;SP:s, IZ:s;2;na;na;na;na;na;na;RIKEN cDNA 9130024F11 gene;0
+9430020K01Rik;0;0;0;na;na;na;na;SP:s, L5:s;2;RIKEN cDNA 9430020K01 gene;0
+9630044O09Rik;Slain1;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;SLAIN motif family, member 1;0
+Abca2;0;SP:w-, LP:w-;2;SP:s, L5:s;2;SP:s, L5:s;2;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;0;0
+Abca8a;0;SP:s;1;SP:s;1;L5:s, L3:w;4;SP:s, L6:s;2;0;0
+Abcd4;0;SZ:w, IZ:w;4;na;na;na;na;SP:w, L5:w;2;ATP-binding cassette, sub-family D (ALD), member 4;0
+Acvr2a;0;SP:s, MZ:s;1;SP:s;1;SP:s;1;SP:s;1;activin receptor IIA;0
+Adam10;0;SP:s, VZ:w, SZ:w, IZ:w, LP:w, UP:w, MZ:w;2;SP:w, L5:w;2;SP:w, L6:w, L5:w;2;SP:s-, L3:s-;2;a disintegrin and metallopeptidase domain 10;0
+Adamts1;0;SP:s;1;na;na;SP:w;1;SP:w;1;a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 1;0
+Adcy8;0;na;na;na;na;na;na;SP:s-, L5:s-, L4:w, L3:w;2;adenylate cyclase 8;0
+Adra2a;0;0;0;0;0;SP:s;1;SP:s;1;0;0
+Agpat4;0;0;0;na;na;na;na;SP:s, L6:s-;2;0;0
+Alcam;0;all:s;3;SP:s;1;SP:s, L5:s, L3:s;2;SP:s, L3:s, L6:s-, L5:s-, L4:s-, MZ:s-;2;activated leukocyte cell adhesion molecule;0
+Angptl2;0;0;0;0;0;0;0;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;0;0
+Anln;0;VZ:s, MZ:s;4;na;na;na;na;WM:s-, SP:s-, L6:s-;2;0;0
+Aplp2;0;VZ:s, SP:s, LP:s, UP:s;3;na;na;na;na;SP:s, L5:w, L3:w;2;amyloid beta (A4) precursor-like protein 2;0
+Apod;0;0;0;0;0;0;0;WM:s, SP:s-, L6:w-, L5:w-;2;0;0
+Apoe;0;SP:s-, VZ:s-, SZ:s-, IZ:s-, MZ:s-;2;SP:s-, IZ:s-;2;all:s-;3;L3:s, WM:w;4;apolipoprotein E;0
+Aqp4;0;0;0;0;0;WM:s, SP:s, L6:w, L5:w;2;WM:s-;4;aquaporin 4;0
+Arhgap11a;0;SP:s, SZ:s;2;na;na;na;na;na;na;Rho GTPase activating protein 11A;0
+Arhgap26;0;0;0;na;na;na;na;SP:s, L5:s, L3:s;2;Rho GTPase activating protein 26;0
+Arhgdib;0;SP:w, LP:w, UP:w;3;na;na;na;na;L3:s, L5:s, L4:w-, MZ:w-, L6:w-, SP:w;4;Rho, GDP dissociation inhibitor (GDI) beta;0
+Arhgef3;0;0;0;na;na;na;na;SP:s, L5:w, L3:w;2;Rho guanine nucleotide exchange factor (GEF) 3;0
+Arl6ip1;0;VZ:s, SZ:s, LP:w, UP:w;4;na;na;na;na;SP:w, L5:w, L3:s;2;ADP-ribosylation factor-like 6 interacting protein 1;0
+Ascl1;0;0;0;SP:s-, IZ:s-;2;WM:s-;4;VZ:s;4;achaete-scute complex homolog 1 (Drosophila);0
+Asf1a;0;SP:w, IZ:w, VZ:s, SZ:s;2;na;na;na;na;all:w;0;ASF1 anti-silencing function 1 homolog A (S. cerevisiae);0
+Aspa;0;na;na;na;na;na;na;WM:s, SP:s-, L6:s-, L5:s-;2;0;0
+Atp6ap2;0;0;0;na;na;na;na;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;ATPase, H+ transporting, lysosomal accessory protein 2;0
+Atp6v0e;0;SP:w;2;na;na;na;na;0;0;ATPase, H+ transporting, lysosomal V0 subunit E;0
+Aurka;0;VZ:s, SZ:s, IZ:s-;4;na;na;na;na;SP:w, L5:s;2;aurora kinase A;0
+Bbx;0;VZ:w-, SZ:w-;4;0;0;SP:w, L5:w;2;SP:w, L5:w;0;bobby sox homolog (Drosophila);0
+BC003331;0;VZ:w, SP:w, CP:w;3;na;na;na;na;SP:s-, WM:s-, L5:s, L3:s;2;0;0
+Bcl11a;0;SP:s, LP:s, UP:s,  IZ:w;3;SP:s, CP:s, L6:w, L5:w, MZ:w;2;SP:s, L5:s, L3:s;2;SP:s, L5:s, L3:s, L6:w, MZ:w;2;B-cell CLL/lymphoma 11A (zinc finger protein);0
+Bcl2l11;0;0;0;0;0;SP:s, L5:s, WM:w, L6:w, L4:w, L3:w, MZ:w;2;0;0;BCL2-like 11 (apoptosis facilitator);0
+Bmp5;0;0;0;0;0;0;0;SP:s-, L5:s-;2;bone morphogenetic protein 5;0
+Bmp6;0;0;0;0;0;0;0;0;2;13:38436994-38620693;0
+Bnip3l;0;VZ:w, CP:w;4;na;na;na;na;SP:w, L5:w;2;BCL2/adenovirus E1B interacting protein 3-like;0
+Btg2;0;VZ:s, SZ:s, LP:w, UP:w;4;na;na;na;na;SP:s, L6:s, L3:s;2;B-cell translocation gene 2, anti-proliferative;0
+C1qa;0;SP:s-, VZ:s-, SZ-:s, IZ:s-;2;SP:s-, IZ:s-;2;all:s-;3;all:s-;3;complement component 1, q subcomponent, alpha polypeptide;0
+C1qtnf1;0;0;0;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;0;0
+C920025E04Rik;H2-T23;na;na;na;na;na;na;SP:s, L6:s, L3:w;2;RIKEN cDNA C920025E04 gene /// histocompatibility 2, T region locus 23;0
+Cabp7;0;0;0;na;na;na;na;SP:s, L5:s;2;0;0
+Cacna2d3;0;SP:s;1;SP:s, L5:w-;2;SP:s, L5:s, L3:s;2;L5:s, L4:s, L3:s, SP:w;2;calcium channel, voltage-dependent, alpha2/delta subunit 3;0
+Cacnb2;0;0;0;na;na;na;na;SP:s, L3:s, L6:s-, L5:s-, L4:s-, MZ:s-;2;calcium channel, voltage-dependent, beta 2 subunit;0
+Cacng5;0;0;0;0;0;SP:w;1;SP:s-;1;calcium channel, voltage-dependent, gamma subunit 5;0
+Cadps2;0;0;0;SP:w, L5:w;2;L3:s, L5:w, L6:w, SP:w;4;L3:s, L4:s, L5:s, SP:s;3;Ca2+-dependent activator protein for secretion 2;0
+Caln1;0;VZ:w, SP:w, LP:w, UP:w;3;na;na;na;na;SP:w, L5:w;2;calneuron 1;0
+Camk2d;0;VZ:w;4;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;calcium/calmodulin-dependent protein kinase II, delta;0
+Car4;0;0;0;na;na;na;na;L5:s, L4:s, L3:s, SP:w;3;carbonic anhydrase 4;0
+Carhsp1;0;VZ:w, SZ:w SP:w, MZ:s, UP:s;2;na;na;na;na;WM:s, SP:s-, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;4;0;0
+Cblb;0;CP:s;4;na;na;na;na;SP:w;1;Casitas B-lineage lymphoma b;0
+Cbx5;0;VZ:s, SZ:s, LP:s, UP:s;4;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;1;chromobox homolog 5 (Drosophila HP1a);0
+Cck;0;SP:s, CP:s;2;SP:s;1;SP:s, L6:s;2;SP:s, L5:s, L5:w, L4:w, L3:s, MZ:s;2;cholecystokinin;0
+Cckbr;0;0;0;0;0;SP:w, L5:w;2;SP:s, L3:s;2;cholecystokinin B receptor;0
+Ccnd2;0;VZ:s, SZ:s, SP:s;2;na;na;SP:w, L5:s, L3:w;2;VZ:s;4;cyclin D2;0
+Cd164;0;VZ:s, SZ:s;4;VZ:s, SP:s, L6:s-, L5:s-, CP:s-, MZ:s-;2;SP:s, L6:s-, L5:s-, L4:s-, L3:s-;2;SP:s, L5:s-, L6:s-, L4:s-;2;0;0
+Cd47;0;SP:s, LP:w, UP:w;2;SP:s, L5:s;2;SP:w, L6:w, L5:s;2;SP:s, L6:s, L5:s, L3:s, MZ:s;3;0;0
+Cdca7;0;SP:s, VZ:s, SZ:s;2;na;na;na;na;SP:s, L6:s, L5:s, L3:s, MZ:s;3;cell division cycle associated 7;0
+Cdh10;0;SP:s, SZ:w;2;SP:s, CP:w, L6:w, L5:w;2;SP:s, L5:s, L6:w, L4:w, L3:w;2;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;cadherin 10;0
+Cdh11;0;SP:s-;1;SP:s, L5:s, L6:w;2;SP:s, L5:s;2;SP:s, L5:w, L6:w;2;cadherin 11;0
+Cdh12;0;SP:w;2;all:s;3;L5:s, L4:s, L3:s-, SP:s-;4;L3:s, L4:s;4;cadherin 12;0
+Cdh18;0;SP:s;1;SP:s, CP:s;2;SP:s, L6:w, L5:w;2;SP:s, L6:s;2;cadherin 18;0
+Cdh4;0;SP:s, IZ:s, LP:s;2;0;0;L4:s;4;0;0;cadherin 4;0
+Cdh7;0;SP:w-;1;0;0;SP:s-, L5:s, L6:w-, L4:w-, L3:w-;2;L5:s-, L3:w-, L4:w-;4;cadherin 7, type 2;0
+Cdh9;0;SP:s-;1;L5:s, L6:s;4;L6:s, L5:s, L4:s-;4;L6:s;4;cadherin 9;0
+Cdk2ap1;LOC100047490;0;3;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;CDK2 (cyclin-dependent kinase 2)-associated protein 1 /// similar to putative oral cancer suppressor;0
+Cdk4;0;SP:s, VZ:s, SZ:s;2;na;na;na;na;0;0;cyclin-dependent kinase 4;0
+Cdkn2c;0;SZ:s, Z:w;4;na;na;na;na;SP:s, L3:s;2;cyclin-dependent kinase inhibitor 2C (p18, inhibits CDK4);0
+Cds2;0;0;0;na;na;na;na;SP:s, L5:s, L3:s, L6:s-, L4:s-, MZ:s-;2;CDP-diacylglycerol synthase (phosphatidate cytidylyltransferase) 2;0
+Celsr1;0;VZ:s-, SZ:s-;4;VZ:s, IZ:s, SP:w, L5w;2;VZ:s;4;VZ:s;4;cadherin, EGF LAG seven-pass G-type receptor 1 (flamingo homolog, Drosophila);0
+Cetn2;0;VZ:w, SZ:w;4;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;centrin 2;0
+Chrna4;0;0;0;SP:s;1;SP:s;1;SP:s, L6:w, L5:w;2;cholinergic receptor, nicotinic, alpha polypeptide 4;0
+Chst11;0;na;na;na;na;na;na;SP:s;1;carbohydrate sulfotransferase 11;0
+Chst2;0;SP:s;1;SP:s;1;SP:s, L5:w;2;SP:s, L6:s, L5:w, L4:w, L3:w, MZ:w;2;carbohydrate sulfotransferase 2;0
+Cidea;0;0;0;na;na;na;na;SP:w-;1;cell death-inducing DNA fragmentation factor, alpha subunit-like effector A;involved in energy metabolism and lipid storage, regulation of apoptosis
+Cited2;0;SP:s, IZ:s;2;SP:s, L5:s;2;SP:w, L3:s;2;all:s;3;Cbp/p300-interacting transactivator, with Glu/Asp-rich carboxy-terminal domain, 2;0
+Cks2;0;SP:s, IZ:s, VZ:w, SZ:w, LP:w, UP:w, MZ:w;2;na;na;na;na;0;0;CDC28 protein kinase regulatory subunit 2;0
+Cldn11;0;0;0;0;0;SP:s-, WM:s-;2;WM:s, SP:s-, L6:s-, L5:w-, L4:w-;4;0;0
+Cldnd1;0;na;na;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;claudin domain containing 1;0
+Clic1;0;VZ:s, SZ:s;4;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;chloride intracellular channel 1;0
+Clic5;0;VZ:w, SZ:w, SP:w, LP:s;2;na;na;na;na;SP:s;1;0;poorly selective ion channel which transports Cl- and Na+ and K+, could also regulate the assembly or maintenance of the cytoskeleton at the cell surface 
+Clu;LOC100046120;SP:w, VZ:w, SZ:w;2;SP:s, L5:w;2;SP:s, L5:s;2;L3:s, SP:w;4;clusterin /// similar to clusterin;0
+Cnbp;0;VZ:s, SZ:s;4;na;na;na;na;SP:w, L5:w, L3:s;2;cellular nucleic acid binding protein;0
+Cnp;0;0;0;SP:s-, IZ:s-;2;WM:s-, SP:s-, L6:s-;2;WM:s, SP:w-, L6:w-, L5:w-, L4:w-, L3:w-, MZ:w-;4;0;0
+Cntn2;0;SP:s, IZ:s, MZ:s, LP:w, UP:w;2;SP:w, IZ:w, CP:s;2;L3:s, L6:s, SP:w, L5:w;4;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;0;0
+Col11a1;0;SP:s;1;SP:s;1;SP:s, L4:s;1;SP:s-, L5:s-, L3:s;2;collagen, type XI, alpha 1;growth and tridimensional assembly of the fibrillar networks in extracellular matrices
+Col12a1;0;VZ:w, SZ:w;4;0;0;L5:w;4;SP:s, L6:s;2;collagen, type XII, alpha 1;0
+Col19a1;0;0;0;na;na;na;na;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;1;collagen, type XIX, alpha 1;0
+Col9a3;0;SP:w, IZ:w, CP:w-;2;0;0;L3: w, L4:w, L5:s-, L6:s-, SP:s-;3;all:s;3;collagen, type IX, alpha 3;0
+Cplx3;0;0;0;0;0;SP:s, L5:w;2;SP:s;1;0;0
+Cpox;0;0;0;na;na;na;na;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;coproporphyrinogen oxidase;0
+Crim1;0;0;0;na;na;na;na;SP:w, L5:w;2;cysteine rich transmembrane BMP regulator 1 (chordin like);0
+Crtac1;0;0;0;SP:s;1;SP:s, L5:s-;1;SP:w, L5:s-;2;cartilage acidic protein 1;secreted extracellular matrix protein, regulation of cell-cell and cell-matrix adhesion,  
+Cryab;0;0;0;na;na;na;na;WM:s, SP:s, L6:s, L5:w-, L4:w-, L3:w-, MZ:w-;2;crystallin, alpha B;0
+Csdc2;0;SP:w, MZ:w;2;SP:s, L5:w;2;SP:s, L5:s;2;all:s;3;cold shock domain containing C2, RNA binding;0
+Csmd3;0;SP:s;1;SP:s, L6:s, L5:s, CP:s;2;all:s;3;SP:s, L5:s, L3:s;2;CUB and Sushi multiple domains 3;0
+Cstf2;0;VZ:s, SZ:s, IZ:w, SP:s, LP:s, UP:w, MZ:w;3;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;cleavage stimulation factor, 3' pre-RNA subunit 2;0
+Ctbp2;0;SP:w, VZ:w, SZ:w;2;L5:w;4;L5:w;4;L5:w;4;C-terminal binding protein 2;0
+Ctgf;Ccn2;SP:s-, VZ:s-;2;SP:s;1;SP:s;1;SP:s;1;0;matrix-associated heparin-binding protein, modulator of various growth factor signaling pathways,  regulation of cell adhesion and migration, regulation of proliferation and survival, production of remodeling of the extracellular matrix 
+Ctnnb1;0;SP:w, IZ:w, VZ:s;2;SP:s, CP:s, VZ:w, IZ:w, L6:w, L5:w, MZ:s;2;SP:s, L6:w, L5:w;2;SP:s, L6:w, L5:w, L3:w, MZ:w;2;catenin (cadherin associated protein), beta 1;beta-catenin, cell-cell adhesion, transcriptional co-regulator
+Ctss;0;SP:s-, VZ:s-, SZ:s-, IZ:s-;2;SP:s-, IZ:s-;2;WM:s-;4;all:s;3;cathepsin S;0
+Cttnbp2;0;SP:s, IZ:s, UC:s, MZ:s;2;SP:s, IZ:s, CP:s-, L5:s-, L6:s-;2;all:s;na;all:s;3;cortactin binding protein 2;0
+Cux1;0;SP:s, IZ:s, VZ:s, SZ:s;2;SP:s, IZ:s, CP:s;2;L3:s, L4:s, L5:w, L6:w, SP:w;4;L4:s, L3:s, MZ:s;4;cut-like homeobox 1;0
+Cux2;0;"SP:s, IZ:s, LC:s; MZ:s";2;SP:s, IZ:s, CP:s;2;L3:s, L4:s;4;L4:s, L3:s, MZ:s;4;cut-like homeobox 2;0
+D7Ertd715e;0;na;na;na;na;na;na;L3:s, L5:s, L6:w, SP:w;4;DNA segment, Chr 7, ERATO Doi 715, expressed;0
+D830030K20Rik;Gm1973;na;na;na;na;na;na;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;RIKEN cDNA D830030K20 gene /// predicted gene 1973;0
+Dact1;0;SP:w, MZ:w;2;CP:s;4;L4:s, L5:s;4;0;0;dapper homolog 1, antagonist of beta-catenin (xenopus);0
+Dbi;0;SP:s-, IZ:s-, VZ:s, SZ:s;2;VZ:s, IZ:s-, SP:w-, L6:w-, L5:w-, CP:w-;4;VZ:s, WM:s-, SP:s-, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;4;all:s;3;0;0
+Dbndd2;0;na;na;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;dysbindin (dystrobrevin binding protein 1) domain containing 2;0
+Dck;0;SZ:s, SP:w, LP:w, UP:w;4;na;na;na;na;SP:w, L5:w;2;deoxycytidine kinase;0
+Dct;0;0;0;na;na;na;na;SP:w, WM:w, L5:s, L3:s;2;dopachrome tautomerase;0
+Ddah1;0;SZ:s, VZ:s;4;na;na;na;na;WM:s-, SP:s-, L6:w-;2;dimethylarginine dimethylaminohydrolase 1;0
+Ddhd1;0;SP:w, IZ:s;2;na;na;na;na;all:s;3;DDHD domain containing 1;0
+Ddr1;0;0;0;VZ:s, SP:w, IZ:w;2;VZ:s, SP:w, WM:w, L5:w;2;all:s-;3;0;0
+Dip2a;0;na;na;na;na;na;na;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;1;0;0
+Dll1;0;VZ:s-;4;SP:s-, IZ:s-;2;WM:s-;4;all:w;0;delta-like 1 (Drosophila);0
+Dlx2;0;0;0;SP:s, IZ:s;2;VZ:s, SP:w, L5:w, L3:w;2;VZ:s;4;distal-less homeobox 2;0
+Drd1a;0;SP:s, LP:s;2;SP:s, L6:w, L5:w;2;SP:s, L6:s-;1;SP:s;1;dopamine receptor D1a;0
+Dsg2;0;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;desmoglein 2;0
+E130012A19Rik;0;VZ:w, SZ:w;4;na;na;na;na;SP:s, L3:s, L5:s-;2;RIKEN cDNA E130012A19 gene;0
+E2f5;0;VZ:s, SZ:w;4;SP:w, L5:w;2;0;0;0;0;E2F transcription factor 5;0
+E2f7;0;VZ:s, SZ:s, MZ:s, UP:s;4;L5:w;4;SP:w, WM:w, L5:w;2;0;0;E2F transcription factor 7;0
+E2f8;0;VZ:w, SZ:w;4;SP:w;1;0;0;L4:s, L3:s, MZ:s;3;E2F transcription factor 8;0
+E330009J07Rik;0;SP:s, IZ:s;2;na;na;na;na;all:s;3;RIKEN cDNA E330009J07 gene;0
+Ect2;0;VZ:s, SZ:w;4;na;na;na;na;0;0;ect2 oncogene;0
+Efhd2;0;VZ:s, SP:s, LP:s, UP:s;3;na;na;na;na;SP:s, L3:s, L6:w, L5:w, L4:w, MZ:w;2;EF hand domain containing 2;0
+Efnb3;0;SP:s, IZ:s, VZ:s-, SZ:s-, LP:s-, UP:s-, MZ:s-;2;SP:w;1;SP:w, L5:s;2;all:s-;3;0;0
+Egfr;0;0;0;IZ:s, SP:s;2;SP:s, WM:s;2;all:s-;3;epidermal growth factor receptor;0
+Elavl1;0;SP:w, VZ:s, SZ:s;2;na;na;na;na;L3:s, MZ:w, L4:w, L5:w, L6:w, SP:w;3;ELAV (embryonic lethal, abnormal vision, Drosophila)-like 1 (Hu antigen R);0
+Elf2;0;SP:s, IZ:w, SZ:w, VZ:w, LP:w, UP:w, MZ:w;2;SP:s, IZ:s, VZ:w, L6:w, L5:w, CP:w, MZ:w;2;all:s;3;0;0;E74-like factor 2;0
+Elk3;0;0;0;na;na;all:w;3;SP:s, L6:s-, L5:s, L4:s, L3:s, MZ:s;3;ELK3, member of ETS oncogene family;0
+Emp2;0;VZ:w, SZ:w;4;na;na;na;na;L3:s, L4:s, SP:s, L5:w, L6:w;2;epithelial membrane protein 2;0
+Emr1;0;LP:w, UP:w;4;na;na;na;na;SP:w;1;EGF-like module containing, mucin-like, hormone receptor-like sequence 1;0
+Enpp2;0;SP:s-, VZ:s-, SZ:s-, IZ:s-;2;na;na;na;na;L3:s, L5:s-, WM:s-;4;0;0
+Entpd5;0;0;0;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;ectonucleoside triphosphate diphosphohydrolase 5;0
+Eomes;0;VZ:s, SZ:s, IZ:s-;4;VZ:s, IZ:s, SP:s-;2;VZ:s-;4;0;0;eomesodermin homolog (Xenopus laevis);0
+Epha1;0;0;0;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;2;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;0;0;0;0
+Epha3;0;SP:w, IZ:s;2;SP:s, IZ:s;2;SP:s, L5:w, L6:w, L4:w, L3:w, MZ:w;2;0;0;Eph receptor A3;0
+Epha5;0;SP:s, IZ:s, MZ:s;2;SP:s, IZ:s, CP:s, L6:s, L5:s;2;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;Eph receptor A5;0
+Epn2;0;SP:s, LP:s, UP:s, MZ:w, IZ:w, SZ:w, VZ:w;3;na;na;na;na;SP:s, L6:w-, L5:w-, L4:w-, L3:w-, MZ:w-;2;epsin 2;0
+Espl1;0;VZ:s, SP:s, LP:s, UP:s;3;na;na;na;na;L3:s, SP:w, L5:w, L4:w, MZ:w;4;extra spindle poles-like 1 (S. cerevisiae);0
+Etfa;0;VZ:s, SZ:s;4;na;na;na;na;L3:s, SP:w, L5:s, L4:w, MZ:w;2;electron transferring flavoprotein, alpha polypeptide;0
+Etv5;0;VZ:s, SZ:s;4;SP:s;1;SP:s, L5:s;2;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;ets variant gene 5;transcription factor, regulates cell proliferation and  adhesion possibly through the activation of matrix metalloproteinases, 
+Exph5;0;na;na;na;na;na;na;L3:s, SP:w, L5:w, L4:w, MZ:w;4;exophilin 5;0
+Faim2;0;na;na;na;na;na;na;SP:s, L3:s, L6:w, L5:w, L4:w, MZ:w;2;Fas apoptotic inhibitory molecule 2;0
+Fem1b;0;VZ:w, SZ:w, LP:w, UP:w;4;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;1;feminization 1 homolog b (C. elegans);0
+Fgfr1;0;SP:s, IZ:s, VZ:s, SZ:s, MZ:s;2;0;0;SP:w;1;SP:w, L5:w;2;fibroblast growth factor receptor 1;0
+Fn1;0;SP:s, IZ:s;2;CP:s;4;L4:s;4;0;0;fibronectin 1;0
+Fnbp1;0;VZ:s, SZ:s;4;na;na;na;na;SP:s-, WM:s-, L6:w-, L5:w-, L4:w-, L3:w-, MZ:w-;2;0;0
+Fos;0;0;0;0;0;all:w;3;0;3;FBJ osteosarcoma oncogene;0
+Foxm1;Pebp1 or 4933413G19Rik;SZ:s, VZ:w;4;IZ:s, SP:s, L6:s;2;WM:s;4;0;0;RIKEN cDNA 4933413G19 gene /// forkhead box M1 /// phosphatidylethanolamine binding protein 1;0
+Foxn2;0;0;0;0;0;SP:w, L5:w;2;0;0;forkhead box N2;0
+Foxq1;0;SP:w-, VZ:w-, SZ:w-;2;CP:s, SP:w, IZ:w;4;SP:s, L5:s, L3:s, L6:w, L4:w;2;L3:s, SP:w, L6:w-, L5:w-, L4:w;4;forkhead box Q1;0
+Fstl1;0;VZ:s;4;all:w;3;all:s;3;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;2;follistatin-like 1;0
+Fyn;0;SP:s, IZ:s, VZ:w, SZ:w, LP:w, UP:w, MZ:w;2;CP:s, SP:w, IZ:w;4;SP:s-, WM:s-, L3:s, L4:s;2;MZ:s, L3:s, L4:s, L5:w, L6:w, SP:w;4;Fyn proto-oncogene;0
+Fzd1;0;IZ:s;4;SP:w, L5:w;2;SP:w, L5:w;2;MZ:s, L3:s, L4:s, L5:w, L6:w-, SP:w;4;frizzled homolog 1 (Drosophila);0
+Fzd2;0;SP:s, IZ:s, VZ:s;2;0;0;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;0;0;frizzled homolog 2 (Drosophila);0
+Fzd7;0;VZ:w;4;SP:w, L5:w;2;all:s;3;all:s;3;frizzled homolog 7 (Drosophila);0
+Gabpa;0;SP:s, VZ:s;2;L5:s;4;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;0;0;GA repeat binding protein, alpha;0
+Gabpb1;0;SP:s;2;0;0;SP:w, L5:w;2;all:s-;3;GA repeat binding protein, beta 1;0
+Gabra2;0;0;0;SP:s, IZ:w, VZ:w, L6:w, L5:w, CP:w, MZ:w;2;0;0;0;0;gamma-aminobutyric acid (GABA) A receptor, subunit alpha 2;0
+Gabra5;0;SP:s;1;SP:s, L5:s;2;SP:s, L5:s;2;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;0;0
+Gabrd;0;SP:s-, IZ:s-, VZ:s;2;SP:s, IZ:s;2;SP:w, WM:w, L5:w;2;L3:s, L4:s-, L5:s-, L6:s-, SP:s-, MZ:s-;4;gamma-aminobutyric acid (GABA) A receptor, subunit delta;0
+Gad1;0;SZ:s-, IZ:s-, SP:s-, MZ:s-;2;IZ:w-, SP:w-, MZ:w-;2;L5:s, MZ:s;4;all:s;3;glutamic acid decarboxylase 1;0
+Gadd45a;0;na;na;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;growth arrest and DNA-damage-inducible 45 alpha;0
+Galnt10;0;SP:w, CP:w;3;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 10;0
+Gas1;0;VZ:s;4;all:s;3;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;all:s;3;growth arrest specific 1;0
+Gas5;0;VZ:s, LP:s, UP:s;4;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;1;growth arrest specific 5;0
+Gdf10;0;0;0;0;0;SP:w;1;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;growth differentiation factor 10;member of the TGF-beta superfamily
+Gdi2;0;VZ:s, LP:w, Upw;4;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;1;guanosine diphosphate (GDP) dissociation inhibitor 2;0
+Gfap;0;0;0;VZ:s;4;WM:s, SP:s, VZ:s;2;WM:s;4;0;0
+Gja1;0;SP:s-, VZ:s-;2;SP:w, IZ:w, L5:w;2;all:s-;3;L3:s, L4:s-, L5:s-, L6:s-, SP:s-, MZ:s-;4;gap junction protein, alpha 1;0
+Gjb1;0;SP:w, LP:w, UP:w;3;na;na;na;na;WM:s, SP:w, L6:w, L5:w;4;0;0
+Glt28d2;0;VZ:w, SZ:w, LP:w, UP:w;4;na;na;na;na;SP:w;1;glycosyltransferase 28 domain containing 2;0
+Gmfb;0;0;0;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;glia maturation factor, beta;0
+Gnal;0;LP:w, UP:w;4;na;na;na;na;SP:s, L5:w, L3:w, L6:w, L4:w, MZ:w;1;guanine nucleotide binding protein, alpha stimulating, olfactory type;0
+Gng11;0;SP:w;1;na;na;na;na;SP:s, L6:w, L5:w;2;guanine nucleotide binding protein (G protein), gamma 11;gamma11 subunit of G-protein, can potentially regulate a large number of signaling molecules, inhibition of cell proliferation
+Gng12;0;0;0;na;na;na;na;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;1;guanine nucleotide binding protein (G protein), gamma 12;gamma12 subunit of G-protein, can potentially regulate a large number of signaling molecules
+Gng4;0;LP:s, UP:s, MZ:w, SP:w, IZ:w, SZ:w, VZ:w;4;na;na;na;na;SP:w, L4:w;2;guanine nucleotide binding protein (G protein), gamma 4;0
+Golph3;0;na;na;na;na;na;na;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;golgi phosphoprotein 3;0
+Gpc6;0;SP:w, VZ:w, SZ:s, IZ:s;2;na;na;na;na;0;0;glypican 6;0
+Gpd1;0;0;0;na;na;na;na;SP:s, L6:s, L3:s;2;glycerol-3-phosphate dehydrogenase 1 (soluble);0
+Gpm6b;0;SP:s, VZ:s, MZ:s;2;na;na;na;na;all:s;3;glycoprotein m6b;0
+Gpr126;0;0;0;na;na;na;na;SP:w, L5:w;2;G protein-coupled receptor 126;0
+Gpr37;0;0;0;SP:w, L5:w;2;SP:w, L5:w;2;WM:s, SP:s-, L6:s-, L5:s-;4;0;0
+Gpr56;0;0;0;IZ:w-;4;SP:w, L5:w;2;VZ:s;4;0;0
+Gpr88;0;0;0;0;4;L5:s, L4:s;4;L4:s, L3:s, MZ:s, SP:w;4;0;0
+Gprc5b;0;SZ:w, VZ:w;4;SP:w, IZ:w, L5:s;2;SP:s, L5:s, L3:s, L6:w, L4:w;2;L5:s;4;0;0
+Gpsm2;0;na;na;na;na;na;na;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;G-protein signalling modulator 2 (AGS3-like, C. elegans);0
+Grb14;0;LP:w, UP:w;4;na;na;na;na;SP:s, L3:s, L6:w, L5:w, L4:w, MZ:w;2;0;0
+Grem2;0;0;0;na;na;na;na;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;gremlin 2 homolog, cysteine knot superfamily (Xenopus laevis);0
+Grsf1;0;0;0;na;na;na;na;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;G-rich RNA sequence binding factor 1;0
+Gsg1l;0;SP:s, LP:s;2;na;na;SP:s;1;SP:s, L3:s;2;GSG1-like;0
+Gsn;0;na;na;na;na;na;na;SP:s-, WM:s-;2;0;0
+Gspt1;0;SP:w, VZ:w;2;na;na;na;na;all:s;3;G1 to S phase transition 1;0
+Gsta4;0;VZ:w, LP:w, UP:w;4;na;na;na;na;SP:s, L3:s, L6:w-, L5:w-, L4:w-, MZ:w-;2;glutathione S-transferase, alpha 4;0
+Gtf2b;0;VZ:w, SP:w, UP:w;2;na;na;na;na;all:s;3;general transcription factor IIB;0
+H1f0;0;SP:w, IZ:w, VZ:s, SZ:s;2;na;na;na;na;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;3;H1 histone family, member 0;0
+H2afz;0;SP:s, VZ:s;2;na;na;na;na;all:s;3;H2A histone family, member Z;0
+Hectd2;0;VZ:s, SP:w, CP:s;4;na;na;na;na;SP:s, L6:s-, L5:w, L3:w, MZ:w;2;HECT domain containing 2;0
+Hey1;0;SP:w-, VZ:w, SZ:w, IZ:w-;2;SP:w, L5:w;2;SP:w, L5:w;2;all:s;3;hairy/enhancer-of-split related with YRPW motif 1;0
+Hipk2;0;LP:s, Ups;4;na;na;na;na;SP:w;1;0;0
+Hmgb2;0;SP:s-, VZ:s, SZ:s;2;na;na;na;na;na;na;high mobility group box 2;0
+Hmgcr;0;SP:s, VZ:s, MZ:s, SZ:w, LP:w, UP:w;2;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;3-hydroxy-3-methylglutaryl-Coenzyme A reductase;0
+Hmgn2;0;SP:w, VZ:s, SZ:s, IZ:w;2;SP:w, IZ:s;2;WM:s;4;all:s;3;high mobility group nucleosomal binding domain 2;0
+Homer2;0;VZ:w, SZ:w;4;na;na;na;na;SP:s, L3:s, L6:w, L5:w, L4:w, MZ:w;2;homer homolog 2 (Drosophila);0
+Hpcal1;0;0;0;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;0;0
+Hrh3;0;VZ:s, SZ:w;4;na;na;na;na;SP:s, L6:w, L5:s, L4:s, L3:w, MZ:w;2;histamine receptor H3;0
+Hs3st1;0;SP:s, SZ:s;2;na;na;na;na;all:s;3;heparan sulfate (glucosamine) 3-O-sulfotransferase 1;0
+Htr1d;0;0;0;na;na;SP:w;1;0;0;5-hydroxytryptamine (serotonin) receptor 1D;serotonin receptor
+Id4;0;VZ:s, SZ:s;4;VZ:s, SP:w;2;SP:s, L6:w-, L5:w-, L4:w-, L3:w-, MZ:w-;2;all:w;3;0;0
+Igf1r;0;SP:s;1;SP:s;1;SP:s;1;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;insulin-like growth factor I receptor;0
+Igfbp3;0;LP:s, UP:s;4;SP:s, L6:s;2;SP:s, L6:s;2;0;0;insulin-like growth factor binding protein 3;0
+Igfbp5;0;SP:w, VZ:s;2;SP:s, CP:s;2;SP:s, L5:s, L3:s;2;SP:s, L5:s, L3:w;2;0;0
+Il6st;0;0;0;0;0;SP:w, L5:w;2;all:w;0;interleukin 6 signal transducer;0
+Impact;0;0;0;na;na;na;na;SP:s, L6:w-, L5:w-, L4:w-, L3:w-, MZ:w-;1;imprinted and ancient;anti-apoptotic and neuroprotective, regulates neuronal polarity and axonal outgrowth
+Inpp4b;0;0;0;SP:w;1;SP:s;1;SP:s;1;0;phosphatidyl-inositol signaling pathway which regulates various cellular functions including growth, differentiation, apoptosis, protein trafficking and motility
+Inpp5a;0;VZ:w, SZ:w;4;na;na;na;na;SP:s, L6:w;2;inositol polyphosphate-5-phosphatase A;0
+Insig2;0;all:w;0;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;insulin induced gene 2;0
+Iqch;0;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;0;0
+Itgav;0;VZ:s;4;SP:s, VZ:s-, IZ:s-, L6:s-, L5:s-, CP:s-, MZ:s-;2;all:s;3;L5:s, L3:w;4;integrin alpha V;0
+Itm2b;0;SP:s, IZ:s;2;na;na;na;na;all:s;3;integral membrane protein 2B;0
+Jun;0;VZ:s, SZ:s, SP:w, LP:w, UP:w;3;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;2;L5:s;4;L3:s, MZ:w, L4:w, L5:w, L6:w, SP:w;4;Jun oncogene;0
+Kcnab1;Kvb1.3 or Kv-beta1;SP:s;1;SP:s;1;SP:s;1;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;2;promotes rapid closure of Kv channels, influences the resting potential as well as threshold of excitation and wave form and frequency of action potentials;0
+Kcnc4;0;SP:w;1;na;na;na;na;SP:s;1;potassium voltage gated channel, Shaw-related subfamily, member 4;conducts fast inactivating, high threshold currents, regulates the level of excitability, 
+Kcnip3;0;UP:s, LP:s, SZ:w;4;na;na;na;na;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;0;0
+Kcnip4;0;0;0;na;na;na;na;SP:s, WM:s, L5:s, L3:s, L6:w, L4:w, MZ:s;2;Kv channel interacting protein 4;0
+Kcnk2;0;all:w;0;SP:s, VZ:w, IZ:w, L6:w, L5:w, CP:w, MZ:w;2;SP:s, L5:s;2;SP:s, L4:s;2;potassium channel, subfamily K, member 2;0
+Kcnt2;0;SP:s, MZ:s;1;all:s;3;all:s;3;all:s;3;0;0
+Kif13a;0;SP:s, VZ:s, SZ:w, IZ:w, LP:w, CP:w, MZ:w;2;na;na;na;na;all:s;3;kinesin family member 13A;0
+Kif22;0;VZ:s, SP:s, LP:s, UP:s, SZ:w, IZ:w, MZ:w;3;na;na;na;na;L5:s, L3:s, SP:w, L6:w, L4:w, MZ:w;4;kinesin family member 22;0
+Klhl24;0;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;kelch-like 24 (Drosophila);0
+Kpna1;0;0;0;na;na;na;na;SP:s, L5:s, L6:s-, L4:s-, L3:s-, MZ:s-;2;karyopherin (importin) alpha 1;0
+Kpna2;0;SP:w, VZ:s, SZ:s, IZ:s, LP:w-, UP:w-;2;na;na;na;na;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;karyopherin (importin) alpha 2;0
+Lcp1;5730589K01Rik;0;0;0;0;SP:s, L5:s;2;all:s;3;lymphocyte cytosolic protein 1;0
+Lgals2;0;SP:s, IZ:s;2;na;na;na;na;0;0;0;0
+Lgi3;0;0;0;0;0;SP:s, WM:s, L5:s;2;WM:s, L5:s, L3:s, SP:w, L6:w, L4:w, MZ:w;4;leucine-rich repeat LGI family, member 3;0
+Lgmn;0;SP:s-, IZ:s-;2;SP:s-, IZ:s-;2;WM:s-;4;SP:s, L5:s, L3:s;2;legumain;0
+Lhx2;0;SP:s, VZ:s, SZ:s, IZ:s, LP:w, UP:w;2;VZ:s, SP:s, CP:s, L5:w, L6:w;3;SP:s, L3:s, WM:s;2;L5:w, L3:w;4;LIM homeobox protein 2;0
+Llgl1;0;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w-, L3:w-;2;0;0
+Lmbrd1;0;SP:s, LP:w, UP:w;2;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;LMBR1 domain containing 1;lysosomal membrane protein, possibly involved in the uptake of vitamin B12
+Lmcd1;0;0;0;0;0;0;0;0;0;LIM and cysteine-rich domains 1;0
+Lnp;0;0;0;na;na;na;na;L3:s, L5:s, SP:w;4;limb and neural patterns;0
+Loxl1;0;0;0;SP:w, L5:w;2;L5:s, L6:w, SP:w;4;0;0;lysyl oxidase-like 1;0
+Lpar1;0;na;na;na;na;SP:s, L6:s-, L5:s-, L4:s-, L3:s-;2;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;0;0
+Lrch2;0;SP:s, IZ:s, UP:s;2;na;na;na;na;all:s;3;leucine-rich repeats and calponin homology (CH) domain containing 2;0
+Lrrc58;0;VZ:s, SZ:w, IZ:w, SP:w, LP:w, UP:w, MZ:w;4;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;leucine rich repeat containing 58;0
+Lrrfip1;0;0;0;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;leucine rich repeat (in FLII) interacting protein 1;0
+Lrrtm1;0;0;0;SP:w, L5:w;2;SP:s, L5:s, L3:s;2;SP:s, L5:s;2;0;0
+Lsm14a;0;VZ:s, SZ:w, IZ:w, SP:w, LP:w, UP:w, MZ:w;4;na;na;na;na;SP:s-, L5:s-;2;LSM14 homolog A (SCD6, S. cerevisiae);0
+Luc7l2;0;na;na;na;na;na;na;all:s;3;LUC7-like 2 (S. cerevisiae);0
+Ly6g6e;0;na;na;na;na;na;na;SP:s;1;0;GPI-anchored cell surface protein, cell adhesion and migration
+Mad2l1;0;SP:w, LP:w, SZ:s;2;na;na;na;na;all:w;0;MAD2 mitotic arrest deficient-like 1 (yeast);0
+Mapk6;0;SP:s, VZ:s, SZ:s, IZ:s, LP:w, UP:w, MZ:s;2;na;na;na;na;all:s;3;mitogen-activated protein kinase 6;0
+Mapk8;0;0;0;0;0;SP:s, L5:s;2;SP:s, L5:w;2;mitogen-activated protein kinase 8;0
+March5;0;all:s;3;na;na;na;na;SP:s-, WM:s-, L3:s-;2;membrane-associated ring finger (C3HC4) 5;0
+Mcfd2;0;VZ:s, SZ:w, IZ:w, SP:w, LP:s, UP:s, MZ:w;4;na;na;na;na;SP:s, L5:s-, L3:s-, L6:w-;2;multiple coagulation factor deficiency 2;0
+Mchr1;0;0;0;0;0;SP:w, L5:w;2;0;0;melanin-concentrating hormone receptor 1;0
+Meis2;Mrg1;VZ:s, SZ:s, LP:s, UP:s;4;IZ:s, L6:s;4;L3:s, L6:s, L5:s;4;SP:s, L6:s, L3:s, L5:w, L4:w, MZ:w;2;Meis homeobox 2;0
+Mest;0;SP:s, VZ:s, SP:w, UP:w;2;L5:s;4;L5:s;4;all:s;3;mesoderm specific transcript;0
+Mfap3;0;SP:s, UP:s;2;na;na;na;na;L5:s, L3:s, SP:s-, L6:s-, L4:s-, MZ:s-;4;microfibrillar-associated protein 3;0
+Mfng ;LOC100046464;SP:s-, VZ:s, SZ:s;2;na;na;na;na;0;0;similar to manic fringe /// MFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase;0
+Mfsd1;0;VZ:s, SZ:s, SP:s, UP:s;2;na;na;na;na;0;0;major facilitator superfamily domain containing 1;0
+Mllt3;0;SP:s, IZ:s;2;na;na;na;na;0;0;"myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila); translocated to, 3";0
+Mmp16;MT-MMP2 or MT-MMP3;SP:s, LP:w, UP:w;2;na;na;na;na;SP:s, L3:s;2;matrix metallopeptidase 16;cleavage of various extracelluar matrix proteins including proteoglycan, gelatin, fibronectin, vitronectin and laminin-1, mediates resistance against myelin-induced collapse of the axonal growth cone, regulation of synaptic plasticity
+Mmp9;0;VZ:s-, SZ:s-, IZ:s-, SP:s-;2;L5:s-, L6:s-, SP:s-, IZ:s-;4;0;0;0;0;matrix metallopeptidase 9;0
+Mobp;0;0;0;0;0;SP:w, L5:w;2;WM:s, SP:s-, L6:w-, L5:w-;4;myelin-associated oligodendrocytic basic protein;0
+Mog;0;0;0;0;0;0;0;WM:s, SP:s-, L6:w-, L5:w-;2;0;0
+Mospd2;0;VZ:w, SZ:w, IZ:w, SP:w, LP:s, UP:s, MZ:w;4;na;na;na;na;SP:s, L5:s, L3:s, L6:s-, L4:s-, MZ:s-;2;motile sperm domain containing 2;0
+Moxd1;0;na;na;SP:s;1;SP:s;1;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;1;0;0
+Mpdz;0;VZ:s, SZ:s;4;na;na;na;na;L3:s, L5:s, SP:w;4;multiple PDZ domain protein;0
+Mpi;0;0;0;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;mannose phosphate isomerase;0
+Mtf2;0;SP:w, IZ:w;2;SP:w, L5:w;2;SP:s, L5:s;2;all:s-;3;metal response element binding transcription factor 2;0
+Mxd3;0;SZ:s;4;SP:w-, IZ:w-;2;SP:w, L5:w;2;0;0;0;0
+Mxi1;0;all:w;3;0;0;0;0;SP:s, L5:s, L3:s, L6:w-, L4:w-, MZ:w-;2;Max interacting protein 1;0
+Myt1;0;SZ:s, IZ:w, SZ:w;4;IZ:s, SP:s-, L6:w, L5:w-;2;WM:s;4;L5:s, SP:w, L6:w-, L4:w-, L3:w, MZ:w;4;myelin transcription factor 1;0
+Ncam2;0;SP:s-, MZ:s-,  SZ:w;2;0;0;na;na;L5:s, SP:w, L6:w, L3:w, MZ:w;4;neural cell adhesion molecule 2;0
+Ncor1;0;SP:w, VZ:w, SZ:w, IZ:w;2;SP:w, L5:w;2;SP:w, L5:s, L3:s;2;SP:w;1;nuclear receptor co-repressor 1;0
+Nde1;0;SP:w-, VZ:s, SZ:s, IZ:w-;2;SP:w, IZ:w;2;SP:w, WM:w;2;L3:s, L5:w;4;nuclear distribution gene E homolog 1 (A nidulans);0
+Nedd4;0;VZ:s, SZ:s, SP:w, LP:w;2;na;na;na;na;SP:s, L3:s, L6:w, L5:w, L4:w, MZ:w;2;neural precursor cell expressed, developmentally down-regulated 4;0
+Nedd4l;0;SP:s, IZ:s,  UP:s, SZ:w;2;na;na;na;na;L3:s, L4:s, MZ:s, L5:w, L6:w, SP:w;4;neural precursor cell expressed, developmentally down-regulated gene 4-like;0
+Neurod1;0;SP:s-, IZ:s;2;CP:s;4;L3:s, L4:s;4;MZ:w, L3:w, L4:w;4;neurogenic differentiation 1;0
+Nfasc;0;SP:s, IZ:s;2;SP:s, IZ:s, L5:w;2;SP:s, WM:s-;2;SP:s, L6:w-, L5:w-, L4:w-, L3:w-, MZ:w-;2;neurofascin;0
+Nfe2l2;0;0;0;0;0;SP:w, WM:w;2;0;0;nuclear factor, erythroid derived 2, like 2;0
+Nfe2l3;0;SP:s, LP:s;2;SP:s, L6:w, L5:w;2;SP:s, L6:w, L5:w;2;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;nuclear factor, erythroid derived 2, like 3;0
+Nfyb;0;SP:s, IZ:s, LP:s, UP:s;3;all:strong;3;SP:s, L5:s;2;L5:s, SP:w, L6:w, L4:w, L3:w, MZ:w;4;nuclear transcription factor-Y beta;0
+Ngef;Ephexin;SP:s, VZ:s, SZ:w, IZ:w, LP:w, CP:w, MZ:w;2;SP:s;1;SP:s, L5:s, L3:s;2;SP:s, L6:s, L5:w, L4:s, L3:s, MZ:s;3;neuronal guanine nucleotide exchange factor;regulation of axonal outgrowth and EphA-mediated growth cone repulsion, homeostatic regulation of presynaptic neurotransmitter release
+Nkx2-2;0;0;0;SP:w, L5:w;2;L5:s, L4:s, L3:s, SP:w;2;L3:s, MZ:w, L4:w, L5:w, L6:w, SP:w;4;NK2 transcription factor related, locus 2 (Drosophila);0
+Nmbr;0;0;0;0;0;SP:w;1;0;0;neuromedin B receptor;regulation of cell growth, regulation of neurotransmitter and hormone release (serotonin, thyrotropin)
+Nnat;0;SZ:s, IZ:s, LP:s, UP:s;3;SP:s, CP:s;2;SP:s, L5:s, L3:s;2;VZ:s, SP:s-;2;neuronatin;0
+Notch1;0;SP:s-, VZ:s, SZ:s, IZ:s-;2;VZ:s, SP:w-, IZ:w-;2;SP:w, L5:w, WM:s;2;all:s;3;Notch gene homolog 1 (Drosophila);0
+Notch2;0;VZ:s, SZ:s;4;VZ:s;4;SP:s, L5:w;2;0;0;Notch gene homolog 2 (Drosophila);0
+Nptx1;0;SP:w, IZ:w;2;na;na;na;na;SP:s, L6:s, L3:w;2;neuronal pentraxin 1;0
+Nr3c1;0;SP:w, VZ:w;2;SP:w, L5:s;2;SP:s, L5:s, L3:w;2;SP:s, L6:s, L5:s, L4:w, L3:w, MZ:w;2;nuclear receptor subfamily 3, group C, member 1;0
+Nr4a2;Nurr1;SP:s;1;SP:s;1;SP:s;1;SP:s;1;nuclear receptor subfamily 4, group A, member 2;constituitively active orphan nuclear receptor, cell survival and differentiation, neuroprotection
+Nrp1;0;SP:s, IZ:s;2;SP:w, IZ:s;2;all:w;0;L5:s;4;neuropilin 1;0
+Nrxn1;0;SP:s, LP:s, UP:s;3;SP:s, L6:s, L5:s;2;SP:s, L4:s, L3:s;2;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;neurexin I;0
+Ntrk2;0;SP:s, LP:s, UP:s;3;SP:s, L6:s, L5:s, IZ:s, VZ:s;2;MZ:s, L3:s, L4:w, L5:w, L6:w-, SP:w-;2;all:s;3;neurotrophic tyrosine kinase, receptor, type 2;0
+Nts;0;0;0;0;0;SP:w, L5:w;2;0;0;neurotensin;0
+Nxph3;0;SP:s, LP:s;2;na;na;na;na;SP:s, L6:w, L5:w;2;neurexophilin 3;secreted glycoprotein, regulation of neurotransmitter release, stabilization of postsynaptic elements of the GABA synapse
+Nxph4;0;SP:s;1;SP:s;1;SP:s;1;SP:s;1;neurexophilin 4;secreted glycoprotein
+Olig1;0;SP:s-, VZ:s-, SZ:s-, IZ:s-;2;SP:s, IZ:s;2;SP:s, WM:s;2;all:s;3;0;0
+Omg;0;0;0;na;na;na;na;SP:s, L5:s, L6:w, L3:w, MZ:w;2;oligodendrocyte myelin glycoprotein;0
+Ostf1;0;SP:s-, IZ:s-;2;0;0;0;0;all:s;3;osteoclast stimulating factor 1;0
+Oxr1;0;na;na;na;na;na;na;SP:s, L5:s;2;oxidation resistance 1;0
+Pbef-1;Nampt;VZ:s, SZ:s, IZ:w, SP:s, LP:s, UP:s, MZ:w;3;na;na;na;na;SP:s, L3:s, L6:w, L5:w, L4:w, MZ:w;2;nicotinamide phosphoribosyltransferase;0
+Pcdh11x;0;SZ:w, VZ:w;4;0;0;SP:s, L3:w;2;SP:s, L5:s, L3:s;2;protocadherin 11 X-linked;0
+Pcdh17;0;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;protocadherin 17;0
+Pcp4;0;0;0;SP:s, L5:s;2;SP:s, L5:s;2;SP:s, L5:s, L6:w;2;Purkinje cell protein 4;0
+Pcsk5;0;na;na;na;na;na;na;SP:s, L5:s;2;proprotein convertase subtilisin/kexin type 5;0
+Pde1a;0;SP:s-;1;SP:s, L5:s;2;SP:s, L5:s;2;SP:s, L6:s-, L5:s;2;phosphodiesterase 1A, calmodulin-dependent;Ca2+/calmodulin-stimulated phosphodiesterase, regulation of cAMP and cGMP signaling pathways, regulation of cell survival
+Pde1b;0;VZ:s, SZ:s;4;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;phosphodiesterase 1B, Ca2+-calmodulin dependent;0
+Pdgfc;0;VZ:s, SZ:s, SP:s, LP:s;2;0;0;L3:s-;4;all:s-;3;platelet-derived growth factor, C polypeptide;0
+Pdia5;0;0;0;na;na;na;na;SP:s, L6:w;2;protein disulfide isomerase associated 5;0
+Peg3;0;0;0;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;paternally expressed 3;0
+Phyhipl;0;SP:s, SZ:s, LP:s;2;na;na;na;na;SP:s, L6:s, L3:s;2;phytanoyl-CoA hydroxylase interacting protein-like;0
+Pik3r3;0;VZ:w, SZ:w, IZ:w, SP:w, LP:s, UP:s, MZ:w;4;na;na;na;na;SP:s, L6:s, L5:s, L4:w, L3:w, MZ:w;2;phosphatidylinositol 3 kinase, regulatory subunit, polypeptide 3 (p55);0
+Plcxd1;0;na;na;na;na;na;na;SP:s, L5:s, L3:s;2;phosphatidylinositol-specific phospholipase C, X domain containing 1;0
+Plekha5;0;0;0;na;na;na;na;SP:s, L5:s, L3:s;2;pleckstrin homology domain containing, family A member 5;0
+Plk4;0;SP:w, IZ:w, VZ:w;2;na;na;na;na;0;0;polo-like kinase 4 (Drosophila);0
+Plp1;0;SP:w, IZ:w, MZ:w;2;0;0;WM:s-, SP:s-, L6:s-, L5:w, L3:w;3;WM:s, SP:s-, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;4;0;0
+Plxna4;0;SZ:s, IZ:s, SP:w;2;all:w;0;all:w;3;0;0;plexin A4;0
+Pnp;0;SP:s-, VZ:s;2;na;na;na;na;0;0;purine-nucleoside phosphorylase;0
+Pou3f2;0;SP:s, IZ:s, MZ:s;2;SP:s, IZ:s, CP:s;2;SP:s, L5:s, L3:s;2;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;POU domain, class 3, transcription factor 2;0
+Pou3f3;0;SP:s, VZ:s, SZ:s, IZ:s, MZ:s;2;SP:s, IZ:s, CP:s;2;L3:s, L5:s;4;L5:w;4;POU domain, class 3, transcription factor 3;0
+Ppfibp1;0;SP:s-, IZ:s-;2;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;2;SP:s, WM:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;0;0;PTPRF interacting protein, binding protein 1 (liprin beta 1);0
+Ppm1m;0;na;na;na;na;na;na;SP:s, L5:s, L3:s, L6:s-, L4:s-, MZ:s-;2;protein phosphatase 1M;0
+Ppp1r1b;0;LP:s, UP:s, SP:s;4;SP:w, L5:s, CP:s;2;SP:s, L6:s, L5:s;2;SP:s, L6:s, L3:s;2;protein phosphatase 1, regulatory (inhibitor) subunit 1B;0
+Ppp2r1b;0;SP:s, IZ:s;2;na;na;na;na;0;0;protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), beta isoform;0
+Ppp3cb;0;na;na;na;na;na;na;SP:s, L5:s, L3:s, L6:s-, L4:s-, MZ:s-;2;protein phosphatase 3, catalytic subunit, beta isoform;0
+Prr13;0;na;na;na;na;na;na;SP:s, L5:s-, L3:s-, L6:s-, L4:s-, MZ:s-;2;proline rich 13;0
+Prss12;neurotrypsin or motopsin;SP:s-;1;SP:w;1;SP:s;1;SP:s, L5:w;2;0;serine protease, synaptic plasticity (coincidence detection)
+Psip1;0;MZ:s, UP:s, VZ:s, SZ:s;4;na;na;0;0;SP:s, L6:s-, L5:s-, L4:w-, L3:w-;2;PC4 and SFRS1 interacting protein 1;0
+Psph;0;VZ:s, SZ:s;4;na;na;na;na;SP:s, L5:s, L3:s;2;phosphoserine phosphatase;0
+Ptprg;0;na;na;na;na;na;na;SP:s, L5:s, L3:s;2;protein tyrosine phosphatase, receptor type, G;0
+Pxn;0;0;0;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;paxillin;0
+Rab26;0;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;RAB26, member RAS oncogene family;0
+Rai14;Norpeg or Ankycorbin;VZ:s, SZ:s;4;na;na;na;na;SP:s;1;retinoic acid induced 14;sensor of cellular density
+Rcan2;0;SP:w, MZ:s;2;SP:s;2;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;2;SP:s, L5:s, L6:s-, L4:s-, L3:s-, MZ:s-;2;regulator of calcineurin 2;0
+Rgs20;0;0;0;na;na;na;na;SP:s, L3:s, L6:w, L5:w, L4:w, MZ:w;2;regulator of G-protein signaling 20;0
+Rgs8;0;na;na;na;na;na;na;SP:s, L3:s;2;regulator of G-protein signaling 8;0
+Rhoa;Gm12844;VZ:s, SZ:s;4;SP:w, L5:w;2;SP:s, L5:s;2;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;1;predicted gene 12844 /// ras homolog gene family, member A;0
+Rhobtb3;0;VZ:s, SZ:s, SP:s, LP:s, UP:s;3;na;na;na;na;0;0;Rho-related BTB domain containing 3;0
+Rnasel;0;SP:w, IZ:w;2;na;na;na;na;0;0;ribonuclease L (2', 5'-oligoisoadenylate synthetase-dependent);0
+Rnd2;0;SP:s, IZ:s;2;all:s;3;all:s;3;L3:s, MZ:w, L4:w, L5:w, L6:w, SP:w;4;Rho family GTPase 2;0
+Rnf122;0;SZ:s, LP:s, UP:s, SP:w;4;na;na;na;na;L5:s, L3:s, SP:w, L6:w-, L4:w-;4;ring finger protein 122;0
+Rnf130;0;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;ring finger protein 130;0
+Robo2;0;SP:s, IZ:s, LP:s-, UP:s-;2;SP:s, IZ:s, CP:s, L6:w;2;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;roundabout homolog 2 (Drosophila);0
+Rock1;0;0;0;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;Rho-associated coiled-coil containing protein kinase 1;0
+S100b;0;0;0;0;0;WM:s-, SP:s-, L6:w-;2;L5:s, SP:s-, L6:w-, L4:w-, L3:w-, MZ:w-;4;S100 protein, beta polypeptide, neural;0
+Scd2;0;na;na;na;na;na;na;SP:s, WM:s, L5:s, L3:s, L6:w, L4:w, MZ:s;2;0;0
+Scrg1;0;VZ:s, SP:s, LP:s, UP:s;3;na;na;na;na;all:s;3;scrapie responsive gene 1;0
+Sdk2;0;0;0;na;na;na;na;SP:s, L6:w, L5:w;2;sidekick homolog 2 (chicken);0
+Sec24d;0;SP:s, LP:s, UP:s;3;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;Sec24 related gene family, member D (S. cerevisiae);0
+Sema3a;0;SP:s-, IZ:s-, LP:s-;2;SP:s-, L5:s-;2;L5:s;4;L3:s;4;sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3A;0
+Sema4a;0;0;0;SP:w, L5:w;2;SP:w, L5:w;2;SP:w, L6:w;2;sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4A;0
+Sema4d;0;SP:s, IZ:s, LP:s-, UP:s-;2;SP:s, L5:s;2;SP:w, L5:w;2;all:s-;3;sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4D;0
+Sema5a;0;SZ:w, VZ:s;0;VZ:s;4;SP:s, L5:s, WM:s;2;SP:s, L6:s;2;sema domain, seven thrombospondin repeats (type 1 and type 1-like), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 5A;0
+Sema5b;0;VZ:s, SP:s-, LP:s-, UP:s-;3;VZ:s, IZ:s-;4;SP:s;1;SP:s;1;0;0
+Sema6a;0;SP:s, MZ:s;1;SP:s, L5:w;2;SP:w, L5:s;2;WM:s, SP:s-, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;4;sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6A;axonal guidance, neuronal migration in particular the restriction of neurons from the neuropil
+Sema6d;0;IZ:s, SP:s-, LP:s-, UP:s-;3;SP:s, L5:s;2;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;L5:s-;4;sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6D;0
+Sept7;0;VZ:s, SZ:s, SP:w, LP:w;3;na;na;na;na;SP:s, L6:w, L5:w;2;septin 7;0
+Serpini1;0;LP:s, UP:s, SP:w, IZ:w;4;na;na;SP:s, L5:s-, L6:w-, L4:w-, L3:w-, MZ:w-;2;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;2;0;0
+Sestd1;0;LP:w, UP:w;4;na;na;na;na;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;2;SEC14 and spectrin domains 1;0
+Sfrp1;0;VZ:s, SZ:s;4;VZ:s, IZ:s;4;SP:w, L5:w, L3:w;2;0;0;secreted frizzled-related protein 1;0
+Sfrs1;0;VZ:s, SZ:s;4;VZ:s, IZ:s;4;SP:w, L5:w, L3:w;2;0;0;splicing factor, arginine/serine-rich 1 (ASF/SF2);0
+Shb;0;SP:s, IZ:s, MZ:w;2;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;src homology 2 domain-containing transforming protein B;0
+Sirpa;0;VZ:w, LP:w, UP:w;4;na;na;na;na;SP:s, L6:s, L3:s;2;signal-regulatory protein alpha;0
+Slain1;0;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;0;0
+Slc1a2;Eaat2;SP:s, MZ:s;1;SP:s;1;SP:s;1;SP:s, MZ:s;2;solute carrier family 1 (glial high affinity glutamate transporter), member 2;sodium-dependant excitatory amino acid transporter, glutamate uptake at the synapse
+Slc6a1;0;SP:s-, IZ:s-, MZ:s-;2;SP:s-, L5:s-;2;L5:s;4;all:s-;3;solute carrier family 6 (neurotransmitter transporter, GABA), member 1;0
+Slc8a1;0;SP:s;1;SP:s, CP:s;2;SP:s, L6:w, L5:w;2;SP:s, L6:w, 5:w;2;solute carrier family 8 (sodium/calcium exchanger), member 1;0
+Slitrk3;0;SP:s, SZ:s, SZ:s;2;na;na;na;na;all:s;3;SLIT and NTRK-like family, member 3;0
+Sorbs2;0;SP:s, IZ:s;2;na;na;na;na;L3:s, SP:w;4;sorbin and SH3 domain containing 2;0
+Sorcs3;0;0;0;na;na;na;na;SP:w, L5:w, L3:s;2;sortilin-related VPS10 domain containing receptor 3;0
+Sox2;0;SP:s-, VZ:s, SZ:s-, IZ:s-;2;VZ:s, IZ:s, SP:s, L5:w;2;SP:w, WM:w, L5:w, L3:w;2;all:s-;3;SRY-box containing gene 2;0
+Sox21;0;VZ:w, SZ:w;4;0;0;SP:w, L5:w, L3:s;2;0;0;SRY-box containing gene 21;0
+Sst;0;SP:s, IZ:s, MZ:s;2;SP:s, IZ:s-, L6:s-, L5:s-;2;SP:s, L6:s, L5:s;3;all:s;3;somatostatin;0
+Stac2;0;0;0;na;na;na;na;SP:s, L5:s, L3:s;2;SH3 and cysteine rich domain 2;0
+Stt3b;0;na;na;na;na;na;na;SP:s, L5:w;2;STT3, subunit of the oligosaccharyltransferase complex, homolog B (S. cerevisiae);0
+Sulf1;0;0;0;na;na;na;na;SP:s, L6:s-;2;sulfatase 1;0
+Sulf2;0;SP:s;1;na;na;na;na;SP:s, L5:s;2;sulfatase 2;regulates a variety of signaling pathways by influencing the binding between heparan sulfate proteoglycans and growth factors
+Sv2b;0;SP:s, MZ:s;1;all:s;3;all:s;3;all:s;3;synaptic vesicle glycoprotein 2 b;0
+Svil;0;0;0;na;na;na;na;SP:s;1;supervillin;assembly of adherens junctions, co-activator of some nuclear receptors (androgen r., glucocorticoid r., PPAR? r.), regulation of cell migration through degradation of the extracellular matrix
+Syne2;0;SP:w, VZ:s, SZ:s;2;na;na;na;na;0;0;synaptic nuclear envelope 2;0
+Syt1;0;SP:s, MZ:s, LP:w, UP:w;2;SP:s, CP:s, L6:w, L5:w, MZ:w;2;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;SP:s, L3:s, L6:w, L5:w, L4:w, MZ:w;2;synaptotagmin I;0
+Syt10;0;0;0;SP:s, IZ:w, VZ:w, L6:w, L5:w, CP:w, MZ:w;2;SP:s, L6:s;2; SP:s, L6:s-;2;synaptotagmin X;0
+Syt13;0;LP:s, UP:s;4;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;synaptotagmin XIII;0
+Tank;0;0;0;na;na;na;na;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;2;TRAF family member-associated Nf-kappa B activator;0
+Tcf12;0;SP:s, VZ:s, SZ:s, IZ:s;2;VZ:w, IZ:w;4;all:w;0;0;0;transcription factor 12;0
+Tcf7l2;0;0;0;0;0;SP:s-, WM:s-;2;0;0;transcription factor 7-like 2, T-cell specific, HMG-box;0
+Thbs2;0;0;0;na;na;na;na;SP:s, L4:w, L3:w, L5:w;2;thrombospondin 2;0
+Thrsp;0;LP:w, UP:w;4;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;thyroid hormone responsive SPOT14 homolog (Rattus);regulation of lipogenesis, 
+Timeless;0;VZ:s, SZ:s;4;na;na;all:s-;3;SP:s, L5:s, L3:s;2;timeless homolog (Drosophila);0
+Timp2;0;na;na;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;0;0
+Tle1;0;SP:s, IZ:w, SZ:w, VZ:s;2;VZ:s,  IZ:s, SP:s;2;L3:s, L5:w;4;SP:s, L6:w;2;transducin-like enhancer of split 1, homolog of Drosophila E(spl);0
+Tmed10;0;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;transmembrane emp24-like trafficking protein 10 (yeast);0
+Tmeff2;0;SP:s-, MZ:s-;2;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;0;0
+Tmem132d;0;0;0;na;na;na;na;L3:s, SP:w;2;Transmembrane protein 132D;0
+Tmem163;Sv31;na;na;SP:w;1;SP:s, L5:w;2;SP:s, L5:s;2;0;vesicular transporter
+Tmem2;0;MZ:s;4;na;na;SP:s-, WM:s-;2;all:s-;3;transmembrane protein 2;0
+Tmem40;0;0;0;na;na;na;na;SP:w-, L5:w-;2;transmembrane protein 40;0
+Tnmd;0;0;0;na;na;na;na;SP:s-;1;tenomodulin;inhibitor of angiogenesis
+Tpbg;5t4;VZ:s, SZ:s;4;na;na;na;na;SP:s;1;trophoblast glycoprotein;formation and maintenance of dendrites and synapses
+Tpd52l1;0;0;0;0;0;0;0;0;0;tumor protein D52-like 1;regulation of proliferation, vesicle trafficking and exocytosis
+Tppp;2900041A09Rik;LP:s, UP:s;4;na;na;na;na;SP:s, L3:s;2;tubulin polymerization promoting protein;0
+Trf;0;0;0;0;0;0;0;all:s;2;transferrin;0
+Trh;0;0;0;SP:s;1;SP:s;1;SP:s;1;thyrotropin releasing hormone;0
+Trib2;0;SP:w, VZ:w, SZ:w, IZ:w;2;SP:s, IZ:s, CP:s;2;L4:s, SP:w, L6:w, L5:w, L3:w, MZ:w;4;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;tribbles homolog 2 (Drosophila);0
+Trp53i11;0;SP:s, IZ:s, LP:s, UP:w;2;SP:s;1;SP:s;1;SP:s, L5:s-, L3:s-, L6:w, L4:w, MZ:w;2;0;0
+Trps1;0;VZ:s, SZ:s;4;VZ:s, SP:w;2;SP:w, L5:w;2;L3:w;4;trichorhinophalangeal syndrome I (human);0
+Tsc22d1;0;SP:s, IZ:s, MZ:s, LP:w, UP:w;2;SP:s, IZ:s, CP:s;2;SP:s, L3:s;2;SP:s, L3:s;2;TSC22 domain family, member 1;0
+Tuba1a;Gm3756 or Gm5620 or Gm6682 or Gm7172 or LOC100044416 or LOC100045728 or Tuba1a or Tuba1b or Tuba1c;SP:s, LP:s, UP:s, MZ:w, IZ:w, SZ:w, VZ:w;3;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;predicted gene 3756 /// predicted gene 5620 /// predicted gene 6682 /// predicted gene 7172 /// similar to alpha-tubulin isotype M-alpha-2 /// similar to tubulin, alpha 1 /// tubulin, alpha 1A /// tubulin, alpha 1B /// tubulin, alpha 1C;0
+Txnrd1;0;SP:s, IZ:s, LP:s, VZ:s;2;na;na;na;na;L5:s, SP:w, L6:w, L4:w, L3:w, MZ:w;4;thioredoxin reductase 1;0
+Unc5c;0;SP:s;1;SP:w-, CP:s;2;SP:w, L5:s;2;all:w;0;unc-5 homolog C (C. elegans);Netrin-1 receptor, axonal guidance, cell migration
+Usp46;0;SP:s, SZ:s, IZ:s;2;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;ubiquitin specific peptidase 46;H2A and H2B deubiquitinase, regulation of GABA system
+Wnt4;0;0;0;0;0;SP:w;1;SP:s;1;wingless-related MMTV integration site 4;axonal guidance, neuronal specification, angiogenesis
+Yap1;0;na;na;na;na;na;na;SP:s, L5:s;2;yes-associated protein 1;0
+Zcchc12;0;SP:s, MZ:s;2;na;na;na;na;all:s-;3;zinc finger, CCHC domain containing 12;0
+Zdhhc2;0;SP:s;1;SP:s, L5:s;2;SP:s, L5:s, L4:s;2;L5:s, L4:s;4;zinc finger, DHHC domain containing 2;palmitoyl acyltransferase, regulation of synaptic plasticity, regulation of secretion, cell-cell contacts
+Zfp191;0;0;0;0;0;SP:w, L5:w;2;0;0;zinc finger protein 191;0
+Zhx1;0;VZ:s, SZ:s;4;SP:s, IZ:s, L6:w, L5:w, CP:w, MZ:w;2;all:s;3;0;0;zinc fingers and homeoboxes 1;0
+Zic1;0;0;0;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;2;0;0;0;0;zinc finger protein of the cerebellum 1;0
+Zwint;0;SP:s, SZ:s, MZ:s, LP:s-, UP:s-;2;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;ZW10 interactor;0
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
