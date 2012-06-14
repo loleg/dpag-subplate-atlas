@@ -42,7 +42,7 @@ def csv_to_couch_dump():
   csvReader = csv.reader(open('SP-Shortlist.csv', 'r'), delimiter=';', quotechar='"')
 
   # create database
-  server = Server("https://dpag.iriscouch.com:6984/")
+  server = Server() #"https://dpag.iriscouch.com:6984/"
   db = server.get_or_create_db("dpag-sp-shortlist")
   
   # init the object  
@@ -53,7 +53,7 @@ def csv_to_couch_dump():
     #print col
   
     # skip empty data
-    if col[0] == "Gene Symbol" or col[0] == "0":
+    if col[0] == "Gene Symbol" or col[0] == "0" or col[3] == "0":
       continue
     
     # save the object

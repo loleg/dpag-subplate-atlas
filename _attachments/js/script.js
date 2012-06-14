@@ -1,19 +1,38 @@
-/* Author:
-
-*/
+/* Oleg Lavrovsky 2012 */
+$(function() { 
 
 // Create a new chart
 var width = 600, height = 320;
 var chart = Raphael("gene-graph", width, height);
 
-initGeneSearch();
+// Setup db access
+var path = unescape(document.location.pathname).split('/'),
+    $design = path[3],
+    $db = $.couch.db(path[1]);
+    
+function loadGeneSearch() {
+    $db.view($design + "/all-genes", {
+        descending: false,
+        limit: 500,
+        reduce: false,
+        success: initGeneSearch
+    });
+};
 
-function initGeneSearch() {
+loadGeneSearch();
+
+function initGeneSearch(data) {
+
+	//setupChanges(data.update_seq);
+	/*var them = $.mustache($("#recent-messages").html(), {
+		items : data.rows.map(function(r) {return r.value;})
+	});*/
+	var SP_data = data.rows.map(function(r) {return [r.key, r.value];});
 
 	// Load genes
 	var geneList = $(".gene-list");
 	$.each(SP_data, function(i) {
-		geneList.append('<li index="' + i + '">' + this["Gene Symbol"] + '</li>');
+		geneList.append('<li index="' + i + '">' + this[0] + '</li>');
 	});
 
 	// Keyword search field
@@ -120,3 +139,5 @@ function renderGene(gene) {
 	});
 
 }
+
+});

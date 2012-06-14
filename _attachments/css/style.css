@@ -176,7 +176,7 @@ nav a {
 /* ------ */
 
 .gene-list { height:15em; overflow-y:auto; border:1px solid #ccc; }
-
+.gene-list li { list-style:none; padding:0 .5em; font-weight:bold; }
 
 
 /* =============================================================================

@@ -20,10 +20,6 @@
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<script>window.html5 || document.write('<script src="js/libs/html5.js"><\/script>')</script>
 	<![endif]-->
-		
-	<!-- Load SP_data SP_info SP_ages -->
-	<script type="text/javascript" src="data/SP-Shortlist.json"></script>
-	<script type="text/javascript" src="data/SP-Info.json"></script>
 
 </head>
 <body>
@@ -84,8 +80,20 @@
 			<h3></h3>
 		</footer>
 	</div>
+</body>
+	
+<!-- Load SP layer configuration -->
+<script type="text/javascript" src="data/SP-Info.json"></script>
 
-<script src="js/libs/jquery-1.7.2.min.js"></script>
+<!-- Couchapp dependencies -->
+<script src="/_utils/script/sha1.js"></script>
+<script src="/_utils/script/json2.js"></script>
+<script src="/_utils/script/jquery.js"></script>
+<script src="/_utils/script/jquery.couch.js"></script>
+<script src="vendor/couchapp/jquery.couchLogin.js"></script>
+<script src="vendor/couchapp/jquery.couchProfile.js"></script>
+<script src="vendor/couchapp/md5.js"></script>
+<script src="vendor/couchapp/jquery.mustache.js"></script>
 
 <!--
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
@@ -97,5 +105,5 @@
 <script type="text/javascript" src="js/gene-layers.js"></script>
 
 <script src="js/script.js"></script>
-</body>
+
 </html>
