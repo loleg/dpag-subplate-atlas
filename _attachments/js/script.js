@@ -19,57 +19,84 @@ function loadGeneSearch() {
     });
 };
 
+function loadGeneDetails(id) {
+	$db.openDoc(id, {
+        success: showGeneDetail
+    });
+}
+
 loadGeneSearch();
 
 function initGeneSearch(data) {
 
-	//setupChanges(data.update_seq);
-	/*var them = $.mustache($("#recent-messages").html(), {
-		items : data.rows.map(function(r) {return r.value;})
-	});*/
-	var SP_data = data.rows.map(function(r) {return [r.key, r.value];});
+	var SP_data = data.rows.map(function(r) {return [r.key, r.id];});
 
 	// Load genes
-	var geneList = $(".gene-list");
+	var geneList = $(".gene-list"), geneArray = [];
 	$.each(SP_data, function(i) {
-		geneList.append('<li index="' + i + '">' + this[0] + '</li>');
+		geneList.append('<li index="' + i + '" id="' + this[1] + '">' + this[0] + '</li>');
+		geneArray.push(this[0].toLowerCase());
 	});
 
 	// Keyword search field
-	$("#gene-searchbox").on("keyup", function() {
-		var searchterm = $.trim(this.value);
-		$(".gene-list li").hide().find("a:contains('" + searchterm + "')").parent().show();
+	$("#gene-searchbox").keyup(function() {
+		if (this.value.length < 2) return;
+		var searchTerm = $.trim(this.value).toLowerCase(),
+			objs = $(".gene-list li").hide().parent();
+		for (var i = 0; i < geneArray.length; i++) {
+			if (geneArray[i].indexOf(searchTerm) != -1) {
+				$("li[index='" + i + "']", objs).show();
+			}
+		}
 	});
 
+	// Click on a gene
 	$(".gene-list li").wrapInner('<a href="#"></a>').each(function() {
-		$('a', this).attr("href", "#" + $(this).text()).click(locateGene);
+		$('a', this)
+			.attr("href", "#" + $(this).text())
+			.click(locateGene);
 	});
 
+	// Return to search
 	$(".gene-go-search").click(function() {
-
 		$('.gene-search').show();
 		$('.gene-result').hide();
 		return false;
-	
 	});
 }
 
 // Gene link
 function locateGene() {
+	var geneId = $(this).parent().attr('id');
+	// TODO: local cache
+	loadGeneDetails(geneId);
+}
+
+function showGeneDetail(data) {
 
 	$('.gene-search').hide();
+	console.log(data); return;
+	/*
+		AltSymbols: "Rbm25"
+		Exp_Adult: "SP:s, L5:s, L6:s-, L4:s-, L3:s-, MZ:s-"
+		Exp_E14E15: "na"
+		Exp_E18: "na"
+		Exp_P4P7: "na"
+		FullName: "RNA binding motif protein 25"
+		Function: ""
+		Ptn_Adult: 2
+		Ptn_E14E15: -1
+		Ptn_E18: -1
+		Ptn_P4P7: -1
+		Symbol: "2600011C06Rik"
+	*/
 	
-	var gene = {
-		title: $(this).text(),
-		functs: [ 'unknown' ],
-		// TODO: actual similar genes...
-		similar: [ 'Abca8a', 'Acvr2a' ]
-	};
+	//TODO: find similar
 	
 	var gr = $('.gene-result');
 	
 	$('.gene-title', gr).html(gene.title);
-	
+	/*
 	var geneIndex = parseInt($(this).parent().attr('index'));
 	if (typeof SP_data[geneIndex] == 'undefined') {
 		alert('Data unavailable for gene at index ' + geneIndex);
@@ -92,6 +119,7 @@ function locateGene() {
 	$('ul.gene-similar a', gr).click(locateGene);
 	
 	gr.removeClass("hidden").show();
+	*/
 }
 
 function renderGene(gene) {
