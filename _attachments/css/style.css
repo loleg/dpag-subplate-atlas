@@ -175,9 +175,16 @@ nav a {
 
 /* ------ */
 
-.gene-list { height:15em; overflow-y:auto; border:1px solid #ccc; }
+.gene-list, .gene-similar ul { max-height:15em; overflow-y:auto; border:1px solid #ccc; }
 .gene-list li { list-style:none; padding:0 .5em; font-weight:bold; }
 
+nav { display:none; }
+p.subtitle { color:#eee; clear:both; float:left; }
+
+.close-panel { font-weight:bold; float:right; font-size:20pt; padding:3pt; cursor:pointer; }
+#main-container aside { background: #DDE; color: #003; }
+
+.gene-legend { color:#aaa; border:1px solid #ccc; padding:4pt; font-size:80%; display:inline; }
 
 /* =============================================================================
    Media Queries

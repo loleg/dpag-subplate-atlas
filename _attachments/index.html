@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Subplate Gene Atlas</title>
+	<title>Subplate Gene Expression Atlas</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -25,11 +25,13 @@
 <body>
 	<div id="header-container">
 		<header class="wrapper clearfix">
-			<h1 id="title">Cerebral Cortical Development Group</h1>
+			<h1 id="title">Subplate Gene Expression Atlas</h1>
+			<p class="subtitle">A visualization of genes with a specific or enriched expression in the mouse subplate, including data from early embryonic to adult stages</p>
 			<nav>
 				<ul>
 					<li><a href="#home">Home</a></li>
-					<li><a href="#help">Help</a></li>
+					<li><a href="#genes">Genes</a></li>
+					<li><a href="#patterns">Patterns</a></li>
 					<li><a href="#about">About</a></li>
 				</ul>
 			</nav>
@@ -38,27 +40,29 @@
 	<div id="main-container">
 		<div id="main" class="wrapper clearfix">
 			
-			<article>
-				<header>
-					<h1>Subplate Gene Atlas</h1>
-					<p></p>
-				</header>
+			<article class="home">
+			
+			</article>
+			
+			<article class="genes">
 				<section class="gene-search">
-					<h2>Search for genes</h2>
+					<h2>Search for a gene name</h2>
 					<p>
 					<input id="gene-searchbox" size="30">
 					</p>
-					<h2>or choose a gene from the list</h2>
+					<h2>or select from the list</h2>
 					<ul class="gene-list"></ul>
 				</section>
 				<button class="gene-go-search">Back to search</button>
 				<section class="gene-result hidden"></section>
+				<button class="gene-go-search">Back to search</button>
 				<!--<footer></footer>-->
 			</article>
 			
 			<aside>
+				<div class="close-panel" title="Close">&#10799;</div>
 				<h3>About this tool</h3>
-				<p>Visualization of developmental expression patterns for subplate-enriched and subplate-specific genes in the mouse. The data is based on microarray and deep-sequencing gene expression studies at embryonic, postanatal and adult stages and public available in situ hybridization studies (see Hoerder-Suabedissen et al., 2012).</p>
+				<p>The gene expression data  used for this atlas is based on microarray and RNA sequencing studies and publicly available <i>in situ</i> hybridization images in early embryonic, late embryonic, early postnatal and adult mice. <a href="#">Read more here</a> and see <a href="#">Hoerder-Suabedissen et al., 2012</a>.</p>
 			</aside>
 			
 		</div> <!-- #main -->
@@ -73,7 +77,8 @@
 
 <!-- Templates -->
 <script id="gene-details" type="text/x-mustache" charset="utf-8">
-	<h2 class="gene-title">{{title}}</h2>
+	<h2 class="gene-symbol">{{symbol}}</h2>
+	<h3 class="gene-title">{{title}}</h3>
 	{{#alts}}
 		<div class="gene-altnames">{{alts}}</div>
 	{{/alts}}
@@ -81,16 +86,15 @@
 	<div class="gene-legend">
 		NB: yellow = S, red = W, blue = S-, green = W-
 	</div>
-	{{#functions}}
-		<div class="gene-functions">
-			<label>Possible functions in subplate:</label>
-			<span>{{functions}}</span>
-		</div>
-	{{/functions}}
+	<div class="gene-functions">
+		<h4>Possible functions in subplate:</h4>
+		<span>{{functions}}</span>
+		{{^functions}}<i>?</i>{{/functions}}
+	</div>
 	<div class="gene-similar">
-		<label>Genes with a similar expression pattern:</label>
+		<h4>Genes with a similar temporal expression pattern:</h4>
 		<ul>
-			{{#similar}}<li>{{.}}</li>{{/similar}}
+			{{#similar}}<li id="{{id}}">{{name}}</li>{{/similar}}
 		</ul>
 	</div>
 </script>
@@ -108,9 +112,8 @@
 <script src="vendor/couchapp/md5.js"></script>
 <script src="vendor/couchapp/jquery.mustache.js"></script>
 
-<!--
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
--->
+
 <script type="text/javascript" src="js/libs/raphael-min.js"></script>
 <script type="text/javascript" src="js/libs/raphael-popup.js"></script>
 <script type="text/javascript" src="js/gene-layers.js"></script>

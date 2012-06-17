@@ -33,7 +33,14 @@ function loadGeneSimilar(doc) {
         endkey: sq,
         success: 
         	function(data) {
-        		doc.similar = data;
+        		doc.similar = [];
+        		$.each(data.rows, function() {
+        			if (doc.id == this.id) return;
+        			doc.similar.push({
+        				id: this.id,
+        				name: this.value
+        			});
+        		});
         		showGeneDetail(doc);
         	}
     });
@@ -71,11 +78,7 @@ function initGeneSearch(data) {
 	});
 
 	// Click on a gene
-	$(".gene-list li").wrapInner('<a href="#"></a>').each(function() {
-		$('a', this)
-			.attr("href", "#" + $(this).text())
-			.click(locateGene);
-	});
+	setupGeneList(".gene-list li");
 
 	// Return to search
 	$(".gene-go-search").click(function() {
@@ -83,6 +86,22 @@ function initGeneSearch(data) {
 		$('.gene-result, .gene-go-search').hide();
 		return false;
 	}).hide();
+	
+	// Close panel
+	$('.close-panel').click(function() {
+		$(this).parent().hide();
+	});
+	
+	$('button').button();
+}
+
+// Creates links from a list of genes
+function setupGeneList(obj) {
+	$(obj).wrapInner('<a href="#"></a>').each(function() {
+		$('a', this)
+			.attr("href", "#" + $(this).text())
+			.click(locateGene);
+	});
 }
 
 // Gene link
@@ -98,6 +117,8 @@ function showGeneDetail(data) {
 	$('.gene-go-search').show();
 	console.log(data);
 	/*
+	Example data structure:
+	-----------------------
 		AltSymbols: "Rbm25"
 		Exp_Adult: "SP:s, L5:s, L6:s-, L4:s-, L3:s-, MZ:s-"
 		Exp_E14E15: "na"
@@ -112,18 +133,19 @@ function showGeneDetail(data) {
 		Symbol: "2600011C06Rik"
 	*/
 	
-	//TODO: find similar
-	var similarGenes = ['Abca2', 'Abca8a', 'Abcd4'];
-	
 	// Add details to page
 	var gr = 
 		$('.gene-result').html(
 			$.mustache($("#gene-details").html(), {
+				symbol:		data.Symbol,
 				title:		data.FullName,
 				alts:		data.AltSymbols,
 				functions:	data['Function'],
-				similar:	similarGenes
+				similar:	data.similar
 			})).removeClass('hidden').show();
+
+	// Setup similar links
+	setupGeneList(".gene-similar li");
 
 	// Render gene image
 	chart = Raphael("gene-graph", width, height);
