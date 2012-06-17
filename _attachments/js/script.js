@@ -1,9 +1,9 @@
 /* Oleg Lavrovsky 2012 */
 $(function() { 
 
-// Create a new chart
+// Chart configuration
 var width = 600, height = 320;
-var chart = Raphael("gene-graph", width, height);
+var chart = null;
 
 // Setup db access
 var path = unescape(document.location.pathname).split('/'),
@@ -60,9 +60,9 @@ function initGeneSearch(data) {
 	// Return to search
 	$(".gene-go-search").click(function() {
 		$('.gene-search').show();
-		$('.gene-result').hide();
+		$('.gene-result, .gene-go-search').hide();
 		return false;
-	});
+	}).hide();
 }
 
 // Gene link
@@ -75,7 +75,8 @@ function locateGene() {
 function showGeneDetail(data) {
 
 	$('.gene-search').hide();
-	console.log(data); return;
+	$('.gene-go-search').show();
+	console.log(data);
 	/*
 		AltSymbols: "Rbm25"
 		Exp_Adult: "SP:s, L5:s, L6:s-, L4:s-, L3:s-, MZ:s-"
@@ -92,10 +93,22 @@ function showGeneDetail(data) {
 	*/
 	
 	//TODO: find similar
+	var similarGenes = ['Abca2', 'Abca8a', 'Abcd4'];
 	
-	var gr = $('.gene-result');
+	// Add details to page
+	var gr = 
+		$('.gene-result').html(
+			$.mustache($("#gene-details").html(), {
+				title:		data.FullName,
+				alts:		data.AltSymbols,
+				functions:	data['Function'],
+				similar:	similarGenes
+			})).removeClass('hidden').show();
+
+	// Render gene image
+	chart = Raphael("gene-graph", width, height);
+	renderGene([data.Exp_E14E15, data.Exp_E18, data.Exp_P4P7, data.Exp_Adult]);
 	
-	$('.gene-title', gr).html(gene.title);
 	/*
 	var geneIndex = parseInt($(this).parent().attr('index'));
 	if (typeof SP_data[geneIndex] == 'undefined') {
@@ -124,22 +137,24 @@ function showGeneDetail(data) {
 
 function renderGene(gene) {
 
-	var genechart = [];
+	// Get snapshot of current layer configuration
+	var geneChart = [],
+		geneAges = jQuery.extend(true, {}, SP_ages);
 	
 	// Clear the chart
 	chart.clear();
 	
 	// Iterate through the four ages
-	$.each(SP_ages, function(index) { 
+	$.each(geneAges, function(index) { 
 	
 		// Parse age levels
 		if (typeof gene == 'undefined') {
 			alert('Gene undefined in renderGene'); return;
 		}
-		if (typeof gene[this.name] == 'undefined') {
+		if (typeof gene[index] == 'undefined') {
 			alert('Gene missing definition for ' + this.name); return;
 		}
-		var gdls = getLevelsForGene(gene[this.name]);
+		var gdls = getLevelsForGene(gene[index]);
 		if (gdls.blank) { this.layers.x_blank = true; }
 		else if (gdls.na) { this.layers.x_notapplicable = true; }
 	
@@ -155,7 +170,7 @@ function renderGene(gene) {
 		});
 							 
 		// Create chart for this age
-		genechart.push(
+		geneChart.push(
 			// cx, cy, w, layerHeight
 			chart.geneLayers(parseInt(index * width / 4.4) + 1, 
 							 parseInt(height * 0.9), 
