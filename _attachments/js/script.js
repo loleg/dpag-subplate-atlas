@@ -19,9 +19,29 @@ function loadGeneSearch() {
     });
 };
 
+function loadGeneSimilar(doc) {
+	var sq =
+	 [doc.Ptn_Adult,
+	  doc.Ptn_E14E15,
+	  doc.Ptn_E18,
+	  doc.Ptn_P4P7];
+    $db.view($design + "/similar-genes", {
+        descending: false,
+        limit: 50,
+        reduce: false,
+        startkey: sq,
+        endkey: sq,
+        success: 
+        	function(data) {
+        		doc.similar = data;
+        		showGeneDetail(doc);
+        	}
+    });
+};
+
 function loadGeneDetails(id) {
 	$db.openDoc(id, {
-        success: showGeneDetail
+        success: loadGeneSimilar
     });
 }
 
