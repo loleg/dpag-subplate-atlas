@@ -125,7 +125,7 @@ function locateGene() {
 // Open detail page on a gene
 function showGeneDetail(data) {
 
-	navigateTo('result', false);
+	navigateTo('gene-result', false);
 	console.log(data);
 	/*
 	Example data structure:
@@ -146,14 +146,14 @@ function showGeneDetail(data) {
 	
 	// Add details to page
 	var gr = 
-		$('.gene-result').html(
+		$('.gene-result section').html(
 			$.mustache($("#gene-details").html(), {
 				symbol:		data.Symbol,
 				title:		data.FullName,
 				alts:		data.AltSymbols,
 				functions:	data['Function'],
 				similar:	data.similar
-			})).removeClass('hidden').show();
+			}));
 
 	// Setup similar links
 	setupGeneList(".gene-result .gene-list li");
