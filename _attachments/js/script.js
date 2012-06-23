@@ -6,13 +6,10 @@ var width = 600, height = 320;
 var chart = null;
 
 // Setup page links
-
+$('button').button();
 $('.go').click(function() {
 	var tgt = $(this).attr('href').replace('#','');
-	$('article').addClass('hidden');
-	$('article.' + tgt).removeClass('hidden');
-	$('nav a').removeClass('current');
-	$('nav a[href="#' + tgt + '"]').addClass('current');
+	navigateTo(tgt);
 });
 
 // Setup db access
@@ -20,15 +17,30 @@ var path = unescape(document.location.pathname).split('/'),
     $design = path[3],
     $db = $.couch.db(path[1]);
     
-function loadGeneSearch() {
-    $db.view($design + "/all-genes", {
-        descending: false,
-        limit: 500,
-        reduce: false,
-        success: initGeneSearch
-    });
-};
+// Load gene database
+$db.view($design + "/all-genes", {
+    descending: false,
+    limit: 500,
+    reduce: false,
+    success: initGeneSearch
+});
 
+// Load a specific section of the page
+function navigateTo(tgt) {
+	$('article').addClass('hidden');
+	$('article.' + tgt).removeClass('hidden');
+	$('nav a').removeClass('current');
+	$('nav a[href="#' + tgt + '"]').addClass('current');
+}
+
+// Open full details on a gene
+function loadGeneDetails(id) {
+	$db.openDoc(id, {
+        success: loadGeneSimilar
+    });
+}
+
+// Appropriate similar genes are loaded
 function loadGeneSimilar(doc) {
 	var sq =
 	 [doc.Ptn_Adult,
@@ -54,16 +66,9 @@ function loadGeneSimilar(doc) {
         		showGeneDetail(doc);
         	}
     });
-};
-
-function loadGeneDetails(id) {
-	$db.openDoc(id, {
-        success: loadGeneSimilar
-    });
 }
 
-loadGeneSearch();
-
+// Set up the gene search
 function initGeneSearch(data) {
 
 	var SP_data = data.rows.map(function(r) {return [r.key, r.id];});
@@ -90,22 +95,8 @@ function initGeneSearch(data) {
 		}
 	});
 
-	// Click on a gene
+	// Initial gene list
 	setupGeneList(".gene-list li");
-
-	// Return to search
-	$(".gene-go-search").click(function() {
-		$('.gene-search, .genes').removeClass('hidden');
-		$('article, .gene-result, .gene-go-search').addClass('hidden');
-		return false;
-	}).hide();
-	
-	// Close panel
-	$('.close-panel').click(function() {
-		$(this).parent().hide();
-	});
-	
-	$('button').button();
 }
 
 // Creates links from a list of genes
@@ -124,10 +115,10 @@ function locateGene() {
 	loadGeneDetails(geneId);
 }
 
+// Open detail page on a gene
 function showGeneDetail(data) {
 
-	$('.gene-search').hide();
-	$('.gene-go-search').show();
+	navigateTo('result');
 	console.log(data);
 	/*
 	Example data structure:
@@ -190,6 +181,7 @@ function showGeneDetail(data) {
 	*/
 }
 
+// Sets up gene visualization
 function renderGene(gene) {
 
 	// Get snapshot of current layer configuration
