@@ -86,9 +86,19 @@ nav a.current {
 .gene-legend { 
 	float:right; 
 	color:#aaa; border:1px solid #ccc; 
-	padding:4pt; font-size:80%; 
+	padding:1em; font-size:80%; 
 	display:inline; 
 }
+.gene-legend p { margin:0; }
+.gene-legend span {
+	display:inline-block; border:1px solid #ccc;
+	height:1.5em; width:1.5em;	
+	position: relative; top: 0.5em;
+}
+.gene-s { background: url('../img/dots-dense-black.gif'); }
+.gene-w { background: url('../img/dots-sparse-black.gif'); }
+.gene-s- { background: url('../img/dots-dense-grey.gif'); }
+.gene-w- { background: url('../img/dots-sparse-grey.gif'); }
 
 .result h4 { margin:0; }
 

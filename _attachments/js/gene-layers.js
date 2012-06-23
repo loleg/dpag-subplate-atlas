@@ -111,13 +111,13 @@ Raphael.fn.geneLayers = function (cx, cy, layerWidth, layerHeight, layers, title
 		// Check fill pattern
 		switch(obj.f) {
 		case 1: 
-			layer.f = "yellow"; break;
+			layer.f = "url('img/dots-dense-black.gif')"; break;
 		case 2:
-			layer.f = "red"; break;
+			layer.f = "url('img/dots-sparse-black.gif')"; break;
 		case 3:
-			layer.f = "blue"; break;
+			layer.f = "url('img/dots-dense-grey.gif')"; break;
 		case 4:
-			layer.f = "green"; break;
+			layer.f = "url('img/dots-sparse-grey.gif')"; break;
 		default:
 			layer.f = layerOpts.fill;
 		}
