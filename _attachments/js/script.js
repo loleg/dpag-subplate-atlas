@@ -7,9 +7,12 @@ var chart = null;
 
 // Setup page links
 
-$('button.go').click(function() {
+$('.go').click(function() {
+	var tgt = $(this).attr('href').replace('#','');
 	$('article').addClass('hidden');
-	$('article .' + $(this).attr('href')).removeClass('hidden');
+	$('article.' + tgt).removeClass('hidden');
+	$('nav a').removeClass('current');
+	$('nav a[href="#' + tgt + '"]').addClass('current');
 });
 
 // Setup db access
@@ -74,7 +77,10 @@ function initGeneSearch(data) {
 
 	// Keyword search field
 	$("#gene-searchbox").keyup(function() {
-		if (this.value.length < 2) return;
+		if (this.value.length < 1) {
+			$(".gene-list li").show();
+			return;
+		}
 		var searchTerm = $.trim(this.value).toLowerCase(),
 			objs = $(".gene-list li").hide().parent();
 		for (var i = 0; i < geneArray.length; i++) {

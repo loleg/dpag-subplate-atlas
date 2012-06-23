@@ -67,8 +67,17 @@ nav a.current {
 
 /* ------ */
 
-.gene-list, .gene-similar ul { max-height:15em; overflow-y:auto; border:1px solid #ccc; }
-.gene-list li { list-style:none; padding:0 .5em; font-weight:bold; }
+.gene-list, .gene-similar ul { 
+	max-height:15em; overflow-y:auto; 
+	border:1px solid #ccc; 
+	background:#fff;
+	clear:both;
+}
+.gene-list li { 
+	list-style:none; padding:0 .5em; 
+	width:15em; float:left;
+	font-weight:bold; 
+}
 
 .close-panel { font-weight:bold; float:right; font-size:20pt; padding:3pt; cursor:pointer; }
 #main-container aside { background: #DDE; color: #003; }

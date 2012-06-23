@@ -29,10 +29,10 @@
 
 	<nav>
 		<ul>
-			<li><a href="#home" class="current">Home</a></li>
-			<li><a href="#genes">Genes</a></li>
-			<li><a href="#patterns">Patterns</a></li>
-			<li><a href="#about">About</a></li>
+			<li><a class="go" href="#home" class="current">Home</a></li>
+			<li><a class="go" href="#genes">Genes</a></li>
+			<li><a class="go" href="#patterns">Patterns</a></li>
+			<li><a class="go" href="#about">About</a></li>
 		</ul>
 	</nav>
 	
@@ -48,23 +48,35 @@
 		
 		<article class="home">
 			<h2>Search or browse the atlas by</h2>
-			<button class="go" href="search">Gene names</button>
-			<button class="go" href="expression">Expression points</button>
+			<button class="go" href="#genes">Gene names</button>
+			<button class="go" href="#patterns">Expression patterns</button>
 			<p>The gene expression data  used for this atlas is based on microarray and RNA sequencing studies and publicly available <i>in situ</i> hybridization images in early embryonic, late embryonic, early postnatal and adult mice. <a href="#">Read more here</a> and see <a href="#">Hoerder-Suabedissen et al., 2012</a>.</p>		
 		</article>
 		
-		<article class="search hidden">
+		<article class="genes hidden">
 			<h2>Search for a gene name</h2>
-			<p><input id="gene-searchbox" size="30"></p>
+			<input id="gene-searchbox" size="30">
 			<h2>or select from the list</h2>
 			<ul class="gene-list"></ul>
 		</article>
 		
 		<article class="result hidden">
-			<button class="go" href="search">Back to search</button>
-			<section class="gene-result hidden"></section>
-			<button class="go" href="search">Back to search</button>
+			<button class="go" href="#genes">Back to search</button>
+			<section class="gene-result"></section>
+			<button class="go" href="#genes">Back to search</button>
 		</article>
+		
+		<article class="patterns hidden">
+			<h2>Expression patterns</h2>
+			<p></p>
+		</article>
+
+		<article class="about hidden">
+			<h2>About</h2>
+			<p></p>
+		</article>
+		
+<!--           nnnnn mn mn mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnnn           -->
 		
 	</div> <!-- #main -->
 	
