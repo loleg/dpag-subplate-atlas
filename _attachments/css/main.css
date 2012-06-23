@@ -1,74 +1,87 @@
-/* add styles here */
+/* ===== Gene Atlas Styles ========================================================
+   Author: Oleg Lavrovsky - oleg.utou.ch
+   ========================================================================== */
 
-body {
-  font:1em Helvetica, sans-serif;
+body { 
+	font:16px/26px Verdana, Helvetica, Arial, sans-serif; 
+	background:white; 
 }
 
-h1 {
-  margin-top:0;
+#wrapper{ 
+	width:96%; margin:2%; 
+	background:#f0f0f0; 
 }
 
-#account {
-  float:right;
+header {
+	text-align:center;
+	margin:1em;
 }
 
-#profile {
-  border:4px solid #edd;
-  background:#fee;
-  padding:8px;
-  margin-bottom:8px;
+header .subtitle {
+	width:36em; margin:0;
+	display:inline-block;
 }
 
-#content {
-  border:4px solid #dde;
-  background:#eef;
-  padding:8px;
-  width:60%;
-  float:left;
+article {
+	text-align: center;
+	margin:0 2em;
 }
 
-#sidebar {
-  border:4px solid #dfd;
-  padding:8px;
-  float:right;
-  width:30%;
+article button {
+	padding:10px 20px;
+	font-weight:bold;
 }
 
-#items li {
-  border:4px solid #f5f5ff;
-  background:#fff;
-  padding:8px;
-  margin:4px 0;
+article p {
+	text-align: left;
 }
 
-form {
-  padding:4px;
-  margin:6px;
-  background-color:#ddd;  
+::selection {
+	background: #566374;
 }
 
-div.avatar {
-  padding:2px;
-  padding-bottom:0;
-  margin-right:4px;
-  float:left;
-  font-size:0.78em;
-  width : 60px;
-  height : 60px;
-  text-align: center;
+/* Navigation */
+
+nav {
+	background: #002147; 
+	height:3em; width:100%;
+}
+nav a, nav a:visited {
+	float:left;
+	width:6em; height:3em;
+	line-height:3em;
+	text-align:center;
+	padding:0;
+	margin-bottom:0;
+	text-decoration:none;
+	border-left:1px solid #248;
+	color:#fff; background:#136;
+}
+nav a:hover, nav a:active {
+	color:#fff; background:#248;
+	text-decoration:underline;
+}
+nav a.current {
+	background:#999;
 }
 
-div.avatar .name {
-  padding-top:2px;
-}
+/* ------ */
 
-div.avatar img {
-  margin:0 auto;
-  padding:0;
-  width : 40px;
-  height : 40px;
-}
+.gene-list, .gene-similar ul { max-height:15em; overflow-y:auto; border:1px solid #ccc; }
+.gene-list li { list-style:none; padding:0 .5em; font-weight:bold; }
 
-ul {
-  list-style: none;
+.close-panel { font-weight:bold; float:right; font-size:20pt; padding:3pt; cursor:pointer; }
+#main-container aside { background: #DDE; color: #003; }
+
+.gene-legend { color:#aaa; border:1px solid #ccc; padding:4pt; font-size:80%; display:inline; }
+
+/* WIDE ---------- */
+@media only screen and (min-width: 768px) {
+
+	#wrapper {
+		-webkit-box-shadow:0 5px 10px #aaa;
+		   -moz-box-shadow:0 5px 10px #aaa;
+		        box-shadow:0 5px 10px #aaa;
+	}
+
 }

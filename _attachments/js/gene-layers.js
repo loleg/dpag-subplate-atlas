@@ -16,7 +16,7 @@ function getLevelsForGene(genedata) {
 	}
 	var count = 0;
 	$.each(
-		genedata.replace(' ','').split(','), 
+		genedata.replace(/ /gi,'').split(','), 
 		function() { 
 			var xs = this.split(':');
 			if (xs.length == 2) {

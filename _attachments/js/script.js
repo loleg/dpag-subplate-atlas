@@ -5,6 +5,13 @@ $(function() {
 var width = 600, height = 320;
 var chart = null;
 
+// Setup page links
+
+$('button.go').click(function() {
+	$('article').addClass('hidden');
+	$('article .' + $(this).attr('href')).removeClass('hidden');
+});
+
 // Setup db access
 var path = unescape(document.location.pathname).split('/'),
     $design = path[3],
@@ -82,8 +89,8 @@ function initGeneSearch(data) {
 
 	// Return to search
 	$(".gene-go-search").click(function() {
-		$('.gene-search').show();
-		$('.gene-result, .gene-go-search').hide();
+		$('.gene-search, .genes').removeClass('hidden');
+		$('article, .gene-result, .gene-go-search').addClass('hidden');
 		return false;
 	}).hide();
 	

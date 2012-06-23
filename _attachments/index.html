@@ -14,7 +14,9 @@
 	<meta name="viewport" content="width=device-width">
 
 	<!--<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.19/themes/black-tie/jquery-ui.css">-->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/helper.css">
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,56 +25,54 @@
 
 </head>
 <body>
-	<div id="header-container">
-		<header class="wrapper clearfix">
-			<h1 id="title">Subplate Gene Expression Atlas</h1>
-			<p class="subtitle">A visualization of genes with a specific or enriched expression in the mouse subplate, including data from early embryonic to adult stages</p>
-			<nav>
-				<ul>
-					<li><a href="#home">Home</a></li>
-					<li><a href="#genes">Genes</a></li>
-					<li><a href="#patterns">Patterns</a></li>
-					<li><a href="#about">About</a></li>
-				</ul>
-			</nav>
-		</header>
-	</div>
-	<div id="main-container">
-		<div id="main" class="wrapper clearfix">
-			
-			<article class="home">
-			
-			</article>
-			
-			<article class="genes">
-				<section class="gene-search">
-					<h2>Search for a gene name</h2>
-					<p>
-					<input id="gene-searchbox" size="30">
-					</p>
-					<h2>or select from the list</h2>
-					<ul class="gene-list"></ul>
-				</section>
-				<button class="gene-go-search">Back to search</button>
-				<section class="gene-result hidden"></section>
-				<button class="gene-go-search">Back to search</button>
-				<!--<footer></footer>-->
-			</article>
-			
-			<aside>
-				<div class="close-panel" title="Close">&#10799;</div>
-				<h3>About this tool</h3>
-				<p>The gene expression data  used for this atlas is based on microarray and RNA sequencing studies and publicly available <i>in situ</i> hybridization images in early embryonic, late embryonic, early postnatal and adult mice. <a href="#">Read more here</a> and see <a href="#">Hoerder-Suabedissen et al., 2012</a>.</p>
-			</aside>
-			
-		</div> <!-- #main -->
-	</div> <!-- #main-container -->
+<div id="overhead">
 
-	<div id="footer-container">
-		<footer class="wrapper">
-			<h3></h3>
-		</footer>
-	</div>
+	<nav>
+		<ul>
+			<li><a href="#home" class="current">Home</a></li>
+			<li><a href="#genes">Genes</a></li>
+			<li><a href="#patterns">Patterns</a></li>
+			<li><a href="#about">About</a></li>
+		</ul>
+	</nav>
+	
+</div>
+<div id="wrapper">
+
+	<header class="clearfix">
+		<h1 id="title">Subplate Gene Expression Atlas</h1>
+		<p class="subtitle">A visualization of genes with a specific or enriched expression in the mouse subplate, including data from early embryonic to adult stages</p>
+	</header>
+
+	<div id="main" class="clearfix">
+		
+		<article class="home">
+			<h2>Search or browse the atlas by</h2>
+			<button class="go" href="search">Gene names</button>
+			<button class="go" href="expression">Expression points</button>
+			<p>The gene expression data  used for this atlas is based on microarray and RNA sequencing studies and publicly available <i>in situ</i> hybridization images in early embryonic, late embryonic, early postnatal and adult mice. <a href="#">Read more here</a> and see <a href="#">Hoerder-Suabedissen et al., 2012</a>.</p>		
+		</article>
+		
+		<article class="search hidden">
+			<h2>Search for a gene name</h2>
+			<p><input id="gene-searchbox" size="30"></p>
+			<h2>or select from the list</h2>
+			<ul class="gene-list"></ul>
+		</article>
+		
+		<article class="result hidden">
+			<button class="go" href="search">Back to search</button>
+			<section class="gene-result hidden"></section>
+			<button class="go" href="search">Back to search</button>
+		</article>
+		
+	</div> <!-- #main -->
+	
+	<footer>
+		<h3></h3>
+	</footer>
+	
+</div>
 </body>
 
 <!-- Templates -->
