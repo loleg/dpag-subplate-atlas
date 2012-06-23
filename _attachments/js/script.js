@@ -26,11 +26,13 @@ $db.view($design + "/all-genes", {
 });
 
 // Load a specific section of the page
-function navigateTo(tgt) {
+function navigateTo(tgt, showMenu) {
 	$('article').addClass('hidden');
 	$('article.' + tgt).removeClass('hidden');
-	$('nav a').removeClass('current');
-	$('nav a[href="#' + tgt + '"]').addClass('current');
+	if (typeof showMenu == 'undefined' || showMenu) {
+		$('nav a').removeClass('current');
+		$('nav a[href="#' + tgt + '"]').addClass('current');
+	}
 }
 
 // Open full details on a gene
@@ -74,7 +76,7 @@ function initGeneSearch(data) {
 	var SP_data = data.rows.map(function(r) {return [r.key, r.id];});
 
 	// Load genes
-	var geneList = $(".gene-list"), geneArray = [];
+	var geneList = $(".genes .gene-list ul"), geneArray = [];
 	$.each(SP_data, function(i) {
 		geneList.append('<li index="' + i + '" id="' + this[1] + '">' + this[0] + '</li>');
 		geneArray.push(this[0].toLowerCase());
@@ -83,20 +85,25 @@ function initGeneSearch(data) {
 	// Keyword search field
 	$("#gene-searchbox").keyup(function() {
 		if (this.value.length < 1) {
-			$(".gene-list li").show();
+			$("li", geneList).show();
+			$(".gene-reset").css({ visibility:'hidden' });
 			return;
 		}
+		$(".gene-reset").css({ visibility:'visible' });
 		var searchTerm = $.trim(this.value).toLowerCase(),
-			objs = $(".gene-list li").hide().parent();
+			objs = $("li", geneList).hide().parent();
 		for (var i = 0; i < geneArray.length; i++) {
 			if (geneArray[i].indexOf(searchTerm) != -1) {
 				$("li[index='" + i + "']", objs).show();
 			}
 		}
 	});
+	$(".gene-reset").click(function() { 
+		$("#gene-searchbox").val('').trigger('keyup');
+	});
 
 	// Initial gene list
-	setupGeneList(".gene-list li");
+	setupGeneList(".genes .gene-list li");
 }
 
 // Creates links from a list of genes
@@ -118,7 +125,7 @@ function locateGene() {
 // Open detail page on a gene
 function showGeneDetail(data) {
 
-	navigateTo('result');
+	navigateTo('result', false);
 	console.log(data);
 	/*
 	Example data structure:
@@ -149,36 +156,12 @@ function showGeneDetail(data) {
 			})).removeClass('hidden').show();
 
 	// Setup similar links
-	setupGeneList(".gene-similar li");
+	setupGeneList(".gene-result .gene-list li");
 
 	// Render gene image
 	chart = Raphael("gene-graph", width, height);
 	renderGene([data.Exp_E14E15, data.Exp_E18, data.Exp_P4P7, data.Exp_Adult]);
 	
-	/*
-	var geneIndex = parseInt($(this).parent().attr('index'));
-	if (typeof SP_data[geneIndex] == 'undefined') {
-		alert('Data unavailable for gene at index ' + geneIndex);
-		return;	
-	}
-	renderGene(SP_data[geneIndex]);
-	
-	// test: load an image
-	// $('img.gene-img', gr).attr('src', 'img/' + gene.title + '.jpg');
-	
-	$('ul.gene-functions', gr).empty();
-	$.each(gene.functs, function() {
-		$('ul.gene-functions', gr).append('<li>' + this + '</li>');
-	});
-	
-	$('ul.gene-similar', gr).empty();
-	$.each(gene.similar, function() {
-		$('ul.gene-similar', gr).append('<li><a href="#">' + this + '</a></li>');
-	});
-	$('ul.gene-similar a', gr).click(locateGene);
-	
-	gr.removeClass("hidden").show();
-	*/
 }
 
 // Sets up gene visualization

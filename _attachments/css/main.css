@@ -36,6 +36,12 @@ article p {
 	text-align: left;
 }
 
+.result section {
+	text-align: left; 
+	margin: 1em; padding:1em;
+	background: #fff; border: 1px solid #999;
+}
+
 ::selection {
 	background: #566374;
 }
@@ -67,22 +73,38 @@ nav a.current {
 
 /* ------ */
 
-.gene-list, .gene-similar ul { 
+.gene-reset {
+	border:1px solid #999; border-radius:50%;
+	background:white; padding:0 4px; color:#777;
+	cursor:pointer; visibility:hidden;
+}
+.gene-reset:hover {
+	background:#dde; color:#999;
+}	
+
+.gene-list ul { 
 	max-height:15em; overflow-y:auto; 
 	border:1px solid #ccc; 
 	background:#fff;
 	clear:both;
 }
+
 .gene-list li { 
 	list-style:none; padding:0 .5em; 
 	width:15em; float:left;
 	font-weight:bold; 
 }
 
-.close-panel { font-weight:bold; float:right; font-size:20pt; padding:3pt; cursor:pointer; }
-#main-container aside { background: #DDE; color: #003; }
+.gene-symbol { text-align:center; margin-bottom:0.5em; }
 
-.gene-legend { color:#aaa; border:1px solid #ccc; padding:4pt; font-size:80%; display:inline; }
+.gene-result h4 { margin:0; }
+
+.gene-legend { 
+	float:right; 
+	color:#aaa; border:1px solid #ccc; 
+	padding:4pt; font-size:80%; 
+	display:inline; 
+}
 
 /* WIDE ---------- */
 @media only screen and (min-width: 768px) {

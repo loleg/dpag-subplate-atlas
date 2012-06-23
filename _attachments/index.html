@@ -29,7 +29,7 @@
 
 	<nav>
 		<ul>
-			<li><a class="go" href="#home" class="current">Home</a></li>
+			<li><a class="go current" href="#home">Home</a></li>
 			<li><a class="go" href="#genes">Genes</a></li>
 			<li><a class="go" href="#patterns">Patterns</a></li>
 			<li><a class="go" href="#about">About</a></li>
@@ -55,9 +55,10 @@
 		
 		<article class="genes hidden">
 			<h2>Search for a gene name</h2>
-			<input id="gene-searchbox" size="30">
+			<input id="gene-searchbox" size="30" class="ui-state-default ui-widget ui-widget-content ui-corner-left">
+			<span class="gene-reset">&#x2716;</span>
 			<h2>or select from the list</h2>
-			<ul class="gene-list"></ul>
+			<div class="gene-list"><ul></ul></div>
 		</article>
 		
 		<article class="result hidden">
@@ -92,18 +93,18 @@
 	<h2 class="gene-symbol">{{symbol}}</h2>
 	<h3 class="gene-title">{{title}}</h3>
 	{{#alts}}
-		<div class="gene-altnames">{{alts}}</div>
+		<div class="gene-altnames">Alternative names: <span>{{alts}}</span></div>
 	{{/alts}}
-	<div id="gene-graph"></div>
 	<div class="gene-legend">
 		NB: yellow = S, red = W, blue = S-, green = W-
 	</div>
+	<div id="gene-graph"></div>
 	<div class="gene-functions">
 		<h4>Possible functions in subplate:</h4>
 		<span>{{functions}}</span>
 		{{^functions}}<i>?</i>{{/functions}}
 	</div>
-	<div class="gene-similar">
+	<div class="gene-list">
 		<h4>Genes with a similar temporal expression pattern:</h4>
 		<ul>
 			{{#similar}}<li id="{{id}}">{{name}}</li>{{/similar}}
