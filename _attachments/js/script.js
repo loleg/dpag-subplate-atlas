@@ -218,4 +218,15 @@ function renderGene(gene) {
 
 }
 
+function showGenePatterns() {
+
+	var patternFilter = [];
+	$('patterns select').each(function() {
+		patternFilter.push($(this).val());
+	});
+	console.log(patternFilter);
+}
+
+$('patterns select').change(showGenePatterns());
+
 });
