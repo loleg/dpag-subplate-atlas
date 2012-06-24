@@ -218,15 +218,91 @@ function renderGene(gene) {
 
 }
 
-function showGenePatterns() {
+function selectPatterns() {
 
-	var patternFilter = [];
-	$('patterns select').each(function() {
-		patternFilter.push($(this).val());
+	var patternFilter = [], endFilter = [], whichQuery = 0;
+	var patternOrder = 
+		[ 'Ptn_Adult', 'Ptn_E14E15', 'Ptn_E18', 'Ptn_P4P7' ];
+	var patternQueries = 
+		[ 'similar-genes', 'genes-by-e14', 'genes-by-e18', 'genes-by-p4' ];
+		
+	var postFilter = false;
+	$.each(patternOrder, function() {
+		var i = $('.patterns section[age="' + this + '"] select').val();
+		if (i == "") {
+			if (patternFilter.length == 0) {
+				whichQuery++;
+			} else {
+				postFilter = true;
+				patternFilter.push(null);
+				endFilter.push({});
+			}
+		} else {
+			patternFilter.push(parseInt(i));
+			endFilter.push(parseInt(i));	
+		}
 	});
-	console.log(patternFilter);
+	if (whichQuery >= patternQueries.length) whichQuery = 0;
+	
+	console.log(patternQueries[whichQuery] + ' ' + 
+		patternFilter.toString() + ' -> ' + 
+		endFilter.toString());
+	
+    $db.view($design + "/" + patternQueries[whichQuery], {
+        descending: false,
+        limit: 100,
+        reduce: false,
+        startkey: patternFilter,
+        endkey: endFilter,
+        success: 
+        	function(doc) {
+        		console.log(doc);
+        		doc.geneList = [];
+        		$.each(doc.rows, function() {
+       				console.log(this.key.toString());
+        			if (postFilter) {
+        				// Validate this gene
+						for (var u in patternFilter) {
+							if (patternFilter[u] != null && 
+								patternFilter[u] != this.key[u]) 
+									return;
+						}
+        			}
+        			doc.geneList.push({
+        				id: this.id,
+        				name: this.value
+        			});
+        		});
+        		showGenePatterns(doc);
+        	}
+    });
 }
 
-$('patterns select').change(showGenePatterns());
+function showGenePatterns(doc) {
+	console.log(doc.geneList.length + ' rows loaded');
+	if (doc.geneList.length == 100) {
+		$('section.pattern-result').html(
+			'<h4>Too many genes meet this criteria, please narrow down your selection</h4>'
+		);
+		return;
+	} else if (doc.geneList.length == 0) {
+		$('section.pattern-result').html(
+			'<h4>No genes in the shortlist meet this criteria</h4>'
+		);
+		return;
+	}
+	
+	// Load and setup gene list
+	$('section.pattern-result').html(
+		$.mustache($("#gene-patterns-list").html(), {
+			genes: doc.geneList,
+			geneLength: doc.geneList.length
+		})
+	);
+	setupGeneList(".pattern-result .gene-list li");
+}
+
+$('.patterns .fourcolumns section').append($('#gene-pattern-select').html());
+$('.patterns select').change(selectPatterns);
 
 });

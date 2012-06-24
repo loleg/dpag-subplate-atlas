@@ -35,7 +35,6 @@ function getGeneFillLevel(code) {
 	if (code.indexOf('s') != -1) { f = 1; }
 	if (code.indexOf('w') != -1) { f = 2; }
 	if (code.indexOf('-') != -1) { f += 2; }
-//	console.log(code + ' -> ' + f);	
 	return f;
 }
 

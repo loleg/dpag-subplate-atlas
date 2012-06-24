@@ -70,48 +70,17 @@
 		<article class="patterns hidden">
 			<h2>Select an expression pattern at each developmental stage</h2>
 			<center class="fourcolumns">
-			<section>
-				<b>Early embryonic</b>
-				<select>
-					<option>no preference</option>
-					<option>subplate specific</option>
-					<option>subplate enriched</option>
-					<option>uniform/widespread</option>
-					<option>weaker in subplate</option>
-				</select>
-			</section><section>
-				<b>Late embryonic</b>
-				<select>
-					<option>no preference</option>
-					<option>subplate specific</option>
-					<option>subplate enriched</option>
-					<option>uniform/widespread</option>
-					<option>weaker in subplate</option>
-				</select>
-			</section><section>
-				<b>Postnatal</b>
-				<select>
-					<option>no preference</option>
-					<option>subplate specific</option>
-					<option>subplate enriched</option>
-					<option>uniform/widespread</option>
-					<option>weaker in subplate</option>
-				</select>
-			</section><section>
-				<b>Adult</b>
-				<select>
-					<option>no preference</option>
-					<option>subplate specific</option>
-					<option>subplate enriched</option>
-					<option>uniform/widespread</option>
-					<option>weaker in subplate</option>
-				</select>
-			</section>
+				<section age="Ptn_E14E15">
+					<b>Early embryonic</b>
+				</section><section age="Ptn_E18">
+					<b>Late embryonic</b>
+				</section><section age="Ptn_P4P7">
+					<b>Postnatal</b>
+				</section><section age="Ptn_Adult">
+					<b>Adult</b>
+				</section>
 			</center>
-			<section class="pattern-result hidden">
-				<h3>Genes with the selected expression pattern</h3>
-				<div class="gene-list"><ul></ul></div>
-			</section>
+			<section class="pattern-result"></section>
 		</article>
 
 		<article class="about hidden">
@@ -186,6 +155,22 @@
 			{{#similar}}<li id="{{id}}">{{name}}</li>{{/similar}}
 		</ul>
 	</div>
+</script>
+<script id="gene-pattern-select" type="text/x-mustache" charset="utf-8">
+	<select>
+		<option value="">no preference</option>
+		<option value="0">not expressed</option>
+		<option value="1">subplate specific</option>
+		<option value="2">subplate enriched</option>
+		<option value="3">uniform/widespread</option>
+		<option value="4">weaker in subplate</option>
+	</select>
+</script>
+<script id="gene-patterns-list" type="text/x-mustache" charset="utf-8">
+	<h3>Genes with the selected expression pattern ({{geneLength}}):</h3>
+	<div class="gene-list"><ul>
+		{{#genes}}<li id="{{id}}">{{name}}</li>{{/genes}}
+	</ul></div>
 </script>
 	
 <!-- Load SP layer configuration -->
