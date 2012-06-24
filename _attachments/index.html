@@ -162,16 +162,18 @@
 	{{#alts}}
 		<div class="gene-altnames">Alternative names: <span>{{alts}}</span></div>
 	{{/alts}}
-	<div class="gene-legend">
-		<p><span class="gene-s" /> strong, abundant</p>
-		<p><span class="gene-w" /> weak, abundant</p>
-		<p><span class="gene-s-" /> strong, sparse</p>
-		<p><span class="gene-s-" /> weak, sparse</p>
+	<div class="clearfix">
+		<div id="gene-graph"></div>
+		<div class="gene-legend">
+			<p><span class="gene-s" /> strong, abundant</p>
+			<p><span class="gene-w" /> weak, abundant</p>
+			<p><span class="gene-s-" /> strong, sparse</p>
+			<p><span class="gene-w-" /> weak, sparse</p>
 
-		<h5>Abbreviations:</h5>
-		<p>VZ: ventricular zone, SVZ: subventricular zone, etc.</p>
+			<h5>Abbreviations:</h5>
+			<p>VZ: ventricular zone, SVZ: subventricular zone, etc.</p>
+		</div>
 	</div>
-	<div id="gene-graph"></div>
 	<div class="gene-functions">
 		<h4>Possible functions in subplate:</h4>
 		<span>{{functions}}</span>

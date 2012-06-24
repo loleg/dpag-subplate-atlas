@@ -23,7 +23,7 @@ Apoe;0;SP:s-, VZ:s-, SZ:s-, IZ:s-, MZ:s-;2;SP:s-, IZ:s-;2;all:s-;3;L3:s, WM:w;4;
 Aqp4;0;0;0;0;0;WM:s, SP:s, L6:w, L5:w;2;WM:s-;4;aquaporin 4;0
 Arhgap11a;0;SP:s, SZ:s;2;na;na;na;na;na;na;Rho GTPase activating protein 11A;0
 Arhgap26;0;0;0;na;na;na;na;SP:s, L5:s, L3:s;2;Rho GTPase activating protein 26;0
-Arhgdib;0;SP:w, LP:w, UP:w;3;na;na;na;na;L3:s, L5:s, L4:w-, MZ:w-, L6:w-, SP:w;4;Rho, GDP dissociation inhibitor (GDI) beta;0
+Arhgdib;0;SP:s, IZ:w, LP:w;2;na;na;na;na;L3:s, L5:s, L4:w-, MZ:w-, L6:w-, SP:w;4;Rho, GDP dissociation inhibitor (GDI) beta;0
 Arhgef3;0;0;0;na;na;na;na;SP:s, L5:w, L3:w;2;Rho guanine nucleotide exchange factor (GEF) 3;0
 Arl6ip1;0;VZ:s, SZ:s, LP:w, UP:w;4;na;na;na;na;SP:w, L5:w, L3:s;2;ADP-ribosylation factor-like 6 interacting protein 1;0
 Ascl1;0;0;0;SP:s-, IZ:s-;2;WM:s-;4;VZ:s;4;achaete-scute complex homolog 1 (Drosophila);0
@@ -50,7 +50,6 @@ Cacng5;0;0;0;0;0;SP:w;1;SP:s-;1;calcium channel, voltage-dependent, gamma subuni
 Cadps2;0;0;0;SP:w, L5:w;2;L3:s, L5:w, L6:w, SP:w;4;L3:s, L4:s, L5:s, SP:s;3;Ca2+-dependent activator protein for secretion 2;0
 Caln1;0;VZ:w, SP:w, LP:w, UP:w;3;na;na;na;na;SP:w, L5:w;2;calneuron 1;0
 Camk2d;0;VZ:w;4;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;calcium/calmodulin-dependent protein kinase II, delta;0
-Car4;0;0;0;na;na;na;na;L5:s, L4:s, L3:s, SP:w;3;carbonic anhydrase 4;0
 Carhsp1;0;VZ:w, SZ:w SP:w, MZ:s, UP:s;2;na;na;na;na;WM:s, SP:s-, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;4;0;0
 Cblb;0;CP:s;4;na;na;na;na;SP:w;1;Casitas B-lineage lymphoma b;0
 Cbx5;0;VZ:s, SZ:s, LP:s, UP:s;4;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;1;chromobox homolog 5 (Drosophila HP1a);0
@@ -106,7 +105,6 @@ Ctss;0;SP:s-, VZ:s-, SZ:s-, IZ:s-;2;SP:s-, IZ:s-;2;WM:s-;4;all:s;3;cathepsin S;0
 Cttnbp2;0;SP:s, IZ:s, UC:s, MZ:s;2;SP:s, IZ:s, CP:s-, L5:s-, L6:s-;2;all:s;na;all:s;3;cortactin binding protein 2;0
 Cux1;0;SP:s, IZ:s, VZ:s, SZ:s;2;SP:s, IZ:s, CP:s;2;L3:s, L4:s, L5:w, L6:w, SP:w;4;L4:s, L3:s, MZ:s;4;cut-like homeobox 1;0
 Cux2;0;"SP:s, IZ:s, LC:s; MZ:s";2;SP:s, IZ:s, CP:s;2;L3:s, L4:s;4;L4:s, L3:s, MZ:s;4;cut-like homeobox 2;0
-D7Ertd715e;0;na;na;na;na;na;na;L3:s, L5:s, L6:w, SP:w;4;DNA segment, Chr 7, ERATO Doi 715, expressed;0
 D830030K20Rik;Gm1973;na;na;na;na;na;na;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;RIKEN cDNA D830030K20 gene /// predicted gene 1973;0
 Dact1;0;SP:w, MZ:w;2;CP:s;4;L4:s, L5:s;4;0;0;dapper homolog 1, antagonist of beta-catenin (xenopus);0
 Dbi;0;SP:s-, IZ:s-, VZ:s, SZ:s;2;VZ:s, IZ:s-, SP:w-, L6:w-, L5:w-, CP:w-;4;VZ:s, WM:s-, SP:s-, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;4;all:s;3;0;0
@@ -126,13 +124,11 @@ E2f5;0;VZ:s, SZ:w;4;SP:w, L5:w;2;0;0;0;0;E2F transcription factor 5;0
 E2f7;0;VZ:s, SZ:s, MZ:s, UP:s;4;L5:w;4;SP:w, WM:w, L5:w;2;0;0;E2F transcription factor 7;0
 E2f8;0;VZ:w, SZ:w;4;SP:w;1;0;0;L4:s, L3:s, MZ:s;3;E2F transcription factor 8;0
 E330009J07Rik;0;SP:s, IZ:s;2;na;na;na;na;all:s;3;RIKEN cDNA E330009J07 gene;0
-Ect2;0;VZ:s, SZ:w;4;na;na;na;na;0;0;ect2 oncogene;0
 Efhd2;0;VZ:s, SP:s, LP:s, UP:s;3;na;na;na;na;SP:s, L3:s, L6:w, L5:w, L4:w, MZ:w;2;EF hand domain containing 2;0
 Efnb3;0;SP:s, IZ:s, VZ:s-, SZ:s-, LP:s-, UP:s-, MZ:s-;2;SP:w;1;SP:w, L5:s;2;all:s-;3;0;0
 Egfr;0;0;0;IZ:s, SP:s;2;SP:s, WM:s;2;all:s-;3;epidermal growth factor receptor;0
 Elavl1;0;SP:w, VZ:s, SZ:s;2;na;na;na;na;L3:s, MZ:w, L4:w, L5:w, L6:w, SP:w;3;ELAV (embryonic lethal, abnormal vision, Drosophila)-like 1 (Hu antigen R);0
 Elf2;0;SP:s, IZ:w, SZ:w, VZ:w, LP:w, UP:w, MZ:w;2;SP:s, IZ:s, VZ:w, L6:w, L5:w, CP:w, MZ:w;2;all:s;3;0;0;E74-like factor 2;0
-Elk3;0;0;0;na;na;all:w;3;SP:s, L6:s-, L5:s, L4:s, L3:s, MZ:s;3;ELK3, member of ETS oncogene family;0
 Emp2;0;VZ:w, SZ:w;4;na;na;na;na;L3:s, L4:s, SP:s, L5:w, L6:w;2;epithelial membrane protein 2;0
 Emr1;0;LP:w, UP:w;4;na;na;na;na;SP:w;1;EGF-like module containing, mucin-like, hormone receptor-like sequence 1;0
 Enpp2;0;SP:s-, VZ:s-, SZ:s-, IZ:s-;2;na;na;na;na;L3:s, L5:s-, WM:s-;4;0;0
@@ -142,16 +138,13 @@ Epha1;0;0;0;SP:s, L5:s, VZ:w, IZ:w, L6:w, CP:w, MZ:w;2;SP:s, L5:s, L6:w, L4:w, L
 Epha3;0;SP:w, IZ:s;2;SP:s, IZ:s;2;SP:s, L5:w, L6:w, L4:w, L3:w, MZ:w;2;0;0;Eph receptor A3;0
 Epha5;0;SP:s, IZ:s, MZ:s;2;SP:s, IZ:s, CP:s, L6:s, L5:s;2;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;Eph receptor A5;0
 Epn2;0;SP:s, LP:s, UP:s, MZ:w, IZ:w, SZ:w, VZ:w;3;na;na;na;na;SP:s, L6:w-, L5:w-, L4:w-, L3:w-, MZ:w-;2;epsin 2;0
-Espl1;0;VZ:s, SP:s, LP:s, UP:s;3;na;na;na;na;L3:s, SP:w, L5:w, L4:w, MZ:w;4;extra spindle poles-like 1 (S. cerevisiae);0
 Etfa;0;VZ:s, SZ:s;4;na;na;na;na;L3:s, SP:w, L5:s, L4:w, MZ:w;2;electron transferring flavoprotein, alpha polypeptide;0
 Etv5;0;VZ:s, SZ:s;4;SP:s;1;SP:s, L5:s;2;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;ets variant gene 5;transcription factor, regulates cell proliferation and  adhesion possibly through the activation of matrix metalloproteinases, 
-Exph5;0;na;na;na;na;na;na;L3:s, SP:w, L5:w, L4:w, MZ:w;4;exophilin 5;0
 Faim2;0;na;na;na;na;na;na;SP:s, L3:s, L6:w, L5:w, L4:w, MZ:w;2;Fas apoptotic inhibitory molecule 2;0
 Fem1b;0;VZ:w, SZ:w, LP:w, UP:w;4;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;1;feminization 1 homolog b (C. elegans);0
 Fgfr1;0;SP:s, IZ:s, VZ:s, SZ:s, MZ:s;2;0;0;SP:w;1;SP:w, L5:w;2;fibroblast growth factor receptor 1;0
 Fn1;0;SP:s, IZ:s;2;CP:s;4;L4:s;4;0;0;fibronectin 1;0
 Fnbp1;0;VZ:s, SZ:s;4;na;na;na;na;SP:s-, WM:s-, L6:w-, L5:w-, L4:w-, L3:w-, MZ:w-;2;0;0
-Fos;0;0;0;0;0;all:w;3;0;3;FBJ osteosarcoma oncogene;0
 Foxm1;Pebp1 or 4933413G19Rik;SZ:s, VZ:w;4;IZ:s, SP:s, L6:s;2;WM:s;4;0;0;RIKEN cDNA 4933413G19 gene /// forkhead box M1 /// phosphatidylethanolamine binding protein 1;0
 Foxn2;0;0;0;0;0;SP:w, L5:w;2;0;0;forkhead box N2;0
 Foxq1;0;SP:w-, VZ:w-, SZ:w-;2;CP:s, SP:w, IZ:w;4;SP:s, L5:s, L3:s, L6:w, L4:w;2;L3:s, SP:w, L6:w-, L5:w-, L4:w;4;forkhead box Q1;0
@@ -174,7 +167,6 @@ Gdf10;0;0;0;0;0;SP:w;1;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;growth differentiati
 Gdi2;0;VZ:s, LP:w, Upw;4;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;1;guanosine diphosphate (GDP) dissociation inhibitor 2;0
 Gfap;0;0;0;VZ:s;4;WM:s, SP:s, VZ:s;2;WM:s;4;0;0
 Gja1;0;SP:s-, VZ:s-;2;SP:w, IZ:w, L5:w;2;all:s-;3;L3:s, L4:s-, L5:s-, L6:s-, SP:s-, MZ:s-;4;gap junction protein, alpha 1;0
-Gjb1;0;SP:w, LP:w, UP:w;3;na;na;na;na;WM:s, SP:w, L6:w, L5:w;4;0;0
 Glt28d2;0;VZ:w, SZ:w, LP:w, UP:w;4;na;na;na;na;SP:w;1;glycosyltransferase 28 domain containing 2;0
 Gmfb;0;0;0;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;glia maturation factor, beta;0
 Gnal;0;LP:w, UP:w;4;na;na;na;na;SP:s, L5:w, L3:w, L6:w, L4:w, MZ:w;1;guanine nucleotide binding protein, alpha stimulating, olfactory type;0
@@ -232,7 +224,6 @@ Kcnip4;0;0;0;na;na;na;na;SP:s, WM:s, L5:s, L3:s, L6:w, L4:w, MZ:s;2;Kv channel i
 Kcnk2;0;all:w;0;SP:s, VZ:w, IZ:w, L6:w, L5:w, CP:w, MZ:w;2;SP:s, L5:s;2;SP:s, L4:s;2;potassium channel, subfamily K, member 2;0
 Kcnt2;0;SP:s, MZ:s;1;all:s;3;all:s;3;all:s;3;0;0
 Kif13a;0;SP:s, VZ:s, SZ:w, IZ:w, LP:w, CP:w, MZ:w;2;na;na;na;na;all:s;3;kinesin family member 13A;0
-Kif22;0;VZ:s, SP:s, LP:s, UP:s, SZ:w, IZ:w, MZ:w;3;na;na;na;na;L5:s, L3:s, SP:w, L6:w, L4:w, MZ:w;4;kinesin family member 22;0
 Klhl24;0;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;kelch-like 24 (Drosophila);0
 Kpna1;0;0;0;na;na;na;na;SP:s, L5:s, L6:s-, L4:s-, L3:s-, MZ:s-;2;karyopherin (importin) alpha 1;0
 Kpna2;0;SP:w, VZ:s, SZ:s, IZ:s, LP:w-, UP:w-;2;na;na;na;na;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;karyopherin (importin) alpha 2;0
@@ -243,8 +234,6 @@ Lgmn;0;SP:s-, IZ:s-;2;SP:s-, IZ:s-;2;WM:s-;4;SP:s, L5:s, L3:s;2;legumain;0
 Lhx2;0;SP:s, VZ:s, SZ:s, IZ:s, LP:w, UP:w;2;VZ:s, SP:s, CP:s, L5:w, L6:w;3;SP:s, L3:s, WM:s;2;L5:w, L3:w;4;LIM homeobox protein 2;0
 Llgl1;0;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w-, L3:w-;2;0;0
 Lmbrd1;0;SP:s, LP:w, UP:w;2;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;LMBR1 domain containing 1;lysosomal membrane protein, possibly involved in the uptake of vitamin B12
-Lmcd1;0;0;0;0;0;0;0;0;0;LIM and cysteine-rich domains 1;0
-Lnp;0;0;0;na;na;na;na;L3:s, L5:s, SP:w;4;limb and neural patterns;0
 Loxl1;0;0;0;SP:w, L5:w;2;L5:s, L6:w, SP:w;4;0;0;lysyl oxidase-like 1;0
 Lpar1;0;na;na;na;na;SP:s, L6:s-, L5:s-, L4:s-, L3:s-;2;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;0;0
 Lrch2;0;SP:s, IZ:s, UP:s;2;na;na;na;na;all:s;3;leucine-rich repeats and calponin homology (CH) domain containing 2;0
@@ -252,7 +241,6 @@ Lrrc58;0;VZ:s, SZ:w, IZ:w, SP:w, LP:w, UP:w, MZ:w;4;na;na;na;na;SP:s, L6:w, L5:w
 Lrrfip1;0;0;0;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;leucine rich repeat (in FLII) interacting protein 1;0
 Lrrtm1;0;0;0;SP:w, L5:w;2;SP:s, L5:s, L3:s;2;SP:s, L5:s;2;0;0
 Lsm14a;0;VZ:s, SZ:w, IZ:w, SP:w, LP:w, UP:w, MZ:w;4;na;na;na;na;SP:s-, L5:s-;2;LSM14 homolog A (SCD6, S. cerevisiae);0
-Luc7l2;0;na;na;na;na;na;na;all:s;3;LUC7-like 2 (S. cerevisiae);0
 Ly6g6e;0;na;na;na;na;na;na;SP:s;1;0;GPI-anchored cell surface protein, cell adhesion and migration
 Mad2l1;0;SP:w, LP:w, SZ:s;2;na;na;na;na;all:w;0;MAD2 mitotic arrest deficient-like 1 (yeast);0
 Mapk6;0;SP:s, VZ:s, SZ:s, IZ:s, LP:w, UP:w, MZ:s;2;na;na;na;na;all:s;3;mitogen-activated protein kinase 6;0
@@ -272,7 +260,6 @@ Mobp;0;0;0;0;0;SP:w, L5:w;2;WM:s, SP:s-, L6:w-, L5:w-;4;myelin-associated oligod
 Mog;0;0;0;0;0;0;0;WM:s, SP:s-, L6:w-, L5:w-;2;0;0
 Mospd2;0;VZ:w, SZ:w, IZ:w, SP:w, LP:s, UP:s, MZ:w;4;na;na;na;na;SP:s, L5:s, L3:s, L6:s-, L4:s-, MZ:s-;2;motile sperm domain containing 2;0
 Moxd1;0;na;na;SP:s;1;SP:s;1;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;1;0;0
-Mpdz;0;VZ:s, SZ:s;4;na;na;na;na;L3:s, L5:s, SP:w;4;multiple PDZ domain protein;0
 Mpi;0;0;0;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;mannose phosphate isomerase;0
 Mtf2;0;SP:w, IZ:w;2;SP:w, L5:w;2;SP:s, L5:s;2;all:s-;3;metal response element binding transcription factor 2;0
 Mxd3;0;SZ:s;4;SP:w-, IZ:w-;2;SP:w, L5:w;2;0;0;0;0
@@ -344,16 +331,16 @@ Rcan2;0;SP:w, MZ:s;2;SP:s;2;SP:s, L6:s-, L5:s-, L4:s-, L3:s-, MZ:s-;2;SP:s, L5:s
 Rgs20;0;0;0;na;na;na;na;SP:s, L3:s, L6:w, L5:w, L4:w, MZ:w;2;regulator of G-protein signaling 20;0
 Rgs8;0;na;na;na;na;na;na;SP:s, L3:s;2;regulator of G-protein signaling 8;0
 Rhoa;Gm12844;VZ:s, SZ:s;4;SP:w, L5:w;2;SP:s, L5:s;2;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;1;predicted gene 12844 /// ras homolog gene family, member A;0
-Rhobtb3;0;VZ:s, SZ:s, SP:s, LP:s, UP:s;3;na;na;na;na;0;0;Rho-related BTB domain containing 3;0
+Rhobtb3;0;VZ:s, IZ:s, SP:s, LP:s, UP:w;2;na;na;na;na;0;0;Rho-related BTB domain containing 3;0
 Rnasel;0;SP:w, IZ:w;2;na;na;na;na;0;0;ribonuclease L (2', 5'-oligoisoadenylate synthetase-dependent);0
 Rnd2;0;SP:s, IZ:s;2;all:s;3;all:s;3;L3:s, MZ:w, L4:w, L5:w, L6:w, SP:w;4;Rho family GTPase 2;0
-Rnf122;0;SZ:s, LP:s, UP:s, SP:w;4;na;na;na;na;L5:s, L3:s, SP:w, L6:w-, L4:w-;4;ring finger protein 122;0
+Rnf122;0;SZ:w, IZ:s, SP:w;2;na;na;na;na;L5:s, L3:s, SP:w, L6:w-, L4:w-;2;ring finger protein 122;0
 Rnf130;0;na;na;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;ring finger protein 130;0
 Robo2;0;SP:s, IZ:s, LP:s-, UP:s-;2;SP:s, IZ:s, CP:s, L6:w;2;SP:s, L5:s, L6:w, L4:w, L3:w, MZ:w;2;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;roundabout homolog 2 (Drosophila);0
 Rock1;0;0;0;na;na;na;na;SP:s, L5:s, L3:s, L6:w, L4:w, MZ:w;2;Rho-associated coiled-coil containing protein kinase 1;0
 S100b;0;0;0;0;0;WM:s-, SP:s-, L6:w-;2;L5:s, SP:s-, L6:w-, L4:w-, L3:w-, MZ:w-;4;S100 protein, beta polypeptide, neural;0
 Scd2;0;na;na;na;na;na;na;SP:s, WM:s, L5:s, L3:s, L6:w, L4:w, MZ:s;2;0;0
-Scrg1;0;VZ:s, SP:s, LP:s, UP:s;3;na;na;na;na;all:s;3;scrapie responsive gene 1;0
+Scrg1;0;VZ:s, SP:s, IZ:s;2;na;na;na;na;all:s;3;scrapie responsive gene 1;0
 Sdk2;0;0;0;na;na;na;na;SP:s, L6:w, L5:w;2;sidekick homolog 2 (chicken);0
 Sec24d;0;SP:s, LP:s, UP:s;3;na;na;na;na;SP:s, L6:w, L5:w, L4:w, L3:w, MZ:w;2;Sec24 related gene family, member D (S. cerevisiae);0
 Sema3a;0;SP:s-, IZ:s-, LP:s-;2;SP:s-, L5:s-;2;L5:s;4;L3:s;4;sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3A;0
@@ -406,7 +393,7 @@ Tmem2;0;MZ:s;4;na;na;SP:s-, WM:s-;2;all:s-;3;transmembrane protein 2;0
 Tmem40;0;0;0;na;na;na;na;SP:w-, L5:w-;2;transmembrane protein 40;0
 Tnmd;0;0;0;na;na;na;na;SP:s-;1;tenomodulin;inhibitor of angiogenesis
 Tpbg;5t4;VZ:s, SZ:s;4;na;na;na;na;SP:s;1;trophoblast glycoprotein;formation and maintenance of dendrites and synapses
-Tpd52l1;0;0;0;0;0;0;0;0;0;tumor protein D52-like 1;regulation of proliferation, vesicle trafficking and exocytosis
+Tpd52l1;0;0;0;SP:w;1;SP:w;1;SP:w, L6:w, L5:w, L4:w, L3:w, MZ:w;3;tumor protein D52-like 1;regulation of proliferation, vesicle trafficking and exocytosis
 Tppp;2900041A09Rik;LP:s, UP:s;4;na;na;na;na;SP:s, L3:s;2;tubulin polymerization promoting protein;0
 Trf;0;0;0;0;0;0;0;all:s;2;transferrin;0
 Trh;0;0;0;SP:s;1;SP:s;1;SP:s;1;thyrotropin releasing hormone;0

@@ -1,19 +1,25 @@
+/* All usable layers must be defined here 
+   -------------------------------------- */
 var SP_layers = {
-	"VZ": { t:"Visum Zipsum" },
-	"SZ": { t:"Sisum Zipsum" },
-	"IZ": { t:"Isum Zipsum" },
-	"SP": { t:"Sisum Pipsum" },
-	"LP": { t:"Lisum Pipsum" },
-	"CP": { t:"Cisum Pisum" },
-	"UP": { t:"Uisum Pipsum" },
-	"MZ": { t:"Misum Zipsum" },
-	"WM": { t:"White Matter"},
+	"VZ": { t: "VZ" },
+	"SZ": { t: "SZ" },
+	"IZ": { t: "IZ" },
+	"SP": { t: "SP" },
+	"LP": { t: "LP" },
+	"CP": { t: "CP" },
+	"UP": { t: "UP" },
+	"MZ": { t: "MZ" },
+	"WM": { t: "White Matter"},
 	"L6": { t: "Layer 6"},
 	"L5": { t: "Layer 5"},
 	"L4": { t: "Layer 4"},
-	"L3": { t: "Layer 23"}
+	"L3": { t: "Layer 2/3"}
 };
 
+/* Layer definitions per age
+   -------------------------
+   s: height of layer relative to others
+   b: show border with next layer (default: true) */
 var SP_ages = [{
 		name: 'E14/E15',
 		layers: [{

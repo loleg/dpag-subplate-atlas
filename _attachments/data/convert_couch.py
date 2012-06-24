@@ -53,24 +53,29 @@ def csv_to_couch_dump():
     #print col
   
     # skip empty data
-    if col[0] == "Gene Symbol" or col[0] == "0" or col[3] == "0":
+    if col[0] == "Gene Symbol" or col[0] == "0" or col[0] == "":
+      print "Skipping row ", csvReader.line_num
       continue
     
     # save the object
-    gene = Gene(
-      Symbol =      getGeneString(col[0]),
-      AltSymbols =  getGeneString(col[1]),
-      Exp_E14E15 =  getGeneString(col[2]),
-      Ptn_E14E15 =  getGenePattern(col[3]),
-      Exp_E18 =     getGeneString(col[4]),
-      Ptn_E18 =     getGenePattern(col[5]),
-      Exp_P4P7 =    getGeneString(col[6]),
-      Ptn_P4P7 =    getGenePattern(col[7]),
-      Exp_Adult =   getGeneString(col[8]),
-      Ptn_Adult =   getGenePattern(col[9]),
-      FullName =    getGeneString(col[10]),
-      Function =    getGeneString(col[11])
-    )    
+    try:
+      gene = Gene(
+        Symbol =      getGeneString(col[0]),
+        AltSymbols =  getGeneString(col[1]),
+        Exp_E14E15 =  getGeneString(col[2]),
+        Ptn_E14E15 =  getGenePattern(col[3]),
+        Exp_E18 =     getGeneString(col[4]),
+        Ptn_E18 =     getGenePattern(col[5]),
+        Exp_P4P7 =    getGeneString(col[6]),
+        Ptn_P4P7 =    getGenePattern(col[7]),
+        Exp_Adult =   getGeneString(col[8]),
+        Ptn_Adult =   getGenePattern(col[9]),
+        FullName =    getGeneString(col[10]),
+        Function =    getGeneString(col[11])
+      )    
+    except:
+      print "Unable to save gene at row ", csvReader.line_num
+      raise
     
     gene.save()
     i = i + 1

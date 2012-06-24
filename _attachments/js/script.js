@@ -193,9 +193,14 @@ function renderGene(gene) {
 			if (typeof SP_layers[this.n] == 'undefined') {
 				alert("Layer " + this.n + " missing definition"); return;
 			}
+			// Info text for this layer
 			this.i = SP_layers[this.n].t;
+			// Fill level, if not empty
 			if (gdls) {
 				this.f = getGeneFillLevel(gdls[this.n]);
+				if (this.f > 0) {
+					this.i = gdls[this.n] + " " + this.i;
+				}
 			}
 		});
 							 

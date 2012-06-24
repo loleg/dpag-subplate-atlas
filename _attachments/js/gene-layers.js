@@ -110,13 +110,13 @@ Raphael.fn.geneLayers = function (cx, cy, layerWidth, layerHeight, layers, title
 					
 		// Check fill pattern
 		switch(obj.f) {
-		case 1: 
+		case 1: // S
 			layer.f = "url('img/dots-dense-black.gif')"; break;
-		case 2:
-			layer.f = "url('img/dots-sparse-black.gif')"; break;
-		case 3:
+		case 2: // W
 			layer.f = "url('img/dots-dense-grey.gif')"; break;
-		case 4:
+		case 3: // S-
+			layer.f = "url('img/dots-sparse-black.gif')"; break;
+		case 4: // W-
 			layer.f = "url('img/dots-sparse-grey.gif')"; break;
 		default:
 			layer.f = layerOpts.fill;
@@ -141,11 +141,11 @@ Raphael.fn.geneLayers = function (cx, cy, layerWidth, layerHeight, layers, title
 		
 		// Hover
 		layer.mouseover(function() {
-			this.stop().animate({fill:settings.hover}, 200);
-			//this.ppp.show(); this.lbl.show();
+			//this.stop().animate({fill:settings.hover}, 200);
+			this.ppp.show(); this.lbl.show();
 		}).mouseout(function() {
-			this.stop().animate({fill:this.f}, 200);
-			//this.ppp.hide(); this.lbl.hide();
+			//this.stop().animate({fill:this.f}, 200);
+			this.ppp.hide(); this.lbl.hide();
 		});
 		
 		return layer;
