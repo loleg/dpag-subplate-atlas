@@ -126,7 +126,7 @@ function locateGene() {
 function showGeneDetail(data) {
 
 	navigateTo('gene-result', false);
-	console.log(data);
+	//console.log(data);
 	/*
 	Example data structure:
 	-----------------------
@@ -197,7 +197,11 @@ function renderGene(gene) {
 			this.i = SP_layers[this.n].t;
 			// Fill level, if not empty
 			if (gdls) {
-				this.f = getGeneFillLevel(gdls[this.n]);
+				if (typeof gdls.ALL != 'undefined') {
+					this.f = getGeneFillLevel(gdls.ALL);
+				} else {
+					this.f = getGeneFillLevel(gdls[this.n]);
+				}
 				if (this.f > 0) {
 					this.i = gdls[this.n] + " " + this.i;
 				}
@@ -244,9 +248,11 @@ function selectPatterns() {
 	});
 	if (whichQuery >= patternQueries.length) whichQuery = 0;
 	
+	/*
 	console.log(patternQueries[whichQuery] + ' ' + 
 		patternFilter.toString() + ' -> ' + 
 		endFilter.toString());
+	*/
 	
     $db.view($design + "/" + patternQueries[whichQuery], {
         descending: false,
@@ -256,10 +262,8 @@ function selectPatterns() {
         endkey: endFilter,
         success: 
         	function(doc) {
-        		console.log(doc);
         		doc.geneList = [];
         		$.each(doc.rows, function() {
-       				console.log(this.key.toString());
         			if (postFilter) {
         				// Validate this gene
 						for (var u in patternFilter) {
@@ -279,7 +283,6 @@ function selectPatterns() {
 }
 
 function showGenePatterns(doc) {
-	console.log(doc.geneList.length + ' rows loaded');
 	if (doc.geneList.length == 100) {
 		$('section.pattern-result').html(
 			'<h4>Too many genes meet this criteria, please narrow down your selection</h4>'
