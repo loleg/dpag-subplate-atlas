@@ -140,6 +140,7 @@ Raphael.fn.geneLayers = function (cx, cy, layerWidth, layerHeight, layers, title
 		}
 		
 		// Hover
+		/*
 		layer.mouseover(function() {
 			//this.stop().animate({fill:settings.hover}, 200);
 			this.ppp.show(); this.lbl.show();
@@ -147,6 +148,7 @@ Raphael.fn.geneLayers = function (cx, cy, layerWidth, layerHeight, layers, title
 			//this.stop().animate({fill:this.f}, 200);
 			this.ppp.hide(); this.lbl.hide();
 		});
+		*/
 		
 		return layer;
 	}
@@ -157,14 +159,16 @@ Raphael.fn.geneLayers = function (cx, cy, layerWidth, layerHeight, layers, title
     		paper.text(0, 0, 'N/A').attr(textLabelOpts)
 			.translate(cx + (layerWidth / 2), cy - (h / 2))
         );
-    } else if (!layers.x_blank) {
+    } else {
 		// Iterate drawing each layer
 		var currentStep = 0;
 		for (var u in layers) {
-			currentStep += layers[u].s;    	
-			chart.push(
-				drawLayer(currentStep, layers[u])
-			);
+			if (typeof layers[u].s != 'undefined') {
+				currentStep += layers[u].s;    	
+				chart.push(
+					drawLayer(currentStep, layers[u])
+				);
+			}
 		}
 	}
 	

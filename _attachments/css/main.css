@@ -95,7 +95,7 @@ nav a.current {
 	height:1.5em; width:1.5em;	
 	position: relative; top: 0.5em;
 }
-.gene-legend p, .gene-legend h4 { margin-bottom:0; }
+.gene-legend p, .gene-legend h5 { margin:0; }
 .gene-s { background: url('../img/dots-dense-black.gif'); }
 .gene-w { background: url('../img/dots-dense-grey.gif'); }
 .gene-s- { background: url('../img/dots-sparse-black.gif'); }
