@@ -12,6 +12,10 @@ $('.go').click(function() {
 	navigateTo(tgt);
 });
 
+// Load gene pattern lists
+$('.patterns .fourcolumns section').append($('#gene-pattern-select').html());
+$('.patterns select').change(selectPatterns);
+
 // Setup db access
 var path = unescape(document.location.pathname).split('/'),
     $design = path[3],
@@ -154,6 +158,9 @@ function showGeneDetail(data) {
 				functions:	data['Function'],
 				similar:	data.similar
 			}));
+
+	// Back buttons
+	$('.gene-result button.go').attr('href', $('nav .current').attr('href'));
 
 	// Setup similar links
 	setupGeneList(".gene-result .gene-list li");
@@ -304,8 +311,5 @@ function showGenePatterns(doc) {
 	);
 	setupGeneList(".pattern-result .gene-list li");
 }
-
-$('.patterns .fourcolumns section').append($('#gene-pattern-select').html());
-$('.patterns select').change(selectPatterns);
 
 });
