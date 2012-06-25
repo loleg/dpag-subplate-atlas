@@ -52,16 +52,19 @@ function navigateTo(tgt, showMenu) {
 		$('nav a[href="#' + tgt + '"]').addClass('current');
 	}
 	switch(tgt) {
-	case 'home': break;
+	case 'home': 
+	case 'about':
+		$(document).scrollTop(0);
+		break;
 	case 'genes':
 		$('#gene-searchbox').focus();
 		break;
-	case 'patterns': break;
-	case 'about': break;
+	case 'patterns': 
+		$('.patterns select:first').focus();
+		break;
 	default:
 		return locateGene(tgt);
 	}
-	$(document).scrollTop(0);
 }
 
 // Open full details on a gene
