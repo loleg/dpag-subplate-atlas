@@ -81,13 +81,26 @@ nav a.current {
 	font-weight:bold; 
 }
 
-.gene-symbol { text-align:center; margin-bottom:0.5em; }
+.gene-symbol { 
+	text-align: center;
+	margin: 0.5em 0;
+	font-size: 360%;
+	text-shadow: 1px 2px 3px #AAA;
+	color: #777;
+}
+
+.gene-title {
+	text-align: center;
+}
 
 #gene-graph { float:left; }
 
 .gene-legend { 
-	color:#555; border:1px solid #555; 
+	color:#555; 
+	border:1px solid #ccc;
+	background: #eee; 
 	padding:1em; font-size:80%; 
+	margin-top: 7.4em;
 	display:inline-block; 
 }
 .gene-legend span {
