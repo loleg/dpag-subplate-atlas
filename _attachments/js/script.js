@@ -1,15 +1,28 @@
-/* Oleg Lavrovsky 2012 */
+/* (C) Oleg Lavrovsky 2012 */
 $(function() { 
 
 // Chart configuration
 var width = 600, height = 320;
 var chart = null;
-
 var lastGeneSymbol = null, lastGenePattern = null;
 
-// Setup page links
-$('button').button();
-$('.go').click(function() {
+// Setup db access
+var path = unescape(document.location.pathname).split('/'),
+    $design = path[3],
+    $db = $.couch.db(path[1]);
+    
+// Load gene database
+$db.view($design + "/all-genes", {
+    descending: false,
+    limit: 500,
+    reduce: false,
+    success: initGeneAtlas
+});
+
+/* ***** UTILITY FUNCTIONS ***** */
+
+// When any go links/buttons are clicked
+function clickGo() {
 	// get link target
 	var tgt = $(this).attr('href').replace('#','');
 	// handle queries
@@ -28,24 +41,7 @@ $('.go').click(function() {
 	}
 	// swap page
 	navigateTo(tgt);
-});
-
-// Load gene pattern lists
-$('.patterns .fourcolumns section').append($('#gene-pattern-select').html());
-$('.patterns select').change(selectPatterns);
-
-// Setup db access
-var path = unescape(document.location.pathname).split('/'),
-    $design = path[3],
-    $db = $.couch.db(path[1]);
-    
-// Load gene database
-$db.view($design + "/all-genes", {
-    descending: false,
-    limit: 500,
-    reduce: false,
-    success: initGeneSearch
-});
+}
 
 // Load a specific section of the page
 function navigateTo(tgt, showMenu) {
@@ -56,11 +52,14 @@ function navigateTo(tgt, showMenu) {
 		$('nav a[href="#' + tgt + '"]').addClass('current');
 	}
 	switch(tgt) {
+	case 'home': break;
 	case 'genes':
 		$('#gene-searchbox').focus();
 		break;
-	case 'patterns':
-		break;
+	case 'patterns': break;
+	case 'about': break;
+	default:
+		locateGene(tgt);
 	}	
 }
 
@@ -100,7 +99,7 @@ function loadGeneSimilar(doc) {
 }
 
 // Set up the gene search
-function initGeneSearch(data) {
+function initGeneAtlas(data) {
 
 	var SP_data = data.rows.map(function(r) {return [r.key, r.id];});
 
@@ -138,9 +137,22 @@ function initGeneSearch(data) {
 	$(".gene-reset").click(function() { 
 		$("#gene-searchbox").val('').trigger('keyup');
 	});
+	
+	// Setup page links
+	$('button').button();
+	$('.go').click(clickGo);
 
 	// Initial gene list
 	setupGeneList(".genes .gene-list li");
+
+	// Load gene pattern lists
+	$('.patterns .fourcolumns section').append($('#gene-pattern-select').html());
+	$('.patterns select').change(selectPatterns);
+	
+	// Navigate to link
+	if (document.location.hash) {
+		navigateTo(document.location.hash.replace('#',''));
+	}
 }
 
 // Creates links from a list of genes
@@ -153,10 +165,17 @@ function setupGeneList(obj) {
 }
 
 // Gene link
-function locateGene() {
-	var geneId = $(this).parent().attr('id');
-	// TODO: local cache
-	loadGeneDetails(geneId);
+function locateGene(name) {
+	var geneId = null;
+	if (typeof name == "string") {
+		geneId = $(".gene-list li:contains('" + name + "')").attr('id');
+	} else {
+		geneId = $(this).parent().attr('id');
+	}
+	if (typeof geneId != 'undefined' && geneId != null) {
+		// TODO: local cache
+		loadGeneDetails(geneId);
+	}
 }
 
 // Open detail page on a gene
