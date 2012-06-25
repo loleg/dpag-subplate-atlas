@@ -54,7 +54,7 @@ function navigateTo(tgt, showMenu) {
 	switch(tgt) {
 	case 'home': 
 	case 'about':
-		$(document).scrollTop(0);
+		//$(document).scrollTop(0);
 		break;
 	case 'genes':
 		$('#gene-searchbox').focus();
