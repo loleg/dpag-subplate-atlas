@@ -237,7 +237,7 @@ function selectPatterns() {
 	var patternQueries = 
 		[ 'similar-genes', 'genes-by-e14', 'genes-by-e18', 'genes-by-p4' ];
 		
-	var postFilter = false;
+	var postFilter = false, debugFilter = [];
 	$.each(patternOrder, function() {
 		var i = $('.patterns section[age="' + this + '"] select').val();
 		if (i == "") {
@@ -247,23 +247,28 @@ function selectPatterns() {
 				postFilter = true;
 				patternFilter.push(null);
 				endFilter.push({});
+				debugFilter.push(this);
 			}
 		} else {
 			patternFilter.push(parseInt(i));
-			endFilter.push(parseInt(i));	
+			endFilter.push(parseInt(i));
+			debugFilter.push(this);
 		}
 	});
 	if (whichQuery >= patternQueries.length) whichQuery = 0;
 	
-	/*
+	console.log(debugFilter.toString());
 	console.log(patternQueries[whichQuery] + ' ' + 
 		patternFilter.toString() + ' -> ' + 
 		endFilter.toString());
-	*/
+	
+	if (patternFilter.length == 0) {
+		$('section.pattern-result').html();
+		return;
+	}
 	
     $db.view($design + "/" + patternQueries[whichQuery], {
         descending: false,
-        limit: 100,
         reduce: false,
         startkey: patternFilter,
         endkey: endFilter,
@@ -290,7 +295,7 @@ function selectPatterns() {
 }
 
 function showGenePatterns(doc) {
-	if (doc.geneList.length == 100) {
+	if (doc.geneList.length >= 100) {
 		$('section.pattern-result').html(
 			'<h4>Too many genes meet this criteria, please narrow down your selection</h4>'
 		);
