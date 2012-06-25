@@ -50,21 +50,22 @@
 			<h2>Search or browse the atlas by</h2>
 			<button class="go" href="#genes">Gene names</button>
 			<button class="go" href="#patterns">Expression patterns</button>
-			<p>The gene expression data  used for this atlas is based on microarray and RNA sequencing studies and publicly available <i>in situ</i> hybridization images in early embryonic, late embryonic, early postnatal and adult mice. <a href="#">Read more here</a> and see <a href="#">Hoerder-Suabedissen et al., 2012</a>.</p>		
+			<p>The gene expression data  used for this atlas is based on microarray and RNA sequencing studies and publicly available <i>in situ</i> hybridization images in early embryonic, late embryonic, early postnatal and adult mice. <a class="go" href="#about">Read more here</a> and see <a href="http://www.ncbi.nlm.nih.gov/pubmed" target="_blank">Hoerder-Suabedissen et al., 2012</a>.</p>		
 		</article>
 		
 		<article class="genes hidden">
 			<h2>Search for a gene name</h2>
 			<input id="gene-searchbox" size="30" class="ui-state-default ui-widget ui-widget-content ui-corner-left">
 			<span class="gene-reset">&#x2716;</span>
-			<h2>or select from the list</h2>
+			<h3>and select from the list:</h3>
 			<div class="gene-list"><ul></ul></div>
 		</article>
 		
 		<article class="gene-result result hidden">
-			<button class="go" href="#genes">Back to search</button>
+			<button class="go back" href="#genes">Back to search</button>
 			<section></section>
-			<button class="go" href="#genes">Back to search</button>
+			<button class="go query" href="#patterns">Browse by pattern</button>
+			<button class="go query" href="#genes">Search by name</button>
 		</article>
 		
 		<article class="patterns hidden">
@@ -150,9 +151,10 @@
 	</div>
 	{{/functions}}
 	<div class="gene-list">
-		<h4>Genes with a similar temporal expression pattern:</h4>
+		<h4>Genes with the same temporal expression:</h4>
 		<ul>
 			{{#similar}}<li id="{{id}}">{{name}}</li>{{/similar}}
+			{{^similar}}<p>No gene with the same expression found: try browsing for similar patterns.</p>{{/similar}}
 		</ul>
 	</div>
 </script>
@@ -167,7 +169,7 @@
 	</select>
 </script>
 <script id="gene-patterns-list" type="text/x-mustache" charset="utf-8">
-	<h3>Genes with the selected expression pattern ({{geneLength}}):</h3>
+	<h4>Genes with the selected expression pattern ({{geneLength}}):</h4>
 	<div class="gene-list"><ul>
 		{{#genes}}<li id="{{id}}">{{name}}</li>{{/genes}}
 	</ul></div>

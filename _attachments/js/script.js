@@ -5,10 +5,28 @@ $(function() {
 var width = 600, height = 320;
 var chart = null;
 
+var lastGeneSymbol = null, lastGenePattern = null;
+
 // Setup page links
 $('button').button();
 $('.go').click(function() {
+	// get link target
 	var tgt = $(this).attr('href').replace('#','');
+	// handle queries
+	if ($(this).hasClass('query') && lastGeneSymbol != null) {
+		switch(tgt) {
+		case 'genes':
+			$('#gene-searchbox').val(lastGeneSymbol).trigger('keyup');
+			break;
+		case 'patterns':
+			$.each(lastGenePattern, function(n) {
+				$('.patterns section[age="' + n + '"] select').val(parseInt(this));
+			});
+			$('.patterns section select:last').trigger('change');
+			break;
+		}	
+	}
+	// swap page
 	navigateTo(tgt);
 });
 
@@ -37,6 +55,13 @@ function navigateTo(tgt, showMenu) {
 		$('nav a').removeClass('current');
 		$('nav a[href="#' + tgt + '"]').addClass('current');
 	}
+	switch(tgt) {
+	case 'genes':
+		$('#gene-searchbox').focus();
+		break;
+	case 'patterns':
+		break;
+	}	
 }
 
 // Open full details on a gene
@@ -101,6 +126,14 @@ function initGeneSearch(data) {
 				$("li[index='" + i + "']", objs).show();
 			}
 		}
+	}).keydown(function(event) {
+		if (event.keyCode == '13') {
+			var visGenes = $("li", geneList).filter(":visible");
+			if (visGenes.length == 1) {
+				visGenes.find('a').click();
+			}
+			event.preventDefault(); 
+		}
 	});
 	$(".gene-reset").click(function() { 
 		$("#gene-searchbox").val('').trigger('keyup');
@@ -148,19 +181,28 @@ function showGeneDetail(data) {
 		Symbol: "2600011C06Rik"
 	*/
 	
+	// Save query links
+	lastGeneSymbol = data.Symbol;
+	lastGenePattern = {
+		Ptn_Adult: 	data['Ptn_Adult'],
+		Ptn_E14E15: data['Ptn_E14E15'],
+		Ptn_E18: 	data['Ptn_E18'],
+		Ptn_P4P7: 	data['Ptn_P4P7']
+	};
+	var geneSimilar = (data.similar.length > 1) ? data.similar : false;
+	
 	// Add details to page
-	var gr = 
-		$('.gene-result section').html(
-			$.mustache($("#gene-details").html(), {
-				symbol:		data.Symbol,
-				title:		data.FullName,
-				alts:		data.AltSymbols,
-				functions:	data['Function'],
-				similar:	data.similar
-			}));
+	$('.gene-result section').html(
+		$.mustache($("#gene-details").html(), {
+			symbol:		data.Symbol,
+			title:		data.FullName,
+			alts:		data.AltSymbols,
+			functions:	data['Function'],
+			similar:	geneSimilar
+		}));
 
 	// Back buttons
-	$('.gene-result button.go').attr('href', $('nav .current').attr('href'));
+	$('button.go.back').attr('href', $('nav .current').attr('href'));
 
 	// Setup similar links
 	setupGeneList(".gene-result .gene-list li");
@@ -235,9 +277,10 @@ function selectPatterns() {
 	var patternOrder = 
 		[ 'Ptn_Adult', 'Ptn_E14E15', 'Ptn_E18', 'Ptn_P4P7' ];
 	var patternQueries = 
-		[ 'similar-genes', 'genes-by-e14', 'genes-by-e18', 'genes-by-p4' ];
-		
+		[ 'similar-genes', 'genes-by-e14', 'genes-by-e18', 'genes-by-p4' ];	
 	var postFilter = false, debugFilter = [];
+	
+	// Collect pattern selection
 	$.each(patternOrder, function() {
 		var i = $('.patterns section[age="' + this + '"] select').val();
 		if (i == "") {
@@ -257,11 +300,15 @@ function selectPatterns() {
 	});
 	if (whichQuery >= patternQueries.length) whichQuery = 0;
 	
-	console.log(debugFilter.toString());
-	console.log(patternQueries[whichQuery] + ' ' + 
-		patternFilter.toString() + ' -> ' + 
-		endFilter.toString());
+	// DEBUG
+	if (typeof console != 'undefined') {
+		console.log(debugFilter.toString());
+		console.log(patternQueries[whichQuery] + ' ' + 
+			patternFilter.toString() + ' -> ' + 
+			endFilter.toString());
+	}
 	
+	// No patterns selected
 	if (patternFilter.length == 0) {
 		$('section.pattern-result').html();
 		return;
