@@ -59,8 +59,9 @@ function navigateTo(tgt, showMenu) {
 	case 'patterns': break;
 	case 'about': break;
 	default:
-		locateGene(tgt);
-	}	
+		return locateGene(tgt);
+	}
+	$(document).scrollTop(0);
 }
 
 // Open full details on a gene
