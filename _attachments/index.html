@@ -44,8 +44,8 @@
 		</li><li id="sitemap">
 			<a href="http://www.dpag.ox.ac.uk/sitemap" accesskey="3" title="sitemap">sitemap</a>
 		</li></ul>
-		<form action="search" name="searchform" id="searchform">
-			<input class="searchbox inputLabel inputLabelActive" type="text" accesskey="4" title="Search Site" name="SearchableText" autocomplete="off" size="20" value="Search Site">
+		<form action="http://www.dpag.ox.ac.uk/search_form" name="searchform" id="searchform">
+			<input class="searchbox inputLabel inputLabelActive" type="text" accesskey="4" title="Search Site" name="SearchableText" autocomplete="off" size="20" value="Search Site" onclick="if (this.value == 'Search Site') this.value=''">
 			<input class="searchbutton" type="submit" value="Submit">
 		</form>
 	</div>
@@ -53,7 +53,7 @@
 </div>
 <div id="overhead">
 
-	<h1 id="title">
+	<h1 id="title"><a name="content"></a>
 		Subplate Gene Expression Atlas
 	</h1>
 	<nav>

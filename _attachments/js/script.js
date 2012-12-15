@@ -154,7 +154,7 @@ function initGeneAtlas(data) {
 	$('.patterns select').change(selectPatterns);
 	
 	// Navigate to link
-	if (document.location.hash) {
+	if (document.location.hash && document.location.hash != '#content') {
 		navigateTo(document.location.hash.replace('#',''));
 	}
 }
