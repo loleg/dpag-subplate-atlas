@@ -191,7 +191,7 @@ nav {
 	background: #002147; 
 	height:3em; width:100%;
 }
-nav a, nav a:visited {
+nav a, nav a:link, nav a:visited {
 	float:left;
 	width:6em; height:3em;
 	line-height:3em;
