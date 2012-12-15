@@ -8,8 +8,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<title>Subplate Gene Expression Atlas</title>
-	<meta name="description" content="">
 	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
 
 	<meta name="viewport" content="width=device-width">
 
@@ -17,6 +18,12 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/helper.css">
+	
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png"/>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="home" href="http://www.dpag.ox.ac.uk" title="Front page" />
+    <link rel="contents" href="http://www.dpag.ox.ac.uk/sitemap" title="Site Map" />
+    <link rel="search" href="http://www.dpag.ox.ac.uk/search_form" title="Search this site" />
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,8 +32,30 @@
 
 </head>
 <body>
+<div id="container">
+<div id="header">
+
+	<a id="mark" href="http://www.ox.ac.uk" name="mark">University of Oxford</a>
+	<div id="searchbox">
+		<ul><li id="skip">
+			<a accesskey="2" href="#content">Skip to content</a>
+		</li><li id="accessibility">
+			<a href="http://www.dpag.ox.ac.uk/accessibility-info" accesskey="0" title="Accessibility">Accessibility</a>
+		</li><li id="sitemap">
+			<a href="http://www.dpag.ox.ac.uk/sitemap" accesskey="3" title="sitemap">sitemap</a>
+		</li></ul>
+		<form action="search" name="searchform" id="searchform">
+			<input class="searchbox inputLabel inputLabelActive" type="text" accesskey="4" title="Search Site" name="SearchableText" autocomplete="off" size="20" value="Search Site">
+			<input class="searchbutton" type="submit" value="Submit">
+		</form>
+	</div>
+	
+</div>
 <div id="overhead">
 
+	<h1 id="title">
+		Subplate Gene Expression Atlas
+	</h1>
 	<nav>
 		<ul>
 			<li><a class="go current" href="#home">Home</a></li>
@@ -38,11 +67,6 @@
 	
 </div>
 <div id="wrapper">
-
-	<header class="clearfix">
-		<h1 id="title">Subplate Gene Expression Atlas</h1>
-		<p class="subtitle">A visualization of genes with a specific or enriched expression in the mouse subplate, including data from early embryonic to adult stages</p>
-	</header>
 
 	<div id="main" class="clearfix">
 		
@@ -85,24 +109,31 @@
 		</article>
 
 		<article class="about hidden">
+		
+<h3>Subplate Gene Expression Atlas</h3>
+<p class="subtitle">A visualization of genes with a specific or enriched expression in the mouse subplate, including data from early embryonic to adult stages.</p>
 			
-<h3>Atlas</h3>
-<p>The Subplate Gene Expression Atlas illustrates the cortical expression patterns of 426 selected genes. These genes were identified by both microarray/RNA seq and in situ hybridization studies as preferentially expressed in subplate  at at least one developmental age (E15, E18, P7 and Adult). The expression patterns illustrated in the Atlas are derived from published or publicly available in situ hybridization images (see Methods). Expression levels were categorized for the illustration according to two criteria: abundance of cells (abundant vs sparse) and expression  level (no labeling detected vs weak labeling vs strong labeling). It is important to note that expression levels are purely qualitative and should neither be compared between ages nor between different genes.</p>
+<h3>Overview</h3>
+<p>The Subplate Gene Expression Atlas illustrates the cortical expression patterns of 426 selected genes. These genes were identified by both microarray/RNA seq and in situ hybridization studies as preferentially expressed in subplate at at least one developmental age (E15, E18, P4/P7/P8 and Adult). The expression patterns illustrated in the Atlas are derived from published or publicly available in situ hybridization images (see below). Expression levels were categorized for the illustration according to two criteria: abundance of cells (abundant vs sparse) and expression level (no labeling detected vs weak labeling vs strong labeling). It is important to note that expression levels are purely qualitative and should neither be compared between ages nor between different genes.</p>
 
 <h3>Methods</h3>
-<p>A microarray based approach was used to identify genes expressed at a higher level in the mouse subplate compared to overlying cortical plate at embryonic ages E15.5 and E18.5 and subplate compared to overlying layer 6a at postnatal P8. High-throughput sequencing data was used to identify genes expressed at a higher level in the adult mouse subplate/layer 6b compared to the adjacent layer 6a . In total, 1642 genes were identified as potentially SP enriched at least at one age. Of these, 426 genes could be confirmed as SP enriched using published  or publicly available databases including Allen Mouse Brain Atlas, Allen Developing Mouse Brain Atlas, Genepaint.org and Gensat (?)</p>
+<p>A microarray based approach was used to identify genes expressed at a higher level in the mouse subplate compared to overlying cortical plate at embryonic ages E15.5 and E18.5 and subplate compared to overlying layer 6a at postnatal P8 (Affymetrix Gene ST1.0 at E15, Affymetrix 430 2.0 for E18.5 and P8). Data was RMA normalized and putatively differential gene expression (>1.5-fold higher in subplate, nominal p<0.05) determined. High-throughput sequencing data was used to identify genes expressed at a higher level (>1.5 fold) in the adult mouse subplate/layer 6b compared to the adjacent layer 6a. In total, 1642 genes were identified as potentially SP enriched at least at one age. Of these, 426 genes could be confirmed as SP enriched using published or publicly available databases including Allen Mouse Brain Atlas (Adult), Allen Developing Mouse Brain Atlas (E15.5, E18.5, P4 and P14), Genepaint.org (E14.5, P7 and Adult) and or our own in situ hybridization or immunohistochemistry experiments. The schematic results of this are presented here in the “Subplate Gene Expression Atlas”. Genes with uniform or no labelling, or for which no images could be found, were not included.</p>
 
-<h3>References</h3>
-<p>Hoerder-Suabedissen et al., 2012</p>
-<p>Oeschger et al., 2011</p>
-<p>Belgard et al., 2011</p>
-<p>Hoerder-Suabedissen et al., 2009</p>
-<p>Allen Brain Atlas</p>
-<p>Etc.</p>
+<p>Using the above approach, we selected against genes that are subplate expressed, but are additionally expressed in layer 6a at equal or higher levels. Furthermore, there may be subplate specific or enriched genes not identified by the microarrays. Thus, genes important for the differentiation of the deep cortical layers or those relevant in the specification of subplate prior to E15.5 may not be included here.</p> 
+
+<p>This Subplate Gene Expression Atlas is an ongoing project and over time more genes identified by other sources may be added if there is convincing evidence of their subplate enriched expression at the above time points.</p>
+
+<h3>Publications</h3>
+
+<p>This site is referenced in the following papers - please contact us if you wish to be added:</p>
+
+<ul>
+<li>Anna Hoerder-Suabedissen, Franziska M Oeschger, Michelle L Krishnan, T Grant Belgard, Wei Zhi Wang, Sheena Lee, Caleb Webber, Enrico G Petretto, A David  Edwards, Zoltán Molnár (2012) <b>Expression Profiling of Mouse Subplate Reveals a Spatially and Temporally Dynamic Gene Network and Disease Association with Autism and Schizophrenia</b> </li>
+</ul>
 
 <h3>Contact</h3>
-<p><a href="mailto:zoltan.molnar@dpag.ox.ac.uk">Prof. Zoltán Molnár<span class="ui-icon ui-icon-mail-closed"></span></a></p>
-<p><a href="mailto:anna.hoerder-suabedissen@dpag.ox.ac.uk">Dr. Anna Hoerder-Suabedissen<span class="ui-icon ui-icon-mail-closed"></span></a></p>
+
+<p><a href="http://www.dpag.ox.ac.uk/academic_staff/zoltan_molnar">Prof. Zoltán Molnár<span class="ui-icon ui-icon-mail-closed"></span></a></p>
 <p>Department of Physiology, Anatomy and Genetics (<a href="http://www.dpag.ox.ac.uk/" target="_blank">web</a>),</p>
 <p>Oxford University</p>
 
@@ -110,20 +141,29 @@
 <p><a href="http://ch.linkedin.com/pub/franziska-oeschger/46/548/767" target="_blank">Dr. Franziska Oeschger</a> and <a href="http://about.me/loleg" target="_blank">Oleg Lavrovsky</a></p>
 
 <h3>Terms of use</h3>
-<p>The <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Subplate Gene Expression Atlas</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</p>
-<center><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a></center>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0; float:left; margin:0 1em 2em 0;" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+<p>The <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Subplate Gene Expression Atlas</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>. Copyright &copy; 2012 Anna Hoerder-Suabedissen, Franziska Oeschger, Oleg Lavrovsky</p>
 
 		</article>
 		
 <!--           nnnnn mn mn mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnnn           -->
 		
 	</div> <!-- #main -->
-	
+</div><!-- #wrapper -->
+
 	<footer>
-		<h3></h3>
+		<ul class="extras">
+		<li class="first"><a href="http://www.ox.ac.uk/site_map.html" class="sitemap" title="oxweb">Site map</a></li>
+		<li><a href="http://www.ox.ac.uk/copyright.html">Legal notice</a></li>
+		<li><a href="http://www.admin.ox.ac.uk/dataprotection/privacypolicy/">Privacy</a></li>
+		<li><a href="http://www.admin.ox.ac.uk/dataprotection/cookies/">Cookies</a></li>
+		<li><a href="/applications/dynamic/contact_us.rm?id=164&amp;area=root&amp;backto=12650">Contact details</a></li>
+		<li><a href="http://www.ox.ac.uk/about_this_site.html">About this site</a></li>
+		</ul>
 	</footer>
 	
-</div>
+</div><!-- #container -->	
 </body>
 
 <!-- Templates -->

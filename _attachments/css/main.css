@@ -3,7 +3,8 @@
    ========================================================================== */
 
 body { 
-	font:16px/26px Verdana, Helvetica, Arial, sans-serif; 
+	font: 14px/24px 'Lucida Grande', Verdana, Lucida, Helvetica, Arial, sans-serif;
+	color: #303030
 	background:white; 
 }
 
@@ -16,6 +17,12 @@ body {
 	background:#f0f0f0; 
 }
 
+#title {
+	background:#b5d5ff; color:#556688;
+	margin:0; padding:20px 0 8px 10px;
+	font:27px Arial, sans-serif;
+}
+
 header {
 	text-align:center;
 	margin:1em;
@@ -26,7 +33,88 @@ header .subtitle {
 	display:inline-block;
 }
 
-article { text-align: center; margin:0 2em; min-height:11em; padding-bottom:1em; }
+a#mark {
+	display: block;
+	background:transparent url(../img/2231_ox_brand1_rev.gif) no-repeat;
+	width: 115px;
+	height: 0px !important;
+	padding: 115px 0 0 0;
+	float: right;
+	overflow: hidden;
+	border: 0px;
+	margin: 0px;
+}
+
+#searchbox {
+	float:right;
+	margin:16px 20px 0 0;
+	background:transparent url(../img/search.png) no-repeat 0 26px;
+}
+
+#searchbox .searchbox {
+	background:transparent;
+	height:34px;
+	width:165px;
+	padding:0 0 0 6px;
+	margin:0;
+	border:0;
+	color:#222;
+}
+
+#searchbox .searchbutton {
+	background:transparent;
+	height:34px;
+	width:40px;
+	padding:0;
+	margin-left:5px;
+	border:0;
+	cursor:pointer;
+	margin-left:0px;
+	font-size:0;
+	line-height:0;
+}
+
+#searchbox ul {
+	list-style-image:none;
+	list-style:none;
+	margin:0;
+}
+
+#searchbox li{
+	font-size:0.8em;
+	display:block;
+	float:left;
+}
+
+#searchbox li a{
+	display:block;
+	margin:0 7px 7px 0;
+	border:0;
+	color:#002147;
+}
+
+#searchbox li a:hover {
+	color:#002147;
+	text-decoration:underline;
+}
+
+#skip a, #accessibility a {
+	padding-right:10px;
+	background:url(../img/dot.png) 100%  55% no-repeat;
+}
+
+#searchbox form { 
+	clear:both;
+}
+
+#header{
+	height:130px;
+	background:#fff url(../img/banner.png) no-repeat top left;
+	clear:both;
+}
+
+
+article { margin:0 2em; min-height:11em; padding-bottom:1em; }
 
 article button { padding:10px 20px; font-weight:bold; }
 
@@ -46,15 +134,19 @@ nav a, nav a:visited {
 	padding:0;
 	margin-bottom:0;
 	text-decoration:none;
-	border-left:1px solid #248;
-	color:#fff; background:#136;
+	border-left:1px solid #b5d5ff;
+	color:#C2C2C2; 
+	background:#002147;
+}
+nav li:first-child a {
+	border-left:none;
 }
 nav a:hover, nav a:active {
-	color:#fff; background:#248;
-	text-decoration:underline;
+	color:#fff;
 }
 nav a.current {
-	background:#999;
+	background: transparent url(../img/selected.png) no-repeat scroll 50% 100%;
+	color: white;
 }
 
 /* ------ */
@@ -132,14 +224,20 @@ nav a.current {
 .about p { margin:0; }
 
 /* WIDE ---------- */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
 
+	#container {
+		left: 50%;
+		margin-left: -480px;
+		position: relative;
+		width: 960px;
+	}
+	#searchbox { display:none; }
 	#wrapper {
 		-webkit-box-shadow:0 5px 10px #aaa;
 		   -moz-box-shadow:0 5px 10px #aaa;
 		        box-shadow:0 5px 10px #aaa;
 	}
-	
 	.result section {
 		-webkit-box-shadow:5px 5px 15px #ddd;
 		   -moz-box-shadow:5px 5px 15px #ddd;
