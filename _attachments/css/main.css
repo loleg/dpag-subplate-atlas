@@ -8,6 +8,16 @@ body {
 	background:white; 
 }
 
+a, a:link, a:visited {
+	color: #002d62;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #476A8F;
+	text-decoration: underline;
+}
+
 ::selection {
 	background: #566374;
 }
@@ -111,6 +121,53 @@ a#mark {
 	height:130px;
 	background:#fff url(../img/banner.png) no-repeat top left;
 	clear:both;
+}
+
+footer {
+	border-top: 4px solid #dedede;
+	color: #888;
+	font-size: 90%;
+	height: 1%;
+	clear: both;
+	padding:10px 0 20px 24%;
+	margin-bottom: 30px;
+	text-align:center;
+}
+footer ul {
+	float:left;
+	position:relative;
+	line-height:1.1em;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+footer ul.extras {
+	font-weight:bold;
+}
+footer ul li {	
+	float: left;
+	padding:0 6px;
+	list-style:none;
+	margin:0;
+	border-left: 1px solid #666;
+}
+footer ul li.first {
+	padding-left:0;
+	border:none;
+}
+footer dl {
+	float:right;
+	position:relative;
+	margin:0;
+	line-height:1.1em;
+}
+footer dt {
+	float: left;
+	margin-right: 5px;
+}
+footer dd {
+	float: left;
+	margin-right: 0px;
 }
 
 
