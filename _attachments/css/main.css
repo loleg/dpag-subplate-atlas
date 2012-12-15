@@ -38,9 +38,8 @@ header {
 	margin:1em;
 }
 
-header .subtitle {
-	width:36em; margin:0;
-	display:inline-block;
+.subtitle {
+	font-style:italic;
 }
 
 a#mark {
@@ -171,11 +170,20 @@ footer dd {
 }
 
 
-article { margin:0 2em; min-height:11em; padding-bottom:1em; }
+article { 
+	margin:1em 2em; 
+	min-height:11em; 
+	padding-bottom:1em; 
+}
 
-article button { padding:10px 20px; font-weight:bold; }
+article button { 
+	padding:10px 20px; 
+	font-weight:bold; 
+}
 
-article p { text-align: left; }
+article p { 
+	text-align: left; 
+}
 
 /* Navigation */
 
@@ -226,8 +234,12 @@ nav a.current {
 
 .gene-list li { 
 	list-style:none; padding:0 .5em; 
-	width:15em; float:left;
+	width:12.5em; float:left;
 	font-weight:bold; 
+}
+
+.gene-list li:nth-child(odd) {
+	background:#eaeaf0;
 }
 
 .gene-symbol { 
@@ -245,6 +257,7 @@ nav a.current {
 #gene-graph { float:left; }
 
 .gene-legend { 
+	width:150px;
 	color:#555; 
 	border:1px solid #ccc;
 	background: #eee; 
@@ -267,8 +280,18 @@ nav a.current {
 
 .result section {
 	text-align: left; 
-	margin: 1em; padding:1em;
+	margin: 1em 0; padding:1em;
 	background: #fff;
+}
+
+a.allen {
+	color:#999;
+	padding-left:40px; min-height:37px;
+	background:url(../img/allen.gif) no-repeat;
+	display:block; float:right;
+    font-size: 94%;
+    line-height: 1.4em;
+    width: 9em;
 }
 
 .fourcolumns section {
@@ -278,7 +301,6 @@ nav a.current {
 
 .fourcolumns section b { display:block; }
 
-.about p { margin:0; }
 
 /* WIDE ---------- */
 @media only screen and (min-width: 960px) {

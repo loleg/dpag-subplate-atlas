@@ -7,10 +7,10 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Subplate Gene Expression Atlas</title>
-	<meta name="author" content="">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<title>Subplate Gene Expression Atlas — Physiology, Anatomy and Genetics</title>
+	<meta name="author" content="Anna Hoerder-Suabedissen, Franziska Oeschger, Oleg Lavrovsky">
+	<meta name="keywords" content="subplate layer 6b cerebral cortex visualization genes mouse data embryo adult pattern">
+	<meta name="description" content="A visualization of genes with a specific or enriched expression in the mouse subplate, including data from early embryonic to adult stages">
 
 	<meta name="viewport" content="width=device-width">
 
@@ -125,20 +125,21 @@
 
 <h3>Publications</h3>
 
-<p>This site is referenced in the following papers - please contact us if you wish to be added:</p>
+<p>This site is referenced in the following papers; please contact us if you wish to be added.</p>
 
-<ul>
-<li>Anna Hoerder-Suabedissen, Franziska M Oeschger, Michelle L Krishnan, T Grant Belgard, Wei Zhi Wang, Sheena Lee, Caleb Webber, Enrico G Petretto, A David  Edwards, Zoltán Molnár (2012) <b>Expression Profiling of Mouse Subplate Reveals a Spatially and Temporally Dynamic Gene Network and Disease Association with Autism and Schizophrenia</b> </li>
-</ul>
+<p>Anna Hoerder-Suabedissen, Franziska M Oeschger, Michelle L Krishnan, T Grant Belgard, Wei Zhi Wang, Sheena Lee, Caleb Webber, Enrico G Petretto, A David  Edwards, Zoltán Molnár (2012) <b>Expression Profiling of Mouse Subplate Reveals a Spatially and Temporally Dynamic Gene Network and Disease Association with Autism and Schizophrenia</b> </p>
 
 <h3>Contact</h3>
 
-<p><a href="http://www.dpag.ox.ac.uk/academic_staff/zoltan_molnar">Prof. Zoltán Molnár<span class="ui-icon ui-icon-mail-closed"></span></a></p>
-<p>Department of Physiology, Anatomy and Genetics (<a href="http://www.dpag.ox.ac.uk/" target="_blank">web</a>),</p>
-<p>Oxford University</p>
+<p><a href="http://www.dpag.ox.ac.uk/academic_staff/zoltan_molnar">Zoltán Molnár MD DPhil</a><br>
+Professor of Developmental Neurobiology<br>
+Cerebral cortical development<br>
+Department of Physiology, Anatomy and Genetics<br>
+Oxford University</p>
 
 <h3>Web Development</h3>
-<p><a href="http://ch.linkedin.com/pub/franziska-oeschger/46/548/767" target="_blank">Dr. Franziska Oeschger</a> and <a href="http://about.me/loleg" target="_blank">Oleg Lavrovsky</a></p>
+<p><a href="http://ch.linkedin.com/pub/franziska-oeschger/46/548/767" target="_blank">Franziska Oeschger DPhil</a><br>
+<a href="http://about.me/loleg" target="_blank">Oleg Lavrovsky</a></p>
 
 <h3>Terms of use</h3>
 
@@ -168,6 +169,7 @@
 
 <!-- Templates -->
 <script id="gene-details" type="text/x-mustache" charset="utf-8">
+	<a class="allen" target="_blank" href="http://mouse.brain-map.org/search/show?search_term={{symbol}}&search_type=gene">Open in Allen Brain Atlas</a>
 	<h2 class="gene-symbol">{{symbol}}</h2>
 	<h3 class="gene-title">{{title}}</h3>
 	{{#alts}}
@@ -180,9 +182,6 @@
 			<p><span class="gene-w" /> weak, abundant</p>
 			<p><span class="gene-s-" /> strong, sparse</p>
 			<p><span class="gene-w-" /> weak, sparse</p>
-
-			<h5>Abbreviations:</h5>
-			<p>VZ: ventricular zone, SVZ: subventricular zone, etc.</p>
 		</div>
 	</div>
 	{{#functions}}
