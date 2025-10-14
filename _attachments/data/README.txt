@@ -18,6 +18,6 @@ How to convert:
 
 3. Run the conversion script to update the JSON file as follows:
 
-   python csv2json.py SP-Shortlist.csv -v SP_data -F sc > SP-Shortlist.json
+   python csv2json.py SP-Shortlist.csv -v SP_data -F sc > SP-Shortlist.js
    
-4. Check data/SP-Info.json in case of any changes to the structure.
+4. Check data/SP-Info.js in case of any changes to the structure.

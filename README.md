@@ -9,6 +9,8 @@ Clone with git:
     git clone git@bitbucket.org:loleg/dpag-subplate-atlas.git
     cd dpag-subplate-atlas
 
+Update the data (see [data/README](_attachments/data/README.txt))
+
 Install with 
     
     couchapp push . http://localhost:5984/dpag-subplate-atlas
