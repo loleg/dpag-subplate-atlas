@@ -1,6 +1,5 @@
-<html lang="en">
-<head>
-	<meta charset="utf-8">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<title>Subplate Gene Expression Atlas — Physiology, Anatomy and Genetics</title>
@@ -11,49 +10,49 @@
 	<meta name="viewport" content="width=device-width">
 
 	<!--<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.19/themes/black-tie/jquery-ui.css">-->
-	<link rel="stylesheet" href="http://0.0.0.0:8000/css/reset.css">
-	<link rel="stylesheet" href="http://0.0.0.0:8000/css/main.css">
-	<link rel="stylesheet" href="http://0.0.0.0:8000/css/helper.css">
+	<link rel="stylesheet" href="./subplate_files/reset.css">
+	<link rel="stylesheet" href="./subplate_files/main.css">
+	<link rel="stylesheet" href="./subplate_files/helper.css">
 	
-	<link rel="apple-touch-icon" href="http://0.0.0.0:8000/img/apple-touch-icon.png"/>
-	<link rel="shortcut icon" type="image/x-icon" href="http://0.0.0.0:8000/img/favicon.ico" />
-    <link rel="home" href="http://www.dpag.ox.ac.uk" title="Front page" />
-    <link rel="contents" href="http://www.dpag.ox.ac.uk/sitemap" title="Site Map" />
-    <link rel="search" href="http://www.dpag.ox.ac.uk/search_form" title="Search this site" />
+	<link rel="apple-touch-icon" href="http://0.0.0.0:8000/img/apple-touch-icon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="http://0.0.0.0:8000/img/favicon.ico">
+    <link rel="home" href="http://www.dpag.ox.ac.uk/" title="Front page">
+    <link rel="contents" href="http://www.dpag.ox.ac.uk/sitemap" title="Site Map">
+    <link rel="search" href="http://www.dpag.ox.ac.uk/search_form" title="Search this site">
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<script>window.html5 || document.write('<script src="js/libs/html5.js"><\/script>')</script>
 	<![endif]-->
 <!-- Load SP layer configuration -->
-<script type="text/javascript" src="http://0.0.0.0:8000/data/SP-Info.json"></script>
+<script type="text/javascript" src="./subplate_files/SP-Info.json"></script>
 
 <!-- Couchapp dependencies -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.7.0/sha1.min.js" integrity="sha512-k5RzPvPxJVCeQDb6ZmvySIO6yYquVv+gY3KuciYp0Ip+pH7vEgBhuPoU40BtOi5EiyGNHz26NLxUcHvaPpaMSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/json2/20160511/json2.min.js" integrity="sha512-uWk2ZXl3GVrq6DZsrL5dSg1S/F3MNQ9VaDFigqXOoKUnWG58UxOuJGfTrzh5KjpoBvPiFniL2PahU2HUTFMJXw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js" integrity="sha512-OKuL2kpi8zfeXcqSXnGbL6tKc9JxWmppJY4mOSn1EsngRb7fx1N5+7wOTGqu2bI5OAYL3Og7/Beg7EsWG2OBKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./subplate_files/sha1.min.js"></script>
+<script src="./subplate_files/json2.min.js"></script>
+<script src="./subplate_files/jquery.js"></script>
 <!--<script src="/_utils/script/sha1.js"></script>
 <script src="/_utils/script/json2.js"></script>
 <script src="/_utils/script/jquery.js"></script>
 <script src="/_utils/script/jquery.couch.js"></script>
   -->
-<script src="http://0.0.0.0:8000/js/libs/jquery.couch.js"></script>
-<script src="http://0.0.0.0:8000/vendor/couchapp/jquery.couchLogin.js"></script>
-<script src="http://0.0.0.0:8000/vendor/couchapp/jquery.couchProfile.js"></script>
-<script src="http://0.0.0.0:8000/vendor/couchapp/md5.js"></script>
-<script src="http://0.0.0.0:8000/vendor/couchapp/jquery.mustache.js"></script>
+<script src="./subplate_files/jquery.couch.js"></script>
+<script src="./subplate_files/jquery.couchLogin.js"></script>
+<script src="./subplate_files/jquery.couchProfile.js"></script>
+<script src="./subplate_files/md5.js"></script>
+<script src="./subplate_files/jquery.mustache.js"></script>
 
-<script type="text/javascript" src="http://0.0.0.0:8000/js/libs/jquery-ui.1.8.18.min.js"></script>
-<script type="text/javascript" src="http://0.0.0.0:8000/js/libs/raphael-min.js"></script>
-<script type="text/javascript" src="http://0.0.0.0:8000/js/libs/raphael-popup.js"></script>
-<script type="text/javascript" src="http://0.0.0.0:8000/js/gene-layers.js"></script>
+<script type="text/javascript" src="./subplate_files/jquery-ui.1.8.18.min.js"></script>
+<script type="text/javascript" src="./subplate_files/raphael-min.js"></script>
+<script type="text/javascript" src="./subplate_files/raphael-popup.js"></script>
+<script type="text/javascript" src="./subplate_files/gene-layers.js"></script>
 
 </head>
 <body>
 <div id="container">
 <div id="header">
 
-	<a id="mark" href="http://www.ox.ac.uk" name="mark">University of Oxford</a>
+	<a id="mark" href="http://www.ox.ac.uk/" name="mark">University of Oxford</a>
 	<div id="searchbox">
 		<ul><li id="skip">
 			<a accesskey="2" href="#content">Skip to content</a>
@@ -63,7 +62,7 @@
 			<a href="http://www.dpag.ox.ac.uk/sitemap" accesskey="3" title="sitemap">sitemap</a>
 		</li></ul>
 		<form action="http://www.dpag.ox.ac.uk/search_form" name="searchform" id="searchform">
-			<input class="searchbox inputLabel inputLabelActive" type="text" accesskey="4" title="Search Site" name="SearchableText" autocomplete="off" size="20" value="Search Site" onclick="if (this.value == 'Search Site') this.value=''">
+			<input class="searchbox inputLabel inputLabelActive" type="text" accesskey="4" title="Search Site" name="SearchableText" autocomplete="off" size="20" value="Search Site" onclick="if (this.value == &#39;Search Site&#39;) this.value=&#39;&#39;">
 			<input class="searchbutton" type="submit" value="Submit">
 		</form>
 	</div>
@@ -98,7 +97,7 @@
 		<article class="genes hidden">
 			<h2>Search for a gene name</h2>
 			<input id="gene-searchbox" size="30" class="ui-state-default ui-widget ui-widget-content ui-corner-left">
-			<span class="gene-reset">&#x2716;</span>
+			<span class="gene-reset">✖</span>
 			<h3>and select from the list:</h3>
 			<div class="gene-list"><ul></ul></div>
 		</article>
@@ -135,7 +134,7 @@
 <p>The Subplate Gene Expression Atlas illustrates the cortical expression patterns of 426 selected genes. These genes were identified by both microarray/RNA seq and in situ hybridization studies as preferentially expressed in subplate at at least one developmental age (E15, E18, P4/P7/P8 and Adult). The expression patterns illustrated in the Atlas are derived from published or publicly available in situ hybridization images (see below). Expression levels were categorized for the illustration according to two criteria: abundance of cells (abundant vs sparse) and expression level (no labeling detected vs weak labeling vs strong labeling). It is important to note that expression levels are purely qualitative and should neither be compared between ages nor between different genes.</p>
 
 <h3>Methods</h3>
-<p>A microarray based approach was used to identify genes expressed at a higher level in the mouse subplate compared to overlying cortical plate at embryonic ages E15.5 and E18.5 and subplate compared to overlying layer 6a at postnatal P8 (Affymetrix Gene ST1.0 at E15, Affymetrix 430 2.0 for E18.5 and P8). Data was RMA normalized and putatively differential gene expression (>1.5-fold higher in subplate, nominal p<0.05) determined. High-throughput sequencing data was used to identify genes expressed at a higher level (>1.5 fold) in the adult mouse subplate/layer 6b compared to the adjacent layer 6a. In total, 1642 genes were identified as potentially SP enriched at least at one age. Of these, 426 genes could be confirmed as SP enriched using published or publicly available databases including Allen Mouse Brain Atlas (Adult), Allen Developing Mouse Brain Atlas (E15.5, E18.5, P4 and P14), Genepaint.org (E14.5, P7 and Adult) and or our own in situ hybridization or immunohistochemistry experiments. The schematic results of this are presented here in the “Subplate Gene Expression Atlas”. Genes with uniform or no labelling, or for which no images could be found, were not included.</p>
+<p>A microarray based approach was used to identify genes expressed at a higher level in the mouse subplate compared to overlying cortical plate at embryonic ages E15.5 and E18.5 and subplate compared to overlying layer 6a at postnatal P8 (Affymetrix Gene ST1.0 at E15, Affymetrix 430 2.0 for E18.5 and P8). Data was RMA normalized and putatively differential gene expression (&gt;1.5-fold higher in subplate, nominal p&lt;0.05) determined. High-throughput sequencing data was used to identify genes expressed at a higher level (&gt;1.5 fold) in the adult mouse subplate/layer 6b compared to the adjacent layer 6a. In total, 1642 genes were identified as potentially SP enriched at least at one age. Of these, 426 genes could be confirmed as SP enriched using published or publicly available databases including Allen Mouse Brain Atlas (Adult), Allen Developing Mouse Brain Atlas (E15.5, E18.5, P4 and P14), Genepaint.org (E14.5, P7 and Adult) and or our own in situ hybridization or immunohistochemistry experiments. The schematic results of this are presented here in the “Subplate Gene Expression Atlas”. Genes with uniform or no labelling, or for which no images could be found, were not included.</p>
 
 <p>Using the above approach, we selected against genes that are subplate expressed, but are additionally expressed in layer 6a at equal or higher levels. Furthermore, there may be subplate specific or enriched genes not identified by the microarrays. Thus, genes important for the differentiation of the deep cortical layers or those relevant in the specification of subplate prior to E15.5 may not be included here.</p> 
 
@@ -160,7 +159,7 @@
 <b>Novel Markers Reveal Subpopulations of Subplate Neurons in the Murine Cerebral Cortex</b>
 <a href="http://cercor.oxfordjournals.org/content/19/8.toc">Cereb. Cortex</a> (2009) 19(8): 1738-1750</p>
 
-<p>Lydia Ng, Amy Bernard, Chris Lau, Caroline C Overly, Hong-Wei Dong, Chihchau Kuan, Sayan Pathak, Susan M Sunkin, Chinh Dang, Jason W Bohland, Hemant Bokil, Partha P Mitra, Luis Puelles, John Hohmann, David J Anderson, Ed S Lein, Allan R Jones & Michael Hawrylycz
+<p>Lydia Ng, Amy Bernard, Chris Lau, Caroline C Overly, Hong-Wei Dong, Chihchau Kuan, Sayan Pathak, Susan M Sunkin, Chinh Dang, Jason W Bohland, Hemant Bokil, Partha P Mitra, Luis Puelles, John Hohmann, David J Anderson, Ed S Lein, Allan R Jones &amp; Michael Hawrylycz
 <b>An anatomic gene expression atlas of the adult mouse brain</b>
 <a href="http://www.nature.com/neuro/journal/v12/n3/full/nn.2281.html">Nature Neuroscience</a> 12, 356 - 362 (2009)</p>
 
@@ -182,8 +181,8 @@ Oxford University</p>
 
 <h3>Terms of use</h3>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0; float:left; margin:0 1em 2em 0;" src="http://0.0.0.0:8000/img/cc-by-nc-sa.png" /></a>
-<p>The <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Subplate Gene Expression Atlas</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>. Copyright &copy; 2012 Anna Hoerder-Suabedissen, Franziska Oeschger, Oleg Lavrovsky. <a href="https://bitbucket.org/loleg/dpag-subplate-atlas" target="_blank">Source code available</a>.</p>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0; float:left; margin:0 1em 2em 0;" src="./subplate_files/cc-by-nc-sa.png"></a>
+<p>The <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Subplate Gene Expression Atlas</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>. Copyright © 2012 Anna Hoerder-Suabedissen, Franziska Oeschger, Oleg Lavrovsky. <a href="https://bitbucket.org/loleg/dpag-subplate-atlas" target="_blank">Source code available</a>.</p>
 
 <p>The Allen Institute for Brain Science (logo and words), Allen Brain Atlas, Allen, Brain Explorer and Fueling Discovery are registered trademarks of the Allen Institute.</p>
 
@@ -207,9 +206,9 @@ Oxford University</p>
 	</footer>
 	
 </div><!-- #container -->	
-</body>
 
-<!-- Templates -->
+
+
 <script id="gene-details" type="text/x-mustache" charset="utf-8">
 	<a class="allen" target="_blank" href="http://developingmouse.brain-map.org/data/{{symbol}}.html">Open in Allen Brain Atlas</a>
 	<h2 class="gene-symbol">{{symbol}}</h2>
@@ -258,6 +257,7 @@ Oxford University</p>
 </script>
 	
 
-<script src="http://127.0.0.1:8000/js/script.js"></script>
+<script src="./subplate_files/script.js"></script>
 
-</html>
+
+</body><!-- Templates --></html>

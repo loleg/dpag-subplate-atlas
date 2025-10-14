@@ -1,0 +1,327 @@
+/* ===== Gene Atlas Styles ========================================================
+   Author: Oleg Lavrovsky - oleg.utou.ch
+   ========================================================================== */
+
+body { 
+	font: 14px/24px 'Lucida Grande', Verdana, Lucida, Helvetica, Arial, sans-serif;
+	color: #303030
+	background:white; 
+}
+
+a, a:link, a:visited {
+	color: #002d62;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #476A8F;
+	text-decoration: underline;
+}
+
+::selection {
+	background: #566374;
+}
+
+#wrapper{ 
+	width:96%; margin:2%; 
+	background:#f0f0f0; 
+}
+
+#title {
+	background:#b5d5ff; color:#556688;
+	margin:0; padding:20px 0 8px 10px;
+	font:27px Arial, sans-serif;
+}
+
+header {
+	text-align:center;
+	margin:1em;
+}
+
+.subtitle {
+	font-style:italic;
+}
+
+a#mark {
+	display: block;
+	background:transparent url(img/2231_ox_brand1_rev.gif) no-repeat;
+	width: 115px;
+	height: 0px !important;
+	padding: 115px 0 0 0;
+	float: right;
+	overflow: hidden;
+	border: 0px;
+	margin: 0px;
+}
+
+#searchbox {
+	float:right;
+	margin:16px 20px 0 0;
+	background:transparent url(img/search.png) no-repeat 0 33px;
+}
+
+#searchbox .searchbox {
+	background:transparent;
+	height:34px;
+	width:165px;
+	padding:0 0 0 6px;
+	margin:0;
+	border:0;
+	color:#222;
+}
+
+#searchbox .searchbutton {
+	background:transparent;
+	height:34px;
+	width:40px;
+	padding:0;
+	margin-left:5px;
+	border:0;
+	cursor:pointer;
+	margin-left:0px;
+	font-size:0;
+	line-height:0;
+}
+
+#searchbox ul {
+	list-style-image:none;
+	list-style:none;
+	margin:0; padding:0;
+}
+
+#searchbox li{
+	font-size:0.8em;
+	display:block;
+	float:left;
+}
+
+#searchbox li a{
+	display:block;
+	margin:0 7px 7px 0;
+	border:0;
+	color:#002147;
+}
+
+#searchbox li a:hover {
+	color:#002147;
+	text-decoration:underline;
+}
+
+#skip a, #accessibility a {
+	padding-right:10px;
+	background:url(img/dot.png) 100%  55% no-repeat;
+}
+
+#searchbox form { 
+	clear:both;
+}
+
+#header{
+	height:130px;
+	background:#fff url(img/banner.png) no-repeat top left;
+	clear:both;
+}
+
+footer {
+	border-top: 4px solid #dedede;
+	color: #888;
+	font-size: 90%;
+	height: 1%;
+	clear: both;
+	padding:10px 0 20px 24%;
+	margin-bottom: 30px;
+	text-align:center;
+}
+footer ul {
+	float:left;
+	position:relative;
+	line-height:1.1em;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+footer ul.extras {
+	font-weight:bold;
+}
+footer ul li {	
+	float: left;
+	padding:0 6px;
+	list-style:none;
+	margin:0;
+	border-left: 1px solid #666;
+}
+footer ul li.first {
+	padding-left:0;
+	border:none;
+}
+footer dl {
+	float:right;
+	position:relative;
+	margin:0;
+	line-height:1.1em;
+}
+footer dt {
+	float: left;
+	margin-right: 5px;
+}
+footer dd {
+	float: left;
+	margin-right: 0px;
+}
+
+
+article { 
+	margin:1em 2em; 
+	min-height:11em; 
+	padding-bottom:1em; 
+}
+
+article button { 
+	padding:10px 20px; 
+	font-weight:bold; 
+}
+
+article p { 
+	text-align: left; 
+}
+
+/* Navigation */
+
+nav {
+	background: #002147; 
+	height:3em; width:100%;
+}
+nav a, nav a:link, nav a:visited {
+	float:left;
+	width:6em; height:3em;
+	line-height:3em;
+	text-align:center;
+	padding:0;
+	margin-bottom:0;
+	text-decoration:none;
+	border-left:1px solid #b5d5ff;
+	color:#C2C2C2; 
+	background:#002147;
+}
+nav li:first-child a {
+	border-left:none;
+}
+nav a:hover, nav a:active {
+	color:#fff;
+}
+nav a.current {
+	background: transparent url(img/selected.png) no-repeat scroll 50% 100%;
+	color: white;
+}
+
+/* ------ */
+
+.gene-reset {
+	border:1px solid #999; border-radius:50%;
+	background:white; padding:0 4px; color:#777;
+	cursor:pointer; visibility:hidden;
+}
+.gene-reset:hover {
+	background:#dde; color:#999;
+}	
+
+.gene-list ul { 
+	max-height:15em; overflow-y:auto; 
+	border:1px solid #ccc; 
+	background:#fff;
+	clear:both;
+}
+
+.gene-list li { 
+	list-style:none; padding:0 .5em; 
+	width:12.5em; float:left;
+	font-weight:bold; 
+}
+
+.gene-list li:nth-child(odd) {
+	background:#eaeaf0;
+}
+
+.gene-symbol { 
+	text-align: center;
+	margin: 0.5em 0;
+	font-size: 360%;
+	text-shadow: 1px 2px 3px #AAA;
+	color: #777;
+}
+
+.gene-title {
+	text-align: center;
+}
+
+#gene-graph { float:left; }
+
+.gene-legend { 
+	width:150px;
+	color:#555; 
+	border:1px solid #ccc;
+	background: #eee; 
+	padding:1em; font-size:80%; 
+	margin-top: 7.4em;
+	display:inline-block; 
+}
+.gene-legend span {
+	display:inline-block; border:1px solid #555;
+	height:1.5em; width:1.5em;	
+	position: relative; top: 0.5em;
+}
+.gene-legend p, .gene-legend h5 { margin:0; }
+.gene-s { background: url('img/dots-dense-black.gif'); }
+.gene-w { background: url('img/dots-dense-grey.gif'); }
+.gene-s- { background: url('img/dots-sparse-black.gif'); }
+.gene-w- { background: url('img/dots-sparse-grey.gif'); }
+
+.result h4 { margin:0; }
+
+.result section {
+	text-align: left; 
+	margin: 1em 0; padding:1em;
+	background: #fff;
+}
+
+a.allen {
+	color:#999;
+	padding-left:40px; min-height:37px;
+	background:url(img/allen.gif) no-repeat;
+	display:block; float:right;
+    font-size: 94%;
+    line-height: 1.4em;
+    width: 9em;
+}
+
+.fourcolumns section {
+	text-align: left; margin-left: 1em;
+	width: 20%; display:inline-block;
+}
+
+.fourcolumns section b { display:block; }
+
+#searchbox { display:none; }
+
+/* WIDE ---------- */
+@media only screen and (min-width: 960px) {
+
+	#container {
+		left: 50%;
+		margin-left: -480px;
+		position: relative;
+		width: 960px;
+	}
+	#searchbox { display:block; }
+	#wrapper {
+		-webkit-box-shadow:0 5px 10px #aaa;
+		   -moz-box-shadow:0 5px 10px #aaa;
+		        box-shadow:0 5px 10px #aaa;
+	}
+	.result section {
+		-webkit-box-shadow:5px 5px 15px #ddd;
+		   -moz-box-shadow:5px 5px 15px #ddd;
+		        box-shadow:5px 5px 15px #ddd;
+	}
+
+}
