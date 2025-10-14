@@ -1,0 +1,27 @@
+name: subplate
+services:
+
+  atlas:
+    build: .
+    container_name: atlas
+    volumes:
+      - ./dpag-subplate-atlas:/app:rw
+    links:
+      - couchdb:couchdb.localhost
+    depends_on:
+      - couchdb
+
+  couchdb:
+    image: couchdb:latest
+    container_name: couchdb
+    restart: always
+    environment:
+      - COUCHDB_USER=admin
+      - COUCHDB_PASSWORD=password
+    expose:
+      - 5984/tcp
+    ports:
+      - 5984:5984/tcp
+    volumes:
+      - ./data:/opt/couchdb/data:rw
+
