@@ -105,11 +105,14 @@ function loadGeneSimilar(doc) {
 // Set up the gene search
 function initGeneAtlas(data) {
 
-	var SP_data = data.rows.map(function(r) {return [r.key, r.id];});
+  if (typeof SP_data === 'undefined') {
+	  SP_data = data.rows.map(function(r) {return [r.key, r.id];});
+  }
 
 	// Load genes
 	var geneList = $(".genes .gene-list ul"), geneArray = [];
 	$.each(SP_data, function(i) {
+      console.log(this);
 		geneList.append('<li index="' + i + '" id="' + this[1] + '">' + this[0] + '</li>');
 		geneArray.push(this[0].toLowerCase());
 	});

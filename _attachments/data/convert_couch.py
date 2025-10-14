@@ -42,8 +42,8 @@ def csv_to_couch_dump():
   csvReader = csv.reader(open('SP-Shortlist.csv', 'r'), delimiter=';', quotechar='"')
 
   # create database
-  server = Server() #"https://dpag.iriscouch.com:6984/"
-  db = server.get_or_create_db("dpag-sp-shortlist")
+  server = Server("http://admin:password@172.18.0.1:5984") #"https://dpag.iriscouch.com:6984/"
+  db = server.get_or_create_db("dpag-subplate-atlas")
   
   # init the object  
   Gene.set_db(db)
