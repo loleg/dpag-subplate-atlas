@@ -12,7 +12,7 @@ services:
       - couchdb
 
   couchdb:
-    image: couchdb:latest
+    image: couchdb:2
     container_name: couchdb
     restart: always
     environment:
