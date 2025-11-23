@@ -8,8 +8,8 @@ var lastGeneSymbol = null, lastGenePattern = null;
 
 // Setup db access
 var path = unescape(document.location.pathname).split('/'),
-    $design = path[3],
-    $db = $.couch.db(path[1]);
+    $design = 'dpag-subplate-atlas',
+    $db = $.couch.db('http://127.0.0.1:5984');
     
 // Load gene database
 $db.view($design + "/all-genes", {
@@ -105,14 +105,11 @@ function loadGeneSimilar(doc) {
 // Set up the gene search
 function initGeneAtlas(data) {
 
-  if (typeof SP_data === 'undefined') {
-	  SP_data = data.rows.map(function(r) {return [r.key, r.id];});
-  }
+	var SP_data = data.rows.map(function(r) {return [r.key, r.id];});
 
 	// Load genes
 	var geneList = $(".genes .gene-list ul"), geneArray = [];
 	$.each(SP_data, function(i) {
-      console.log(this);
 		geneList.append('<li index="' + i + '" id="' + this[1] + '">' + this[0] + '</li>');
 		geneArray.push(this[0].toLowerCase());
 	});
